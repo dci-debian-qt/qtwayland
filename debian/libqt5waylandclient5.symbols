@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.4.2 amd64
 libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN12QWaylandDrag10finishDragERK23QPlatformDropQtResponse@Base 5.4.0
  _ZN12QWaylandDrag11setResponseERK23QPlatformDragQtResponse@Base 5.4.0
@@ -130,6 +130,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QWaylandDisplay16staticMetaObjectE@Base 5.4.0
  _ZN15QWaylandDisplay18blockingReadEventsEv@Base 5.4.0
  _ZN15QWaylandDisplay18createShellSurfaceEP14QWaylandWindow@Base 5.4.0
+ _ZN15QWaylandDisplay18setLastInputDeviceEP19QWaylandInputDevicejP14QWaylandWindow@Base 5.4.2
  _ZN15QWaylandDisplay19addRegistryListenerEPFvPvP11wl_registryjRK7QStringjES0_@Base 5.4.0
  _ZN15QWaylandDisplay19currentTimeMillisecEv@Base 5.4.0
  _ZN15QWaylandDisplay22registry_global_removeEj@Base 5.4.0
@@ -197,12 +198,15 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN18QWaylandSubSurfaceD0Ev@Base 5.4.0
  _ZN18QWaylandSubSurfaceD1Ev@Base 5.4.0
  _ZN18QWaylandSubSurfaceD2Ev@Base 5.4.0
+ _ZN18QWaylandXdgSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.2
+ _ZN18QWaylandXdgSurface11qt_metacastEPKc@Base 5.4.2
  _ZN18QWaylandXdgSurface11setTopLevelEv@Base 5.4.0
  _ZN18QWaylandXdgSurface12sendPropertyERK7QStringRK8QVariant@Base 5.4.0
  _ZN18QWaylandXdgSurface12setMaximizedEv@Base 5.4.0
  _ZN18QWaylandXdgSurface12setMinimizedEv@Base 5.4.0
  _ZN18QWaylandXdgSurface13setFullscreenEv@Base 5.4.0
  _ZN18QWaylandXdgSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.4.0
+ _ZN18QWaylandXdgSurface16staticMetaObjectE@Base 5.4.2
  _ZN18QWaylandXdgSurface17xdg_surface_closeEv@Base 5.4.0
  _ZN18QWaylandXdgSurface21updateTransientParentEP7QWindow@Base 5.4.0
  _ZN18QWaylandXdgSurface21xdg_surface_activatedEv@Base 5.4.0
@@ -285,8 +289,11 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN20QWaylandServerBufferD0Ev@Base 5.4.0
  _ZN20QWaylandServerBufferD1Ev@Base 5.4.0
  _ZN20QWaylandServerBufferD2Ev@Base 5.4.0
+ _ZN20QWaylandShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.2
+ _ZN20QWaylandShellSurface11qt_metacastEPKc@Base 5.4.2
  _ZN20QWaylandShellSurface12sendPropertyERK7QStringRK8QVariant@Base 5.4.0
  _ZN20QWaylandShellSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.4.0
+ _ZN20QWaylandShellSurface16staticMetaObjectE@Base 5.4.2
  _ZN20QWaylandShellSurfaceC1EP14QWaylandWindow@Base 5.4.0
  _ZN20QWaylandShellSurfaceC2EP14QWaylandWindow@Base 5.4.0
  _ZN22QWaylandExtendedOutputC1EP14QWaylandScreenP18qt_extended_output@Base 5.4.0
@@ -310,12 +317,15 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN22QWaylandTouchExtensionD0Ev@Base 5.4.0
  _ZN22QWaylandTouchExtensionD1Ev@Base 5.4.0
  _ZN22QWaylandTouchExtensionD2Ev@Base 5.4.0
+ _ZN22QWaylandWlShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.2
+ _ZN22QWaylandWlShellSurface11qt_metacastEPKc@Base 5.4.2
  _ZN22QWaylandWlShellSurface11setTopLevelEv@Base 5.4.0
  _ZN22QWaylandWlShellSurface12sendPropertyERK7QStringRK8QVariant@Base 5.4.0
  _ZN22QWaylandWlShellSurface12setMaximizedEv@Base 5.4.0
  _ZN22QWaylandWlShellSurface12setMinimizedEv@Base 5.4.0
  _ZN22QWaylandWlShellSurface13setFullscreenEv@Base 5.4.0
  _ZN22QWaylandWlShellSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.4.0
+ _ZN22QWaylandWlShellSurface16staticMetaObjectE@Base 5.4.2
  _ZN22QWaylandWlShellSurface18shell_surface_pingEj@Base 5.4.0
  _ZN22QWaylandWlShellSurface21updateTransientParentEP7QWindow@Base 5.4.0
  _ZN22QWaylandWlShellSurface23shell_surface_configureEjii@Base 5.4.0
@@ -1167,6 +1177,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK14QWaylandScreen11refreshRateEv@Base 5.4.0
  _ZNK14QWaylandScreen12physicalSizeEv@Base 5.4.0
  _ZNK14QWaylandScreen14extendedOutputEv@Base 5.4.0
+ _ZNK14QWaylandScreen15virtualSiblingsEv@Base 5.4.2
  _ZNK14QWaylandScreen5depthEv@Base 5.4.0
  _ZNK14QWaylandScreen6cursorEv@Base 5.4.0
  _ZNK14QWaylandScreen6formatEv@Base 5.4.0
@@ -1195,6 +1206,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK17QWaylandShmWindow10windowTypeEv@Base 5.4.0
  _ZNK18QWaylandDataSource10metaObjectEv@Base 5.4.0
  _ZNK18QWaylandDataSource8mimeDataEv@Base 5.4.0
+ _ZNK18QWaylandXdgSurface10metaObjectEv@Base 5.4.2
  _ZNK19QWaylandEventThread10checkErrorEv@Base 5.4.0
  _ZNK19QWaylandEventThread10metaObjectEv@Base 5.4.0
  _ZNK19QWaylandEventThread7displayEv@Base 5.4.0
@@ -1227,6 +1239,8 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK20QWaylandServerBuffer4sizeEv@Base 5.4.0
  _ZNK20QWaylandServerBuffer6formatEv@Base 5.4.0
  _ZNK20QWaylandServerBuffer8userDataEv@Base 5.4.0
+ _ZNK20QWaylandShellSurface10metaObjectEv@Base 5.4.2
+ _ZNK22QWaylandWlShellSurface10metaObjectEv@Base 5.4.2
  _ZNK23QWaylandNativeInterface14windowPropertyEP15QPlatformWindowRK7QString@Base 5.4.0
  _ZNK23QWaylandNativeInterface14windowPropertyEP15QPlatformWindowRK7QStringRK8QVariant@Base 5.4.0
  _ZNK23QWaylandNativeInterface16windowPropertiesEP15QPlatformWindow@Base 5.4.0
@@ -1517,6 +1531,53 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN9QtWayland9wl_regionE@Base 5.4.0
  _ZTVN9QtWayland9xdg_popupE@Base 5.4.0
  _ZTVN9QtWayland9xdg_shellE@Base 5.4.0
+ (c++)"non-virtual thunk to QWaylandDataSource::data_source_cancelled()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandDataSource::data_source_send(QString const&, int)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandDataSource::data_source_target(QString const&)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandDataSource::~QWaylandDataSource()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandDisplay::registry_global(unsigned int, QString const&, unsigned int)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandDisplay::registry_global_remove(unsigned int)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandDisplay::~QWaylandDisplay()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandDrag::~QWaylandDrag()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandInputDevice::seat_capabilities(unsigned int)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandInputDevice::~QWaylandInputDevice()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandScreen::output_done()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandScreen::output_geometry(int, int, int, int, int, QString const&, QString const&, int)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandScreen::output_mode(unsigned int, int, int, int)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandScreen::~QWaylandScreen()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandShmWindow::~QWaylandShmWindow()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::frameMargins() const@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::handleContentOrientationChange(Qt::ScreenOrientation)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::isExposed() const@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::lower()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::raise()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::requestActivateWindow()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::setGeometry(QRect const&)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::setMouseGrabEnabled(bool)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::setParent(QPlatformWindow const*)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::setVisible(bool)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::setWindowFlags(QFlags<Qt::WindowType>)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::setWindowIcon(QIcon const&)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::setWindowState(Qt::WindowState)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::setWindowTitle(QString const&)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::winId() const@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindow::~QWaylandWindow()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::desktopEnvironment() const@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::openDocument(QUrl const&)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::openUrl(QUrl const&)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::windowmanager_hints(int)@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::windowmanager_quit()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::~QWaylandWindowManagerIntegration()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandWlShellSurface::shell_surface_configure(unsigned int, int, int)@Base" 5.4.2
+ (c++)"non-virtual thunk to QWaylandWlShellSurface::shell_surface_ping(unsigned int)@Base" 5.4.2
+ (c++)"non-virtual thunk to QWaylandWlShellSurface::shell_surface_popup_done()@Base" 5.4.2
+ (c++)"non-virtual thunk to QWaylandWlShellSurface::~QWaylandWlShellSurface()@Base" 5.4.0
+ (c++)"non-virtual thunk to QWaylandXdgSurface::xdg_surface_activated()@Base" 5.4.2
+ (c++)"non-virtual thunk to QWaylandXdgSurface::xdg_surface_change_state(unsigned int, unsigned int, unsigned int)@Base" 5.4.2
+ (c++)"non-virtual thunk to QWaylandXdgSurface::xdg_surface_close()@Base" 5.4.2
+ (c++)"non-virtual thunk to QWaylandXdgSurface::xdg_surface_configure(int, int)@Base" 5.4.2
+ (c++)"non-virtual thunk to QWaylandXdgSurface::xdg_surface_deactivated()@Base" 5.4.2
+ (c++)"non-virtual thunk to QWaylandXdgSurface::~QWaylandXdgSurface()@Base" 5.4.0
  qt_extended_output_interface@Base 5.4.0
  qt_extended_surface_interface@Base 5.4.0
  qt_hardware_integration_interface@Base 5.4.0
@@ -1553,75 +1614,3 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  xdg_popup_interface@Base 5.4.0
  xdg_shell_interface@Base 5.4.0
  xdg_surface_interface@Base 5.4.0
- (c++)"non-virtual thunk to QWaylandDrag::~QWaylandDrag()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandScreen::output_done()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandScreen::output_mode(unsigned int, int, int, int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandScreen::output_geometry(int, int, int, int, int, QString const&, QString const&, int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandScreen::~QWaylandScreen()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setVisible(bool)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setGeometry(QRect const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setWindowIcon(QIcon const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setWindowFlags(QFlags<Qt::WindowType>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setWindowState(Qt::WindowState)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setWindowTitle(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setMouseGrabEnabled(bool)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::requestActivateWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::handleContentOrientationChange(Qt::ScreenOrientation)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::lower()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::raise()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setParent(QPlatformWindow const*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::~QWaylandWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDisplay::registry_global(unsigned int, QString const&, unsigned int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDisplay::registry_global_remove(unsigned int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDisplay::~QWaylandDisplay()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandShmWindow::~QWaylandShmWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDataSource::data_source_send(QString const&, int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDataSource::data_source_target(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDataSource::data_source_cancelled()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDataSource::~QWaylandDataSource()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setTopLevel()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::sendProperty(QString const&, QVariant const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setMaximized()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setMinimized()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setFullscreen()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setWindowFlags(QFlags<Qt::WindowType>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::updateTransientParent(QWindow*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setContentOrientationMask(QFlags<Qt::ScreenOrientation>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::move(QWaylandInputDevice*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::lower()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::raise()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::resize(QWaylandInputDevice*, wl_shell_surface_resize)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setAppId(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setTitle(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setNormal()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::~QWaylandXdgSurface()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandInputDevice::seat_capabilities(unsigned int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandInputDevice::~QWaylandInputDevice()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setTopLevel()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::sendProperty(QString const&, QVariant const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setMaximized()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setMinimized()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setFullscreen()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setWindowFlags(QFlags<Qt::WindowType>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::updateTransientParent(QWindow*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setContentOrientationMask(QFlags<Qt::ScreenOrientation>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::move(QWaylandInputDevice*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::lower()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::raise()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::resize(QWaylandInputDevice*, wl_shell_surface_resize)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setAppId(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setTitle(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setNormal()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::~QWaylandWlShellSurface()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::openDocument(QUrl const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::openUrl(QUrl const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::~QWaylandWindowManagerIntegration()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::frameMargins() const@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::winId() const@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::isExposed() const@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::desktopEnvironment() const@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::windowmanager_quit()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::windowmanager_hints(int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::~QWaylandWindowManagerIntegration()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::~QWaylandWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandShmWindow::~QWaylandShmWindow()@Base" 5.4.0
