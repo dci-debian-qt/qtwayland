@@ -4,7 +4,7 @@ qtwayland-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Limit libmtdev-dev and libudev-dev build-dependencies to linux-any.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * new upstream release.
+  * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 06 Mar 2015 20:41:25 +0300
 
