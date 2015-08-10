@@ -150,9 +150,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN16QWaylandXdgShellD0Ev@Base 5.4.0
  _ZN16QWaylandXdgShellD1Ev@Base 5.4.0
  _ZN16QWaylandXdgShellD2Ev@Base 5.4.0
- _ZN17QInputMethodEventD0Ev@Base 5.4.0
- _ZN17QInputMethodEventD1Ev@Base 5.4.0
- _ZN17QInputMethodEventD2Ev@Base 5.4.0
  _ZN17QWaylandClipboard11setMimeDataEP9QMimeDataN10QClipboard4ModeE@Base 5.4.0
  _ZN17QWaylandClipboard8mimeDataEN10QClipboard4ModeE@Base 5.4.0
  _ZN17QWaylandClipboardC1EP15QWaylandDisplay@Base 5.4.0
@@ -195,9 +192,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN18QWaylandSubSurface9setParentEPK14QWaylandWindow@Base 5.4.0
  _ZN18QWaylandSubSurfaceC1EP14QWaylandWindowP14qt_sub_surface@Base 5.4.0
  _ZN18QWaylandSubSurfaceC2EP14QWaylandWindowP14qt_sub_surface@Base 5.4.0
- _ZN18QWaylandSubSurfaceD0Ev@Base 5.4.0
- _ZN18QWaylandSubSurfaceD1Ev@Base 5.4.0
- _ZN18QWaylandSubSurfaceD2Ev@Base 5.4.0
  _ZN18QWaylandXdgSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.2
  _ZN18QWaylandXdgSurface11qt_metacastEPKc@Base 5.4.2
  _ZN18QWaylandXdgSurface11setTopLevelEv@Base 5.4.0
@@ -298,15 +292,9 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN20QWaylandShellSurfaceC2EP14QWaylandWindow@Base 5.4.0
  _ZN22QWaylandExtendedOutputC1EP14QWaylandScreenP18qt_extended_output@Base 5.4.0
  _ZN22QWaylandExtendedOutputC2EP14QWaylandScreenP18qt_extended_output@Base 5.4.0
- _ZN22QWaylandExtendedOutputD0Ev@Base 5.4.0
- _ZN22QWaylandExtendedOutputD1Ev@Base 5.4.0
- _ZN22QWaylandExtendedOutputD2Ev@Base 5.4.0
  _ZN22QWaylandQtKeyExtension19key_extension_qtkeyEP10wl_surfacejjjjjjjRK7QStringjj@Base 5.4.0
  _ZN22QWaylandQtKeyExtensionC1EP15QWaylandDisplayj@Base 5.4.0
  _ZN22QWaylandQtKeyExtensionC2EP15QWaylandDisplayj@Base 5.4.0
- _ZN22QWaylandQtKeyExtensionD0Ev@Base 5.4.0
- _ZN22QWaylandQtKeyExtensionD1Ev@Base 5.4.0
- _ZN22QWaylandQtKeyExtensionD2Ev@Base 5.4.0
  _ZN22QWaylandTouchExtension13touchCanceledEv@Base 5.4.0
  _ZN22QWaylandTouchExtension14registerDeviceEi@Base 5.4.0
  _ZN22QWaylandTouchExtension14sendTouchEventEv@Base 5.4.0
@@ -314,9 +302,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN22QWaylandTouchExtension25touch_extension_configureEj@Base 5.4.0
  _ZN22QWaylandTouchExtensionC1EP15QWaylandDisplayj@Base 5.4.0
  _ZN22QWaylandTouchExtensionC2EP15QWaylandDisplayj@Base 5.4.0
- _ZN22QWaylandTouchExtensionD0Ev@Base 5.4.0
- _ZN22QWaylandTouchExtensionD1Ev@Base 5.4.0
- _ZN22QWaylandTouchExtensionD2Ev@Base 5.4.0
  _ZN22QWaylandWlShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.2
  _ZN22QWaylandWlShellSurface11qt_metacastEPKc@Base 5.4.2
  _ZN22QWaylandWlShellSurface11setTopLevelEv@Base 5.4.0
@@ -362,9 +347,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN23QWaylandNativeInterface28nativeResourceForIntegrationERK10QByteArray@Base 5.4.0
  _ZN23QWaylandNativeInterfaceC1EP19QWaylandIntegration@Base 5.4.0
  _ZN23QWaylandNativeInterfaceC2EP19QWaylandIntegration@Base 5.4.0
- _ZN23QWaylandNativeInterfaceD0Ev@Base 5.4.0
- _ZN23QWaylandNativeInterfaceD1Ev@Base 5.4.0
- _ZN23QWaylandNativeInterfaceD2Ev@Base 5.4.0
  _ZN23QWaylandShmBackingStore10beginPaintERK7QRegion@Base 5.4.0
  _ZN23QWaylandShmBackingStore10ensureSizeEv@Base 5.4.0
  _ZN23QWaylandShmBackingStore11paintDeviceEv@Base 5.4.0
@@ -413,18 +395,12 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN26QWaylandAbstractDecorationD0Ev@Base 5.4.0
  _ZN26QWaylandAbstractDecorationD1Ev@Base 5.4.0
  _ZN26QWaylandAbstractDecorationD2Ev@Base 5.4.0
- _ZN27QEventDispatcherGlibPrivateD0Ev@Base 5.4.0
- _ZN27QEventDispatcherGlibPrivateD1Ev@Base 5.4.0
- _ZN27QEventDispatcherGlibPrivateD2Ev@Base 5.4.0
  _ZN27QWaylandHardwareIntegration23clientBufferIntegrationEv@Base 5.4.0
  _ZN27QWaylandHardwareIntegration23serverBufferIntegrationEv@Base 5.4.0
  _ZN27QWaylandHardwareIntegration35hardware_integration_client_backendERK7QString@Base 5.4.0
  _ZN27QWaylandHardwareIntegration35hardware_integration_server_backendERK7QString@Base 5.4.0
  _ZN27QWaylandHardwareIntegrationC1EP11wl_registryi@Base 5.4.0
  _ZN27QWaylandHardwareIntegrationC2EP11wl_registryi@Base 5.4.0
- _ZN27QWaylandHardwareIntegrationD0Ev@Base 5.4.0
- _ZN27QWaylandHardwareIntegrationD1Ev@Base 5.4.0
- _ZN27QWaylandHardwareIntegrationD2Ev@Base 5.4.0
  _ZN30QWaylandShellIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
  _ZN30QWaylandShellIntegrationPlugin11qt_metacastEPKc@Base 5.4.0
  _ZN30QWaylandShellIntegrationPlugin16staticMetaObjectE@Base 5.4.0
@@ -433,9 +409,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN30QWaylandShellIntegrationPluginD0Ev@Base 5.4.0
  _ZN30QWaylandShellIntegrationPluginD1Ev@Base 5.4.0
  _ZN30QWaylandShellIntegrationPluginD2Ev@Base 5.4.0
- _ZN31QAbstractEventDispatcherPrivateD0Ev@Base 5.4.0
- _ZN31QAbstractEventDispatcherPrivateD1Ev@Base 5.4.0
- _ZN31QAbstractEventDispatcherPrivateD2Ev@Base 5.4.0
  _ZN31QWaylandClientBufferIntegrationC1Ev@Base 5.4.0
  _ZN31QWaylandClientBufferIntegrationC2Ev@Base 5.4.0
  _ZN31QWaylandClientBufferIntegrationD0Ev@Base 5.4.0
@@ -1455,7 +1428,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN9QtWayland9xdg_shellE@Base 5.4.0
  _ZTV12QWaylandDrag@Base 5.4.0
  _ZTV13QFontEngineFT@Base 5.4.0
- _ZTV14QWaylandBuffer@Base 5.4.0
  _ZTV14QWaylandCursor@Base 5.4.0
  _ZTV14QWaylandScreen@Base 5.4.0
  _ZTV14QWaylandWindow@Base 5.4.0
@@ -1484,7 +1456,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTV24QWaylandDecorationPlugin@Base 5.4.0
  _ZTV25QWaylandDataDeviceManager@Base 5.4.0
  _ZTV26QWaylandAbstractDecoration@Base 5.4.0
- _ZTV27QEventDispatcherGlibPrivate@Base 5.4.0
  _ZTV27QWaylandHardwareIntegration@Base 5.4.0
  _ZTV30QWaylandShellIntegrationPlugin@Base 5.4.0
  _ZTV31QAbstractEventDispatcherPrivate@Base 5.4.0
