@@ -1,3 +1,7 @@
+qtwayland-opensource-src (5.4.2-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Aug 2015 23:07:22 -0300
+
 qtwayland-opensource-src (5.4.2-2) unstable; urgency=medium
 
   * Upload to unstable.
