@@ -3,6 +3,7 @@ qtwayland-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/copyright.
+  * Bump qtbase5-private-dev build-dependency to 5.5.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Aug 2015 09:25:11 +0300
 
