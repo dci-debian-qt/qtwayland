@@ -1,6 +1,5 @@
-qtwayland-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.5.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/copyright.
   * Bump qtbase5-private-dev build-dependency to 5.5.0.
@@ -8,7 +7,7 @@ qtwayland-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Add build-dependencies on libinput-dev and libxcomposite-dev.
   * Update libqt5waylandclient5.symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Aug 2015 09:25:11 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 26 Aug 2015 18:12:23 +0300
 
 qtwayland-opensource-src (5.4.2-3) unstable; urgency=medium
 
