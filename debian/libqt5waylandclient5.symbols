@@ -1,27 +1,14 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20150223.0012 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
- _ZN12QWaylandDrag10finishDragERK23QPlatformDropQtResponse@Base 5.4.0
- _ZN12QWaylandDrag11setResponseERK23QPlatformDragQtResponse@Base 5.4.0
- _ZN12QWaylandDrag12updateTargetERK7QString@Base 5.4.0
- _ZN12QWaylandDrag16platformDropDataEv@Base 5.4.0
- _ZN12QWaylandDrag4dropEPK11QMouseEvent@Base 5.4.0
- _ZN12QWaylandDrag4moveEPK11QMouseEvent@Base 5.4.0
- _ZN12QWaylandDrag6cancelEv@Base 5.4.0
- _ZN12QWaylandDrag7endDragEv@Base 5.4.0
- _ZN12QWaylandDrag9startDragEv@Base 5.4.0
- _ZN12QWaylandDragC1EP15QWaylandDisplay@Base 5.4.0
- _ZN12QWaylandDragC2EP15QWaylandDisplay@Base 5.4.0
- _ZN12QWaylandDragD0Ev@Base 5.4.0
- _ZN12QWaylandDragD1Ev@Base 5.4.0
- _ZN12QWaylandDragD2Ev@Base 5.4.0
  _ZN13QFontEngineFT11boundingBoxERK12QGlyphLayout@Base 5.4.0
  _ZN13QFontEngineFT11boundingBoxEj@Base 5.4.0
  _ZN13QFontEngineFT11boundingBoxEjRK10QTransform@Base 5.4.0
- _ZN13QFontEngineFT12loadGlyphForEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformb@Base 5.4.0+git20150223.0012
+ _ZN13QFontEngineFT12loadGlyphForEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformb@Base 5.4.1
+ _ZN13QFontEngineFT12loadGlyphSetERK10QTransform@Base 5.5.0
  _ZN13QFontEngineFT15addGlyphsToPathEPjP11QFixedPointiP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.4.0
  _ZN13QFontEngineFT16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.4.0
  _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixed@Base 5.4.0
- _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixedRK10QTransform@Base 5.4.0+git20150223.0012
+ _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixedRK10QTransform@Base 5.4.1
  _ZN13QFontEngineFT16getUnscaledGlyphEjP12QPainterPathP15glyph_metrics_t@Base 5.4.0
  _ZN13QFontEngineFT17getPointInOutlineEjijP6QFixedS1_Pj@Base 5.4.0
  _ZN13QFontEngineFT18initFromFontEngineEPKS_@Base 5.4.0
@@ -31,7 +18,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN13QFontEngineFT20removeGlyphFromCacheEj@Base 5.4.0
  _ZN13QFontEngineFT22lockedAlphaMapForGlyphEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformP6QPoint@Base 5.4.0
  _ZN13QFontEngineFT22unlockAlphaMapForGlyphEv@Base 5.4.0
- _ZN13QFontEngineFT23loadTransformedGlyphSetERK10QTransform@Base 5.4.0
  _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatEP13QFreetypeFace@Base 5.4.0
  _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatERK10QByteArray@Base 5.4.0
  _ZN13QFontEngineFT5GlyphD1Ev@Base 5.4.0
@@ -48,431 +34,464 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN13QFontEngineFTD0Ev@Base 5.4.0
  _ZN13QFontEngineFTD1Ev@Base 5.4.0
  _ZN13QFontEngineFTD2Ev@Base 5.4.0
- _ZN14QWaylandCursor11cursorImageEN2Qt11CursorShapeE@Base 5.4.0
- _ZN14QWaylandCursor12changeCursorEP7QCursorP7QWindow@Base 5.4.0
- _ZN14QWaylandCursor12pointerEventERK11QMouseEvent@Base 5.4.0
- _ZN14QWaylandCursor13initCursorMapEv@Base 5.4.0
- _ZN14QWaylandCursor13requestCursorENS_13WaylandCursorE@Base 5.4.0
- _ZN14QWaylandCursor6setPosERK6QPoint@Base 5.4.0
- _ZN14QWaylandCursorC1EP14QWaylandScreen@Base 5.4.0
- _ZN14QWaylandCursorC2EP14QWaylandScreen@Base 5.4.0
- _ZN14QWaylandCursorD0Ev@Base 5.4.0
- _ZN14QWaylandCursorD1Ev@Base 5.4.0
- _ZN14QWaylandCursorD2Ev@Base 5.4.0
- _ZN14QWaylandScreen11output_doneEv@Base 5.4.0
- _ZN14QWaylandScreen11output_modeEjiii@Base 5.4.0
- _ZN14QWaylandScreen15output_geometryEiiiiiRK7QStringS2_i@Base 5.4.0
- _ZN14QWaylandScreen20createExtendedOutputEv@Base 5.4.0
- _ZN14QWaylandScreen23waylandScreenFromWindowEP7QWindow@Base 5.4.0
- _ZN14QWaylandScreen24setOrientationUpdateMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.4.0
- _ZN14QWaylandScreenC1EP15QWaylandDisplayij@Base 5.4.0
- _ZN14QWaylandScreenC2EP15QWaylandDisplayij@Base 5.4.0
- _ZN14QWaylandScreenD0Ev@Base 5.4.0
- _ZN14QWaylandScreenD1Ev@Base 5.4.0
- _ZN14QWaylandScreenD2Ev@Base 5.4.0
- _ZN14QWaylandWindow10mMouseGrabE@Base 5.4.0
- _ZN14QWaylandWindow10setVisibleEb@Base 5.4.0
- _ZN14QWaylandWindow11handleMouseEP19QWaylandInputDevicemRK7QPointFS4_6QFlagsIN2Qt11MouseButtonEES5_INS6_16KeyboardModifierEE@Base 5.4.0
- _ZN14QWaylandWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN14QWaylandWindow11qt_metacastEPKc@Base 5.4.0
- _ZN14QWaylandWindow11setGeometryERK5QRect@Base 5.4.0
- _ZN14QWaylandWindow11setPropertyERK7QStringRK8QVariant@Base 5.4.0
- _ZN14QWaylandWindow12attachOffsetEP14QWaylandBuffer@Base 5.4.0
- _ZN14QWaylandWindow12sendPropertyERK7QStringRK8QVariant@Base 5.4.0
- _ZN14QWaylandWindow12setCanResizeEb@Base 5.4.0
- _ZN14QWaylandWindow13frameCallbackEPvP11wl_callbackj@Base 5.4.0
- _ZN14QWaylandWindow13fromWlSurfaceEP10wl_surface@Base 5.4.0
- _ZN14QWaylandWindow13requestResizeEv@Base 5.4.0
- _ZN14QWaylandWindow13setWindowIconERK5QIcon@Base 5.4.0
- _ZN14QWaylandWindow14setMouseCursorEP19QWaylandInputDeviceN2Qt11CursorShapeE@Base 5.4.0
- _ZN14QWaylandWindow14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.4.0
- _ZN14QWaylandWindow14setWindowStateEN2Qt11WindowStateE@Base 5.4.0
- _ZN14QWaylandWindow14setWindowTitleERK7QString@Base 5.4.0
- _ZN14QWaylandWindow15mFrameSyncMutexE@Base 5.4.0
- _ZN14QWaylandWindow16callbackListenerE@Base 5.4.0
- _ZN14QWaylandWindow16createDecorationEv@Base 5.4.0
- _ZN14QWaylandWindow16handleMouseEnterEP19QWaylandInputDevice@Base 5.4.0
- _ZN14QWaylandWindow16handleMouseLeaveEP19QWaylandInputDevice@Base 5.4.0
- _ZN14QWaylandWindow16staticMetaObjectE@Base 5.4.0
- _ZN14QWaylandWindow16waitForFrameSyncEv@Base 5.4.0
- _ZN14QWaylandWindow18restoreMouseCursorEP19QWaylandInputDevice@Base 5.4.0
- _ZN14QWaylandWindow18setGeometry_helperERK5QRect@Base 5.4.0
- _ZN14QWaylandWindow18setOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.4.0
- _ZN14QWaylandWindow19setMouseGrabEnabledEb@Base 5.4.0
- _ZN14QWaylandWindow19touchDragDecorationEP19QWaylandInputDeviceRK7QPointFS4_N2Qt15TouchPointStateE6QFlagsINS5_16KeyboardModifierEE@Base 5.4.0
- _ZN14QWaylandWindow21requestActivateWindowEv@Base 5.4.0
- _ZN14QWaylandWindow22setWindowStateInternalEN2Qt11WindowStateE@Base 5.4.0
- _ZN14QWaylandWindow30handleContentOrientationChangeEN2Qt17ScreenOrientationE@Base 5.4.0
- _ZN14QWaylandWindow30handleMouseEventWithDecorationEP19QWaylandInputDevicemRK7QPointFS4_6QFlagsIN2Qt11MouseButtonEES5_INS6_16KeyboardModifierEE@Base 5.4.0
- _ZN14QWaylandWindow5lowerEv@Base 5.4.0
- _ZN14QWaylandWindow5raiseEv@Base 5.4.0
- _ZN14QWaylandWindow6attachEP14QWaylandBufferii@Base 5.4.0
- _ZN14QWaylandWindow6damageERK5QRect@Base 5.4.0
- _ZN14QWaylandWindow7unfocusEv@Base 5.4.0
- _ZN14QWaylandWindow8doResizeEv@Base 5.4.0
- _ZN14QWaylandWindow8propertyERK7QString@Base 5.4.0
- _ZN14QWaylandWindow8propertyERK7QStringRK8QVariant@Base 5.4.0
- _ZN14QWaylandWindow9configureEjii@Base 5.4.0
- _ZN14QWaylandWindow9setParentEPK15QPlatformWindow@Base 5.4.0
- _ZN14QWaylandWindowC1EP7QWindow@Base 5.4.0
- _ZN14QWaylandWindowC2EP7QWindow@Base 5.4.0
- _ZN14QWaylandWindowD0Ev@Base 5.4.0
- _ZN14QWaylandWindowD1Ev@Base 5.4.0
- _ZN14QWaylandWindowD2Ev@Base 5.4.0
- _ZN15QWaylandDisplay11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN15QWaylandDisplay11qt_metacastEPKc@Base 5.4.0
- _ZN15QWaylandDisplay13createSurfaceEPv@Base 5.4.0
- _ZN15QWaylandDisplay13exitWithErrorEv@Base 5.4.0
- _ZN15QWaylandDisplay13flushRequestsEv@Base 5.4.0
- _ZN15QWaylandDisplay14forceRoundTripEv@Base 5.4.0
- _ZN15QWaylandDisplay14waitForScreensEv@Base 5.4.0
- _ZN15QWaylandDisplay15registry_globalEjRK7QStringj@Base 5.4.0
- _ZN15QWaylandDisplay16staticMetaObjectE@Base 5.4.0
- _ZN15QWaylandDisplay18blockingReadEventsEv@Base 5.4.0
- _ZN15QWaylandDisplay18createShellSurfaceEP14QWaylandWindow@Base 5.4.0
- _ZN15QWaylandDisplay18setLastInputDeviceEP19QWaylandInputDevicejP14QWaylandWindow@Base 5.4.0+git20150223.0012
- _ZN15QWaylandDisplay19addRegistryListenerEPFvPvP11wl_registryjRK7QStringjES0_@Base 5.4.0
- _ZN15QWaylandDisplay19currentTimeMillisecEv@Base 5.4.0
- _ZN15QWaylandDisplay22registry_global_removeEj@Base 5.4.0
- _ZN15QWaylandDisplay31setLastKeyboardFocusInputDeviceEP19QWaylandInputDevice@Base 5.4.0
- _ZN15QWaylandDisplay8shellXdgEv@Base 5.4.0
- _ZN15QWaylandDisplay9setCursorEP9wl_bufferP15wl_cursor_image@Base 5.4.0
- _ZN15QWaylandDisplayC1EP19QWaylandIntegration@Base 5.4.0
- _ZN15QWaylandDisplayC2EP19QWaylandIntegration@Base 5.4.0
- _ZN15QWaylandDisplayD0Ev@Base 5.4.0
- _ZN15QWaylandDisplayD1Ev@Base 5.4.0
- _ZN15QWaylandDisplayD2Ev@Base 5.4.0
- _ZN16QWaylandXdgShell14xdg_shell_pingEj@Base 5.4.0
- _ZN16QWaylandXdgShellC1EP11wl_registryj@Base 5.4.0
- _ZN16QWaylandXdgShellC1EP9xdg_shell@Base 5.4.0
- _ZN16QWaylandXdgShellC2EP11wl_registryj@Base 5.4.0
- _ZN16QWaylandXdgShellC2EP9xdg_shell@Base 5.4.0
- _ZN16QWaylandXdgShellD0Ev@Base 5.4.0
- _ZN16QWaylandXdgShellD1Ev@Base 5.4.0
- _ZN16QWaylandXdgShellD2Ev@Base 5.4.0
- _ZN17QInputMethodEventD0Ev@Base 5.4.0
- _ZN17QInputMethodEventD1Ev@Base 5.4.0
- _ZN17QInputMethodEventD2Ev@Base 5.4.0
- _ZN17QWaylandClipboard11setMimeDataEP9QMimeDataN10QClipboard4ModeE@Base 5.4.0
- _ZN17QWaylandClipboard8mimeDataEN10QClipboard4ModeE@Base 5.4.0
- _ZN17QWaylandClipboardC1EP15QWaylandDisplay@Base 5.4.0
- _ZN17QWaylandClipboardC2EP15QWaylandDisplay@Base 5.4.0
- _ZN17QWaylandClipboardD0Ev@Base 5.4.0
- _ZN17QWaylandClipboardD1Ev@Base 5.4.0
- _ZN17QWaylandClipboardD2Ev@Base 5.4.0
- _ZN17QWaylandDataOffer16data_offer_offerERK7QString@Base 5.4.0
- _ZN17QWaylandDataOffer8mimeDataEv@Base 5.4.0
- _ZN17QWaylandDataOfferC1EP15QWaylandDisplayP13wl_data_offer@Base 5.4.0
- _ZN17QWaylandDataOfferC2EP15QWaylandDisplayP13wl_data_offer@Base 5.4.0
- _ZN17QWaylandDataOfferD0Ev@Base 5.4.0
- _ZN17QWaylandDataOfferD1Ev@Base 5.4.0
- _ZN17QWaylandDataOfferD2Ev@Base 5.4.0
- _ZN17QWaylandShmBuffer18imageInsideMarginsERK8QMargins@Base 5.4.0
- _ZN17QWaylandShmBufferC1EP15QWaylandDisplayRK5QSizeN6QImage6FormatE@Base 5.4.0
- _ZN17QWaylandShmBufferC2EP15QWaylandDisplayRK5QSizeN6QImage6FormatE@Base 5.4.0
- _ZN17QWaylandShmBufferD0Ev@Base 5.4.0
- _ZN17QWaylandShmBufferD1Ev@Base 5.4.0
- _ZN17QWaylandShmBufferD2Ev@Base 5.4.0
- _ZN17QWaylandShmWindowC1EP7QWindow@Base 5.4.0
- _ZN17QWaylandShmWindowC2EP7QWindow@Base 5.4.0
- _ZN17QWaylandShmWindowD0Ev@Base 5.4.0
- _ZN17QWaylandShmWindowD1Ev@Base 5.4.0
- _ZN17QWaylandShmWindowD2Ev@Base 5.4.0
- _ZN18QWaylandDataSource11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN18QWaylandDataSource11qt_metacastEPKc@Base 5.4.0
- _ZN18QWaylandDataSource13targetChangedERK7QString@Base 5.4.0
- _ZN18QWaylandDataSource16data_source_sendERK7QStringi@Base 5.4.0
- _ZN18QWaylandDataSource16staticMetaObjectE@Base 5.4.0
- _ZN18QWaylandDataSource18data_source_targetERK7QString@Base 5.4.0
- _ZN18QWaylandDataSource21data_source_cancelledEv@Base 5.4.0
- _ZN18QWaylandDataSource9cancelledEv@Base 5.4.0
- _ZN18QWaylandDataSourceC1EP25QWaylandDataDeviceManagerP9QMimeData@Base 5.4.0
- _ZN18QWaylandDataSourceC2EP25QWaylandDataDeviceManagerP9QMimeData@Base 5.4.0
- _ZN18QWaylandDataSourceD0Ev@Base 5.4.0
- _ZN18QWaylandDataSourceD1Ev@Base 5.4.0
- _ZN18QWaylandDataSourceD2Ev@Base 5.4.0
- _ZN18QWaylandSubSurface24adjustPositionOfChildrenEv@Base 5.4.0
- _ZN18QWaylandSubSurface9setParentEPK14QWaylandWindow@Base 5.4.0
- _ZN18QWaylandSubSurfaceC1EP14QWaylandWindowP14qt_sub_surface@Base 5.4.0
- _ZN18QWaylandSubSurfaceC2EP14QWaylandWindowP14qt_sub_surface@Base 5.4.0
- _ZN18QWaylandSubSurfaceD0Ev@Base 5.4.0
- _ZN18QWaylandSubSurfaceD1Ev@Base 5.4.0
- _ZN18QWaylandSubSurfaceD2Ev@Base 5.4.0
- _ZN18QWaylandXdgSurface11setTopLevelEv@Base 5.4.0
- _ZN18QWaylandXdgSurface12sendPropertyERK7QStringRK8QVariant@Base 5.4.0
- _ZN18QWaylandXdgSurface12setMaximizedEv@Base 5.4.0
- _ZN18QWaylandXdgSurface12setMinimizedEv@Base 5.4.0
- _ZN18QWaylandXdgSurface13setFullscreenEv@Base 5.4.0
- _ZN18QWaylandXdgSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.4.0
- _ZN18QWaylandXdgSurface17xdg_surface_closeEv@Base 5.4.0
- _ZN18QWaylandXdgSurface21updateTransientParentEP7QWindow@Base 5.4.0
- _ZN18QWaylandXdgSurface21xdg_surface_activatedEv@Base 5.4.0
- _ZN18QWaylandXdgSurface21xdg_surface_configureEii@Base 5.4.0
- _ZN18QWaylandXdgSurface23xdg_surface_deactivatedEv@Base 5.4.0
- _ZN18QWaylandXdgSurface24xdg_surface_change_stateEjjj@Base 5.4.0
- _ZN18QWaylandXdgSurface25setContentOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.4.0
- _ZN18QWaylandXdgSurface4moveEP19QWaylandInputDevice@Base 5.4.0
- _ZN18QWaylandXdgSurface5lowerEv@Base 5.4.0
- _ZN18QWaylandXdgSurface5raiseEv@Base 5.4.0
- _ZN18QWaylandXdgSurface6resizeEP19QWaylandInputDevice23wl_shell_surface_resize@Base 5.4.0
- _ZN18QWaylandXdgSurface6resizeEP19QWaylandInputDeviceN9QtWayland11xdg_surface11resize_edgeE@Base 5.4.0
- _ZN18QWaylandXdgSurface8setAppIdERK7QString@Base 5.4.0
- _ZN18QWaylandXdgSurface8setTitleERK7QString@Base 5.4.0
- _ZN18QWaylandXdgSurface9setNormalEv@Base 5.4.0
- _ZN18QWaylandXdgSurfaceC1EP11xdg_surfaceP14QWaylandWindow@Base 5.4.0
- _ZN18QWaylandXdgSurfaceC2EP11xdg_surfaceP14QWaylandWindow@Base 5.4.0
- _ZN18QWaylandXdgSurfaceD0Ev@Base 5.4.0
- _ZN18QWaylandXdgSurfaceD1Ev@Base 5.4.0
- _ZN18QWaylandXdgSurfaceD2Ev@Base 5.4.0
- _ZN19QWaylandEventThread10fatalErrorEv@Base 5.4.0
- _ZN19QWaylandEventThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN19QWaylandEventThread11qt_metacastEPKc@Base 5.4.0
- _ZN19QWaylandEventThread13newEventsReadEv@Base 5.4.0
- _ZN19QWaylandEventThread14displayConnectEv@Base 5.4.0
- _ZN19QWaylandEventThread16staticMetaObjectE@Base 5.4.0
- _ZN19QWaylandEventThread17readWaylandEventsEv@Base 5.4.0
- _ZN19QWaylandEventThread21waylandDisplayConnectEv@Base 5.4.0
- _ZN19QWaylandEventThreadC1EP7QObject@Base 5.4.0
- _ZN19QWaylandEventThreadC2EP7QObject@Base 5.4.0
- _ZN19QWaylandEventThreadD0Ev@Base 5.4.0
- _ZN19QWaylandEventThreadD1Ev@Base 5.4.0
- _ZN19QWaylandEventThreadD2Ev@Base 5.4.0
- _ZN19QWaylandInputDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN19QWaylandInputDevice11qt_metacastEPKc@Base 5.4.0
- _ZN19QWaylandInputDevice13setDataDeviceEP18QWaylandDataDevice@Base 5.4.0
- _ZN19QWaylandInputDevice16handleTouchPointEiddN2Qt15TouchPointStateE@Base 5.4.0
- _ZN19QWaylandInputDevice16staticMetaObjectE@Base 5.4.0
- _ZN19QWaylandInputDevice17seat_capabilitiesEj@Base 5.4.0
- _ZN19QWaylandInputDevice21handleWindowDestroyedEP14QWaylandWindow@Base 5.4.0
- _ZN19QWaylandInputDevice26removeMouseButtonFromStateEN2Qt11MouseButtonE@Base 5.4.0
- _ZN19QWaylandInputDevice5Touch10touch_downEjjP10wl_surfaceiii@Base 5.4.0
- _ZN19QWaylandInputDevice5Touch11touch_frameEv@Base 5.4.0
- _ZN19QWaylandInputDevice5Touch12touch_cancelEv@Base 5.4.0
- _ZN19QWaylandInputDevice5Touch12touch_motionEjiii@Base 5.4.0
- _ZN19QWaylandInputDevice5Touch22allTouchPointsReleasedEv@Base 5.4.0
- _ZN19QWaylandInputDevice5Touch8touch_upEjji@Base 5.4.0
- _ZN19QWaylandInputDevice7Pointer12pointer_axisEjji@Base 5.4.0
- _ZN19QWaylandInputDevice7Pointer13pointer_enterEjP10wl_surfaceii@Base 5.4.0
- _ZN19QWaylandInputDevice7Pointer13pointer_leaveEjP10wl_surface@Base 5.4.0
- _ZN19QWaylandInputDevice7Pointer14pointer_buttonEjjjj@Base 5.4.0
- _ZN19QWaylandInputDevice7Pointer14pointer_motionEjii@Base 5.4.0
- _ZN19QWaylandInputDevice8Keyboard12keyboard_keyEjjjj@Base 5.4.0
- _ZN19QWaylandInputDevice8Keyboard13focusCallbackEPvP11wl_callbackj@Base 5.4.0
- _ZN19QWaylandInputDevice8Keyboard14keyboard_enterEjP10wl_surfaceP8wl_array@Base 5.4.0
- _ZN19QWaylandInputDevice8Keyboard14keyboard_leaveEjP10wl_surface@Base 5.4.0
- _ZN19QWaylandInputDevice8Keyboard15keyboard_keymapEjij@Base 5.4.0
- _ZN19QWaylandInputDevice8Keyboard18keyboard_modifiersEjjjjj@Base 5.4.0
- _ZN19QWaylandInputDevice8Keyboard8callbackE@Base 5.4.0
- _ZN19QWaylandInputDevice9repeatKeyEv@Base 5.4.0
- _ZN19QWaylandInputDevice9setCursorEN2Qt11CursorShapeEP14QWaylandScreen@Base 5.4.0
- _ZN19QWaylandInputDevice9setCursorEP9wl_bufferP15wl_cursor_image@Base 5.4.0
- _ZN19QWaylandInputDeviceC1EP15QWaylandDisplayij@Base 5.4.0
- _ZN19QWaylandInputDeviceC2EP15QWaylandDisplayij@Base 5.4.0
- _ZN19QWaylandInputDeviceD0Ev@Base 5.4.0
- _ZN19QWaylandInputDeviceD1Ev@Base 5.4.0
- _ZN19QWaylandInputDeviceD2Ev@Base 5.4.0
- _ZN19QWaylandIntegration10initializeEv@Base 5.4.0
- _ZN19QWaylandIntegration26initializeShellIntegrationEv@Base 5.4.0
- _ZN19QWaylandIntegration33initializeClientBufferIntegrationEv@Base 5.4.0
- _ZN19QWaylandIntegration33initializeServerBufferIntegrationEv@Base 5.4.0
- _ZN19QWaylandIntegrationC1Ev@Base 5.4.0
- _ZN19QWaylandIntegrationC2Ev@Base 5.4.0
- _ZN19QWaylandIntegrationD0Ev@Base 5.4.0
- _ZN19QWaylandIntegrationD1Ev@Base 5.4.0
- _ZN19QWaylandIntegrationD2Ev@Base 5.4.0
- _ZN20QWaylandServerBuffer11setUserDataEPv@Base 5.4.0
- _ZN20QWaylandServerBufferC1Ev@Base 5.4.0
- _ZN20QWaylandServerBufferC2Ev@Base 5.4.0
- _ZN20QWaylandServerBufferD0Ev@Base 5.4.0
- _ZN20QWaylandServerBufferD1Ev@Base 5.4.0
- _ZN20QWaylandServerBufferD2Ev@Base 5.4.0
- _ZN20QWaylandShellSurface12sendPropertyERK7QStringRK8QVariant@Base 5.4.0
- _ZN20QWaylandShellSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.4.0
- _ZN20QWaylandShellSurfaceC1EP14QWaylandWindow@Base 5.4.0
- _ZN20QWaylandShellSurfaceC2EP14QWaylandWindow@Base 5.4.0
- _ZN22QWaylandExtendedOutputC1EP14QWaylandScreenP18qt_extended_output@Base 5.4.0
- _ZN22QWaylandExtendedOutputC2EP14QWaylandScreenP18qt_extended_output@Base 5.4.0
- _ZN22QWaylandExtendedOutputD0Ev@Base 5.4.0
- _ZN22QWaylandExtendedOutputD1Ev@Base 5.4.0
- _ZN22QWaylandExtendedOutputD2Ev@Base 5.4.0
- _ZN22QWaylandQtKeyExtension19key_extension_qtkeyEP10wl_surfacejjjjjjjRK7QStringjj@Base 5.4.0
- _ZN22QWaylandQtKeyExtensionC1EP15QWaylandDisplayj@Base 5.4.0
- _ZN22QWaylandQtKeyExtensionC2EP15QWaylandDisplayj@Base 5.4.0
- _ZN22QWaylandQtKeyExtensionD0Ev@Base 5.4.0
- _ZN22QWaylandQtKeyExtensionD1Ev@Base 5.4.0
- _ZN22QWaylandQtKeyExtensionD2Ev@Base 5.4.0
- _ZN22QWaylandTouchExtension13touchCanceledEv@Base 5.4.0
- _ZN22QWaylandTouchExtension14registerDeviceEi@Base 5.4.0
- _ZN22QWaylandTouchExtension14sendTouchEventEv@Base 5.4.0
- _ZN22QWaylandTouchExtension21touch_extension_touchEjjjiiiiiijiijP8wl_array@Base 5.4.0
- _ZN22QWaylandTouchExtension25touch_extension_configureEj@Base 5.4.0
- _ZN22QWaylandTouchExtensionC1EP15QWaylandDisplayj@Base 5.4.0
- _ZN22QWaylandTouchExtensionC2EP15QWaylandDisplayj@Base 5.4.0
- _ZN22QWaylandTouchExtensionD0Ev@Base 5.4.0
- _ZN22QWaylandTouchExtensionD1Ev@Base 5.4.0
- _ZN22QWaylandTouchExtensionD2Ev@Base 5.4.0
- _ZN22QWaylandWlShellSurface11setTopLevelEv@Base 5.4.0
- _ZN22QWaylandWlShellSurface12sendPropertyERK7QStringRK8QVariant@Base 5.4.0
- _ZN22QWaylandWlShellSurface12setMaximizedEv@Base 5.4.0
- _ZN22QWaylandWlShellSurface12setMinimizedEv@Base 5.4.0
- _ZN22QWaylandWlShellSurface13setFullscreenEv@Base 5.4.0
- _ZN22QWaylandWlShellSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.4.0
- _ZN22QWaylandWlShellSurface18shell_surface_pingEj@Base 5.4.0
- _ZN22QWaylandWlShellSurface21updateTransientParentEP7QWindow@Base 5.4.0
- _ZN22QWaylandWlShellSurface23shell_surface_configureEjii@Base 5.4.0
- _ZN22QWaylandWlShellSurface24shell_surface_popup_doneEv@Base 5.4.0
- _ZN22QWaylandWlShellSurface25setContentOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.4.0
- _ZN22QWaylandWlShellSurface4moveEP19QWaylandInputDevice@Base 5.4.0
- _ZN22QWaylandWlShellSurface5lowerEv@Base 5.4.0
- _ZN22QWaylandWlShellSurface5raiseEv@Base 5.4.0
- _ZN22QWaylandWlShellSurface6resizeEP19QWaylandInputDevice23wl_shell_surface_resize@Base 5.4.0
- _ZN22QWaylandWlShellSurface8setAppIdERK7QString@Base 5.4.0
- _ZN22QWaylandWlShellSurface8setPopupEP14QWaylandWindowP19QWaylandInputDevicei@Base 5.4.0
- _ZN22QWaylandWlShellSurface8setTitleERK7QString@Base 5.4.0
- _ZN22QWaylandWlShellSurface9setNormalEv@Base 5.4.0
- _ZN22QWaylandWlShellSurfaceC1EP16wl_shell_surfaceP14QWaylandWindow@Base 5.4.0
- _ZN22QWaylandWlShellSurfaceC2EP16wl_shell_surfaceP14QWaylandWindow@Base 5.4.0
- _ZN22QWaylandWlShellSurfaceD0Ev@Base 5.4.0
- _ZN22QWaylandWlShellSurfaceD1Ev@Base 5.4.0
- _ZN22QWaylandWlShellSurfaceD2Ev@Base 5.4.0
- _ZN23QWaylandExtendedSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.4.0
- _ZN23QWaylandExtendedSurface21updateGenericPropertyERK7QStringRK8QVariant@Base 5.4.0
- _ZN23QWaylandExtendedSurface22extended_surface_closeEv@Base 5.4.0
- _ZN23QWaylandExtendedSurface25setContentOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.4.0
- _ZN23QWaylandExtendedSurface36extended_surface_onscreen_visibilityEi@Base 5.4.0
- _ZN23QWaylandExtendedSurface37extended_surface_set_generic_propertyERK7QStringP8wl_array@Base 5.4.0
- _ZN23QWaylandExtendedSurfaceC1EP14QWaylandWindow@Base 5.4.0
- _ZN23QWaylandExtendedSurfaceC2EP14QWaylandWindow@Base 5.4.0
- _ZN23QWaylandExtendedSurfaceD0Ev@Base 5.4.0
- _ZN23QWaylandExtendedSurfaceD1Ev@Base 5.4.0
- _ZN23QWaylandExtendedSurfaceD2Ev@Base 5.4.0
- _ZN23QWaylandNativeInterface17setWindowPropertyEP15QPlatformWindowRK7QStringRK8QVariant@Base 5.4.0
- _ZN23QWaylandNativeInterface23nativeResourceForScreenERK10QByteArrayP7QScreen@Base 5.4.0
- _ZN23QWaylandNativeInterface23nativeResourceForWindowERK10QByteArrayP7QWindow@Base 5.4.0
- _ZN23QWaylandNativeInterface25emitWindowPropertyChangedEP15QPlatformWindowRK7QString@Base 5.4.0
- _ZN23QWaylandNativeInterface28nativeResourceForIntegrationERK10QByteArray@Base 5.4.0
- _ZN23QWaylandNativeInterfaceC1EP19QWaylandIntegration@Base 5.4.0
- _ZN23QWaylandNativeInterfaceC2EP19QWaylandIntegration@Base 5.4.0
- _ZN23QWaylandNativeInterfaceD0Ev@Base 5.4.0
- _ZN23QWaylandNativeInterfaceD1Ev@Base 5.4.0
- _ZN23QWaylandNativeInterfaceD2Ev@Base 5.4.0
- _ZN23QWaylandShmBackingStore10beginPaintERK7QRegion@Base 5.4.0
- _ZN23QWaylandShmBackingStore10ensureSizeEv@Base 5.4.0
- _ZN23QWaylandShmBackingStore11paintDeviceEv@Base 5.4.0
- _ZN23QWaylandShmBackingStore17updateDecorationsEv@Base 5.4.0
- _ZN23QWaylandShmBackingStore21frameCallbackListenerE@Base 5.4.0
- _ZN23QWaylandShmBackingStore4doneEPvP11wl_callbackj@Base 5.4.0
- _ZN23QWaylandShmBackingStore5flushEP7QWindowRK7QRegionRK6QPoint@Base 5.4.0
- _ZN23QWaylandShmBackingStore6hiddenEv@Base 5.4.0
- _ZN23QWaylandShmBackingStore6resizeERK5QSize@Base 5.4.0
- _ZN23QWaylandShmBackingStore6resizeERK5QSizeRK7QRegion@Base 5.4.0
- _ZN23QWaylandShmBackingStore8endPaintEv@Base 5.4.0
- _ZN23QWaylandShmBackingStoreC1EP7QWindow@Base 5.4.0
- _ZN23QWaylandShmBackingStoreC2EP7QWindow@Base 5.4.0
- _ZN23QWaylandShmBackingStoreD0Ev@Base 5.4.0
- _ZN23QWaylandShmBackingStoreD1Ev@Base 5.4.0
- _ZN23QWaylandShmBackingStoreD2Ev@Base 5.4.0
- _ZN24QWaylandDecorationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN24QWaylandDecorationPlugin11qt_metacastEPKc@Base 5.4.0
- _ZN24QWaylandDecorationPlugin16staticMetaObjectE@Base 5.4.0
- _ZN24QWaylandDecorationPluginC1EP7QObject@Base 5.4.0
- _ZN24QWaylandDecorationPluginC2EP7QObject@Base 5.4.0
- _ZN24QWaylandDecorationPluginD0Ev@Base 5.4.0
- _ZN24QWaylandDecorationPluginD1Ev@Base 5.4.0
- _ZN24QWaylandDecorationPluginD2Ev@Base 5.4.0
- _ZN25QWaylandDataDeviceManager13getDataDeviceEP19QWaylandInputDevice@Base 5.4.0
- _ZN25QWaylandDataDeviceManagerC1EP15QWaylandDisplayj@Base 5.4.0
- _ZN25QWaylandDataDeviceManagerC2EP15QWaylandDisplayj@Base 5.4.0
- _ZN25QWaylandDataDeviceManagerD0Ev@Base 5.4.0
- _ZN25QWaylandDataDeviceManagerD1Ev@Base 5.4.0
- _ZN25QWaylandDataDeviceManagerD2Ev@Base 5.4.0
- _ZN25QWaylandDecorationFactory4keysERK7QString@Base 5.4.0
- _ZN25QWaylandDecorationFactory6createERK7QStringRK11QStringListS2_@Base 5.4.0
- _ZN26QWaylandAbstractDecoration11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN26QWaylandAbstractDecoration11qt_metacastEPKc@Base 5.4.0
- _ZN26QWaylandAbstractDecoration11startResizeEP19QWaylandInputDevice23wl_shell_surface_resize6QFlagsIN2Qt11MouseButtonEE@Base 5.4.0
- _ZN26QWaylandAbstractDecoration12contentImageEv@Base 5.4.0
- _ZN26QWaylandAbstractDecoration13isLeftClickedE6QFlagsIN2Qt11MouseButtonEE@Base 5.4.0
- _ZN26QWaylandAbstractDecoration14isLeftReleasedE6QFlagsIN2Qt11MouseButtonEE@Base 5.4.0
- _ZN26QWaylandAbstractDecoration15setMouseButtonsE6QFlagsIN2Qt11MouseButtonEE@Base 5.4.0
- _ZN26QWaylandAbstractDecoration16setWaylandWindowEP14QWaylandWindow@Base 5.4.0
- _ZN26QWaylandAbstractDecoration16staticMetaObjectE@Base 5.4.0
- _ZN26QWaylandAbstractDecoration6updateEv@Base 5.4.0
- _ZN26QWaylandAbstractDecoration9startMoveEP19QWaylandInputDevice6QFlagsIN2Qt11MouseButtonEE@Base 5.4.0
- _ZN26QWaylandAbstractDecorationC1Ev@Base 5.4.0
- _ZN26QWaylandAbstractDecorationC2Ev@Base 5.4.0
- _ZN26QWaylandAbstractDecorationD0Ev@Base 5.4.0
- _ZN26QWaylandAbstractDecorationD1Ev@Base 5.4.0
- _ZN26QWaylandAbstractDecorationD2Ev@Base 5.4.0
- _ZN27QEventDispatcherGlibPrivateD0Ev@Base 5.4.0
- _ZN27QEventDispatcherGlibPrivateD1Ev@Base 5.4.0
- _ZN27QEventDispatcherGlibPrivateD2Ev@Base 5.4.0
- _ZN27QWaylandHardwareIntegration23clientBufferIntegrationEv@Base 5.4.0
- _ZN27QWaylandHardwareIntegration23serverBufferIntegrationEv@Base 5.4.0
- _ZN27QWaylandHardwareIntegration35hardware_integration_client_backendERK7QString@Base 5.4.0
- _ZN27QWaylandHardwareIntegration35hardware_integration_server_backendERK7QString@Base 5.4.0
- _ZN27QWaylandHardwareIntegrationC1EP11wl_registryi@Base 5.4.0
- _ZN27QWaylandHardwareIntegrationC2EP11wl_registryi@Base 5.4.0
- _ZN27QWaylandHardwareIntegrationD0Ev@Base 5.4.0
- _ZN27QWaylandHardwareIntegrationD1Ev@Base 5.4.0
- _ZN27QWaylandHardwareIntegrationD2Ev@Base 5.4.0
- _ZN30QWaylandShellIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN30QWaylandShellIntegrationPlugin11qt_metacastEPKc@Base 5.4.0
- _ZN30QWaylandShellIntegrationPlugin16staticMetaObjectE@Base 5.4.0
- _ZN30QWaylandShellIntegrationPluginC1EP7QObject@Base 5.4.0
- _ZN30QWaylandShellIntegrationPluginC2EP7QObject@Base 5.4.0
- _ZN30QWaylandShellIntegrationPluginD0Ev@Base 5.4.0
- _ZN30QWaylandShellIntegrationPluginD1Ev@Base 5.4.0
- _ZN30QWaylandShellIntegrationPluginD2Ev@Base 5.4.0
- _ZN31QAbstractEventDispatcherPrivateD0Ev@Base 5.4.0
- _ZN31QAbstractEventDispatcherPrivateD1Ev@Base 5.4.0
- _ZN31QAbstractEventDispatcherPrivateD2Ev@Base 5.4.0
- _ZN31QWaylandClientBufferIntegrationC1Ev@Base 5.4.0
- _ZN31QWaylandClientBufferIntegrationC2Ev@Base 5.4.0
- _ZN31QWaylandClientBufferIntegrationD0Ev@Base 5.4.0
- _ZN31QWaylandClientBufferIntegrationD1Ev@Base 5.4.0
- _ZN31QWaylandClientBufferIntegrationD2Ev@Base 5.4.0
- _ZN31QWaylandServerBufferIntegrationC1Ev@Base 5.4.0
- _ZN31QWaylandServerBufferIntegrationC2Ev@Base 5.4.0
- _ZN31QWaylandServerBufferIntegrationD0Ev@Base 5.4.0
- _ZN31QWaylandServerBufferIntegrationD1Ev@Base 5.4.0
- _ZN31QWaylandServerBufferIntegrationD2Ev@Base 5.4.0
- _ZN31QWaylandShellIntegrationFactory4keysERK7QString@Base 5.4.0
- _ZN31QWaylandShellIntegrationFactory6createERK7QStringRK11QStringListS2_@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration11qt_metacastEPKc@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration12openDocumentERK4QUrl@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration14openUrl_helperERK4QUrl@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration16staticMetaObjectE@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration18windowmanager_quitEv@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration19windowmanager_hintsEi@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration22wlHandleListenerGlobalEPvP11wl_registryjRK7QStringj@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegration7openUrlERK4QUrl@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegrationC1EP15QWaylandDisplay@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegrationC2EP15QWaylandDisplay@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegrationD0Ev@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegrationD1Ev@Base 5.4.0
- _ZN32QWaylandWindowManagerIntegrationD2Ev@Base 5.4.0
- _ZN37QWaylandClientBufferIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN37QWaylandClientBufferIntegrationPlugin11qt_metacastEPKc@Base 5.4.0
- _ZN37QWaylandClientBufferIntegrationPlugin16staticMetaObjectE@Base 5.4.0
- _ZN37QWaylandClientBufferIntegrationPluginC1EP7QObject@Base 5.4.0
- _ZN37QWaylandClientBufferIntegrationPluginC2EP7QObject@Base 5.4.0
- _ZN37QWaylandClientBufferIntegrationPluginD0Ev@Base 5.4.0
- _ZN37QWaylandClientBufferIntegrationPluginD1Ev@Base 5.4.0
- _ZN37QWaylandClientBufferIntegrationPluginD2Ev@Base 5.4.0
- _ZN37QWaylandServerBufferIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
- _ZN37QWaylandServerBufferIntegrationPlugin11qt_metacastEPKc@Base 5.4.0
- _ZN37QWaylandServerBufferIntegrationPlugin16staticMetaObjectE@Base 5.4.0
- _ZN37QWaylandServerBufferIntegrationPluginC1EP7QObject@Base 5.4.0
- _ZN37QWaylandServerBufferIntegrationPluginC2EP7QObject@Base 5.4.0
- _ZN37QWaylandServerBufferIntegrationPluginD0Ev@Base 5.4.0
- _ZN37QWaylandServerBufferIntegrationPluginD1Ev@Base 5.4.0
- _ZN37QWaylandServerBufferIntegrationPluginD2Ev@Base 5.4.0
- _ZN38QWaylandClientBufferIntegrationFactory4keysERK7QString@Base 5.4.0
- _ZN38QWaylandClientBufferIntegrationFactory6createERK7QStringRK11QStringListS2_@Base 5.4.0
- _ZN38QWaylandServerBufferIntegrationFactory4keysERK7QString@Base 5.4.0
- _ZN38QWaylandServerBufferIntegrationFactory6createERK7QStringRK11QStringListS2_@Base 5.4.0
+ _ZN15QtWaylandClient12QWaylandDrag10finishDragERK23QPlatformDropQtResponse@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDrag11setResponseERK23QPlatformDragQtResponse@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDrag12updateTargetERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDrag16platformDropDataEv@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDrag4dropEPK11QMouseEvent@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDrag4moveEPK11QMouseEvent@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDrag6cancelEv@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDrag7endDragEv@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDrag9startDragEv@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDragC1EPNS_15QWaylandDisplayE@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDragC2EPNS_15QWaylandDisplayE@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDragD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDragD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient12QWaylandDragD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursor11cursorImageEN2Qt11CursorShapeE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursor12changeCursorEP7QCursorP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursor12pointerEventERK11QMouseEvent@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursor13initCursorMapEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursor13requestCursorENS0_13WaylandCursorE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursor6setPosERK6QPoint@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursorC1EPNS_14QWaylandScreenE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursorC2EPNS_14QWaylandScreenE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursorD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursorD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandCursorD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreen11output_doneEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreen11output_modeEjiii@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreen12output_scaleEi@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreen15output_geometryEiiiiiRK7QStringS3_i@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreen20createExtendedOutputEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreen23waylandScreenFromWindowEP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreen24setOrientationUpdateMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreen4initEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreenC1EPNS_15QWaylandDisplayEij@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreenC2EPNS_15QWaylandDisplayEij@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreenD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreenD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandScreenD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow10mMouseGrabE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow10setVisibleEb@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow11handleMouseEPNS_19QWaylandInputDeviceERKNS_20QWaylandPointerEventE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow11setGeometryERK5QRect@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow11setPropertyERK7QStringRK8QVariant@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow12attachOffsetEPNS_14QWaylandBufferE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow12sendPropertyERK7QStringRK8QVariant@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow12setCanResizeEb@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow13frameCallbackEPvP11wl_callbackj@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow13fromWlSurfaceEP10wl_surface@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow13requestResizeEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow13setWindowIconERK5QIcon@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow14setMouseCursorEPNS_19QWaylandInputDeviceEN2Qt11CursorShapeE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow14setWindowStateEN2Qt11WindowStateE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow14setWindowTitleERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow15mFrameSyncMutexE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow16callbackListenerE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow16createDecorationEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow16handleMouseLeaveEPNS_19QWaylandInputDeviceE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow16waitForFrameSyncEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow18restoreMouseCursorEPNS_19QWaylandInputDeviceE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow18setGeometry_helperERK5QRect@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow18setOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow19setMouseGrabEnabledEb@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow19touchDragDecorationEPNS_19QWaylandInputDeviceERK7QPointFS5_N2Qt15TouchPointStateE6QFlagsINS6_16KeyboardModifierEE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow21requestActivateWindowEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow22setWindowStateInternalEN2Qt11WindowStateE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow30handleContentOrientationChangeEN2Qt17ScreenOrientationE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow30handleMouseEventWithDecorationEPNS_19QWaylandInputDeviceERKNS_20QWaylandPointerEventE@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow5lowerEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow5raiseEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow6attachEPNS_14QWaylandBufferEii@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow6damageERK5QRect@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow7setMaskERK7QRegion@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow7unfocusEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow8doResizeEv@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow8propertyERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow8propertyERK7QStringRK8QVariant@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow9configureEjii@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow9setParentEPK15QPlatformWindow@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindowC1EP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindowC2EP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindowD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindowD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindowD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay12createRegionERK7QRegion@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay13createSurfaceEPv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay13exitWithErrorEv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay13flushRequestsEv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay14forceRoundTripEv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay14waitForScreensEv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay15registry_globalEjRK7QStringj@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay18blockingReadEventsEv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay18createShellSurfaceEPNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay18setLastInputDeviceEPNS_19QWaylandInputDeviceEjPNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay19addRegistryListenerEPFvPvP11wl_registryjRK7QStringjES1_@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay19currentTimeMillisecEv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay22registry_global_removeEj@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay31setLastKeyboardFocusInputDeviceEPNS_19QWaylandInputDeviceE@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay8shellXdgEv@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplay9setCursorEP9wl_bufferP15wl_cursor_image@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplayC1EPNS_19QWaylandIntegrationE@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplayC2EPNS_19QWaylandIntegrationE@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplayD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplayD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient15QWaylandDisplayD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient16QWaylandXdgShell14xdg_shell_pingEj@Base 5.5.0
+ _ZN15QtWaylandClient16QWaylandXdgShellC1EP11wl_registryj@Base 5.5.0
+ _ZN15QtWaylandClient16QWaylandXdgShellC1EP9xdg_shell@Base 5.5.0
+ _ZN15QtWaylandClient16QWaylandXdgShellC2EP11wl_registryj@Base 5.5.0
+ _ZN15QtWaylandClient16QWaylandXdgShellC2EP9xdg_shell@Base 5.5.0
+ _ZN15QtWaylandClient16QWaylandXdgShellD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient16QWaylandXdgShellD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient16QWaylandXdgShellD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandClipboard11setMimeDataEP9QMimeDataN10QClipboard4ModeE@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandClipboard8mimeDataEN10QClipboard4ModeE@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandClipboardC1EPNS_15QWaylandDisplayE@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandClipboardC2EPNS_15QWaylandDisplayE@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandClipboardD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandClipboardD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandClipboardD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandDataOffer16data_offer_offerERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandDataOffer8mimeDataEv@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandDataOfferC1EPNS_15QWaylandDisplayEP13wl_data_offer@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandDataOfferC2EPNS_15QWaylandDisplayEP13wl_data_offer@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandDataOfferD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandDataOfferD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandDataOfferD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmBuffer18imageInsideMarginsERK8QMargins@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmBufferC1EPNS_15QWaylandDisplayERK5QSizeN6QImage6FormatEi@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmBufferC2EPNS_15QWaylandDisplayERK5QSizeN6QImage6FormatEi@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmBufferD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmBufferD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmBufferD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmWindowC1EP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmWindowC2EP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmWindowD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmWindowD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient17QWaylandShmWindowD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSource11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSource11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSource13targetChangedERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSource16data_source_sendERK7QStringi@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSource16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSource18data_source_targetERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSource21data_source_cancelledEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSource9cancelledEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSourceC1EPNS_25QWaylandDataDeviceManagerEP9QMimeData@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSourceC2EPNS_25QWaylandDataDeviceManagerEP9QMimeData@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSourceD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSourceD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandDataSourceD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandSubSurface24adjustPositionOfChildrenEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandSubSurface9setParentEPKNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandSubSurfaceC1EPNS_14QWaylandWindowEP14qt_sub_surface@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandSubSurfaceC2EPNS_14QWaylandWindowEP14qt_sub_surface@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface11setTopLevelEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface12sendPropertyERK7QStringRK8QVariant@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface12setMaximizedEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface12setMinimizedEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface13setFullscreenEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface17xdg_surface_closeEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface21updateTransientParentEP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface21xdg_surface_configureEiiP8wl_arrayj@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface25setContentOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface4moveEPNS_19QWaylandInputDeviceE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface5lowerEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface5raiseEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface6resizeEPNS_19QWaylandInputDeviceE23wl_shell_surface_resize@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface6resizeEPNS_19QWaylandInputDeviceEN9QtWayland11xdg_surface11resize_edgeE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface8setAppIdERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface8setTitleERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface9setNormalEv@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurfaceC1EP11xdg_surfacePNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurfaceC2EP11xdg_surfacePNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurfaceD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurfaceD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurfaceD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThread10fatalErrorEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThread11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThread11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThread13newEventsReadEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThread14displayConnectEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThread16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThread17readWaylandEventsEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThread21waylandDisplayConnectEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThreadC1EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThreadC2EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThreadD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThreadD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandEventThreadD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice11createTouchEPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice13createPointerEPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice13setDataDeviceEPNS_18QWaylandDataDeviceE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice14createKeyboardEPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice16handleTouchPointEiddN2Qt15TouchPointStateE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice17seat_capabilitiesEj@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice21handleWindowDestroyedEPNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice26removeMouseButtonFromStateEN2Qt11MouseButtonE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5Touch10touch_downEjjP10wl_surfaceiii@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5Touch11touch_frameEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5Touch12touch_cancelEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5Touch12touch_motionEjiii@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5Touch22allTouchPointsReleasedEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5Touch8touch_upEjji@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5TouchC1EPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5TouchC2EPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5TouchD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5TouchD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5TouchD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7Pointer12pointer_axisEjji@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7Pointer13pointer_enterEjP10wl_surfaceii@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7Pointer13pointer_leaveEjP10wl_surface@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7Pointer14pointer_buttonEjjjj@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7Pointer14pointer_motionEjii@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7PointerC1EPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7PointerC2EPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7PointerD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7PointerD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7PointerD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard10stopRepeatEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard12keyboard_keyEjjjj@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard13focusCallbackEPvP11wl_callbackj@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard13releaseKeyMapEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard14keyboard_enterEjP10wl_surfaceP8wl_array@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard14keyboard_leaveEjP10wl_surface@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard15keyboard_keymapEjij@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard18keyboard_modifiersEjjjjj@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard19createDefaultKeyMapEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard8callbackE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8Keyboard9repeatKeyEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8KeyboardC1EPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8KeyboardC2EPS0_@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8KeyboardD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8KeyboardD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice8KeyboardD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice9setCursorEN2Qt11CursorShapeEPNS_14QWaylandScreenE@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice9setCursorEP9wl_bufferP15wl_cursor_image@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDeviceC1EPNS_15QWaylandDisplayEij@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDeviceC2EPNS_15QWaylandDisplayEij@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDeviceD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDeviceD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDeviceD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegration10initializeEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegration17createInputDeviceEPNS_15QWaylandDisplayEij@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegration26initializeShellIntegrationEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegration32initializeInputDeviceIntegrationEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegration33initializeClientBufferIntegrationEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegration33initializeServerBufferIntegrationEv@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegrationC1Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegrationC2Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegrationD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegrationD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient19QWaylandIntegrationD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandServerBuffer11setUserDataEPv@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandServerBufferC1Ev@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandServerBufferC2Ev@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandServerBufferD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandServerBufferD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandServerBufferD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandShellSurface11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandShellSurface12sendPropertyERK7QStringRK8QVariant@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandShellSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandShellSurface16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandShellSurfaceC1EPNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient20QWaylandShellSurfaceC2EPNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandExtendedOutputC1EPNS_14QWaylandScreenEP18qt_extended_output@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandExtendedOutputC2EPNS_14QWaylandScreenEP18qt_extended_output@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandQtKeyExtension19key_extension_qtkeyEP10wl_surfacejjjjjjjRK7QStringjj@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandQtKeyExtensionC1EPNS_15QWaylandDisplayEj@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandQtKeyExtensionC2EPNS_15QWaylandDisplayEj@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandTouchExtension13touchCanceledEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandTouchExtension14registerDeviceEi@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandTouchExtension14sendTouchEventEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandTouchExtension21touch_extension_touchEjjjiiiiiijiijP8wl_array@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandTouchExtension25touch_extension_configureEj@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandTouchExtensionC1EPNS_15QWaylandDisplayEj@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandTouchExtensionC2EPNS_15QWaylandDisplayEj@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface11setTopLevelEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface12sendPropertyERK7QStringRK8QVariant@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface12setMaximizedEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface12setMinimizedEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface13setFullscreenEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface18shell_surface_pingEj@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface21updateTransientParentEP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface23shell_surface_configureEjii@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface24shell_surface_popup_doneEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface25setContentOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface4moveEPNS_19QWaylandInputDeviceE@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface5lowerEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface5raiseEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface6resizeEPNS_19QWaylandInputDeviceE23wl_shell_surface_resize@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface8setAppIdERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface8setPopupEPNS_14QWaylandWindowEPNS_19QWaylandInputDeviceEi@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface8setTitleERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface9setNormalEv@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurfaceC1EP16wl_shell_surfacePNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurfaceC2EP16wl_shell_surfacePNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurfaceD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurfaceD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurfaceD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurface21updateGenericPropertyERK7QStringRK8QVariant@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurface22extended_surface_closeEv@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurface25setContentOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurface36extended_surface_onscreen_visibilityEi@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurface37extended_surface_set_generic_propertyERK7QStringP8wl_array@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurfaceC1EPNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurfaceC2EPNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurfaceD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurfaceD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandExtendedSurfaceD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandNativeInterface17setWindowPropertyEP15QPlatformWindowRK7QStringRK8QVariant@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandNativeInterface23nativeResourceForScreenERK10QByteArrayP7QScreen@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandNativeInterface23nativeResourceForWindowERK10QByteArrayP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandNativeInterface24nativeResourceForContextERK10QByteArrayP14QOpenGLContext@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandNativeInterface25emitWindowPropertyChangedEP15QPlatformWindowRK7QString@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandNativeInterface28nativeResourceForIntegrationERK10QByteArray@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandNativeInterfaceC1EPNS_19QWaylandIntegrationE@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandNativeInterfaceC2EPNS_19QWaylandIntegrationE@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore10beginPaintERK7QRegion@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore10ensureSizeEv@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore11paintDeviceEv@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore17updateDecorationsEv@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore21frameCallbackListenerE@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore4doneEPvP11wl_callbackj@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore5flushEP7QWindowRK7QRegionRK6QPoint@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore6hiddenEv@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore6resizeERK5QSize@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore6resizeERK5QSizeRK7QRegion@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStore8endPaintEv@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStoreC1EP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStoreC2EP7QWindow@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStoreD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStoreD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient23QWaylandShmBackingStoreD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient24QWaylandDecorationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient24QWaylandDecorationPlugin11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient24QWaylandDecorationPlugin16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient24QWaylandDecorationPluginC1EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient24QWaylandDecorationPluginC2EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient24QWaylandDecorationPluginD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient24QWaylandDecorationPluginD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient24QWaylandDecorationPluginD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient25QWaylandDataDeviceManager13getDataDeviceEPNS_19QWaylandInputDeviceE@Base 5.5.0
+ _ZN15QtWaylandClient25QWaylandDataDeviceManagerC1EPNS_15QWaylandDisplayEj@Base 5.5.0
+ _ZN15QtWaylandClient25QWaylandDataDeviceManagerC2EPNS_15QWaylandDisplayEj@Base 5.5.0
+ _ZN15QtWaylandClient25QWaylandDataDeviceManagerD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient25QWaylandDataDeviceManagerD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient25QWaylandDataDeviceManagerD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient25QWaylandDecorationFactory4keysERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient25QWaylandDecorationFactory6createERK7QStringRK11QStringListS3_@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration11startResizeEPNS_19QWaylandInputDeviceE23wl_shell_surface_resize6QFlagsIN2Qt11MouseButtonEE@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration12contentImageEv@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration13isLeftClickedE6QFlagsIN2Qt11MouseButtonEE@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration14isLeftReleasedE6QFlagsIN2Qt11MouseButtonEE@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration15setMouseButtonsE6QFlagsIN2Qt11MouseButtonEE@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration16setWaylandWindowEPNS_14QWaylandWindowE@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration6updateEv@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecoration9startMoveEPNS_19QWaylandInputDeviceE6QFlagsIN2Qt11MouseButtonEE@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecorationC1Ev@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecorationC2Ev@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecorationD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecorationD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient26QWaylandAbstractDecorationD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient27QWaylandHardwareIntegration23clientBufferIntegrationEv@Base 5.5.0
+ _ZN15QtWaylandClient27QWaylandHardwareIntegration23serverBufferIntegrationEv@Base 5.5.0
+ _ZN15QtWaylandClient27QWaylandHardwareIntegration35hardware_integration_client_backendERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient27QWaylandHardwareIntegration35hardware_integration_server_backendERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient27QWaylandHardwareIntegrationC1EP11wl_registryi@Base 5.5.0
+ _ZN15QtWaylandClient27QWaylandHardwareIntegrationC2EP11wl_registryi@Base 5.5.0
+ _ZN15QtWaylandClient30QWaylandShellIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient30QWaylandShellIntegrationPlugin11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient30QWaylandShellIntegrationPlugin16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient30QWaylandShellIntegrationPluginC1EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient30QWaylandShellIntegrationPluginC2EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient30QWaylandShellIntegrationPluginD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient30QWaylandShellIntegrationPluginD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient30QWaylandShellIntegrationPluginD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandClientBufferIntegrationC1Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandClientBufferIntegrationC2Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandClientBufferIntegrationD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandClientBufferIntegrationD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandClientBufferIntegrationD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandServerBufferIntegrationC1Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandServerBufferIntegrationC2Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandServerBufferIntegrationD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandServerBufferIntegrationD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandServerBufferIntegrationD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandShellIntegrationFactory4keysERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient31QWaylandShellIntegrationFactory6createERK7QStringRK11QStringListS3_@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration12openDocumentERK4QUrl@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration14openUrl_helperERK4QUrl@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration18windowmanager_quitEv@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration19windowmanager_hintsEi@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration22wlHandleListenerGlobalEPvP11wl_registryjRK7QStringj@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegration7openUrlERK4QUrl@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegrationC1EPNS_15QWaylandDisplayE@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegrationC2EPNS_15QWaylandDisplayE@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegrationD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegrationD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient32QWaylandWindowManagerIntegrationD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient36QWaylandInputDeviceIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient36QWaylandInputDeviceIntegrationPlugin11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient36QWaylandInputDeviceIntegrationPlugin16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient36QWaylandInputDeviceIntegrationPluginC1EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient36QWaylandInputDeviceIntegrationPluginC2EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient36QWaylandInputDeviceIntegrationPluginD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient36QWaylandInputDeviceIntegrationPluginD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient36QWaylandInputDeviceIntegrationPluginD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandClientBufferIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandClientBufferIntegrationPlugin11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandClientBufferIntegrationPlugin16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandClientBufferIntegrationPluginC1EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandClientBufferIntegrationPluginC2EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandClientBufferIntegrationPluginD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandClientBufferIntegrationPluginD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandClientBufferIntegrationPluginD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandInputDeviceIntegrationFactory4keysERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandInputDeviceIntegrationFactory6createERK7QStringRK11QStringListS3_@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandServerBufferIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandServerBufferIntegrationPlugin11qt_metacastEPKc@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandServerBufferIntegrationPlugin16staticMetaObjectE@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandServerBufferIntegrationPluginC1EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandServerBufferIntegrationPluginC2EP7QObject@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandServerBufferIntegrationPluginD0Ev@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandServerBufferIntegrationPluginD1Ev@Base 5.5.0
+ _ZN15QtWaylandClient37QWaylandServerBufferIntegrationPluginD2Ev@Base 5.5.0
+ _ZN15QtWaylandClient38QWaylandClientBufferIntegrationFactory4keysERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient38QWaylandClientBufferIntegrationFactory6createERK7QStringRK11QStringListS3_@Base 5.5.0
+ _ZN15QtWaylandClient38QWaylandServerBufferIntegrationFactory4keysERK7QString@Base 5.5.0
+ _ZN15QtWaylandClient38QWaylandServerBufferIntegrationFactory6createERK7QStringRK11QStringListS3_@Base 5.5.0
  _ZN9QtWayland10wl_pointer10set_cursorEjP10wl_surfaceii@Base 5.4.0
  _ZN9QtWayland10wl_pointer11handle_axisEPvP10wl_pointerjji@Base 5.4.0
  _ZN9QtWayland10wl_pointer12handle_enterEPvP10wl_pointerjP10wl_surfaceii@Base 5.4.0
@@ -488,6 +507,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland10wl_pointer21m_wl_pointer_listenerE@Base 5.4.0
  _ZN9QtWayland10wl_pointer4initEP10wl_pointer@Base 5.4.0
  _ZN9QtWayland10wl_pointer4initEP11wl_registryii@Base 5.4.0
+ _ZN9QtWayland10wl_pointer7releaseEv@Base 5.5.0
  _ZN9QtWayland10wl_pointerC1EP10wl_pointer@Base 5.4.0
  _ZN9QtWayland10wl_pointerC1EP11wl_registryii@Base 5.4.0
  _ZN9QtWayland10wl_pointerC1Ev@Base 5.4.0
@@ -552,6 +572,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland11wl_keyboard22m_wl_keyboard_listenerE@Base 5.4.0
  _ZN9QtWayland11wl_keyboard4initEP11wl_keyboard@Base 5.4.0
  _ZN9QtWayland11wl_keyboard4initEP11wl_registryii@Base 5.4.0
+ _ZN9QtWayland11wl_keyboard7releaseEv@Base 5.5.0
  _ZN9QtWayland11wl_keyboardC1EP11wl_keyboard@Base 5.4.0
  _ZN9QtWayland11wl_keyboardC1EP11wl_registryii@Base 5.4.0
  _ZN9QtWayland11wl_keyboardC1Ev@Base 5.4.0
@@ -594,24 +615,21 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland11wl_shm_poolD1Ev@Base 5.4.0
  _ZN9QtWayland11wl_shm_poolD2Ev@Base 5.4.0
  _ZN9QtWayland11xdg_surface10set_app_idERK7QString@Base 5.4.0
- _ZN9QtWayland11xdg_surface10set_marginEiiii@Base 5.4.0
- _ZN9QtWayland11xdg_surface10set_outputEP9wl_output@Base 5.4.0
+ _ZN9QtWayland11xdg_surface10set_parentEP10wl_surface@Base 5.5.0
  _ZN9QtWayland11xdg_surface12handle_closeEPvP11xdg_surface@Base 5.4.0
+ _ZN9QtWayland11xdg_surface13ack_configureEj@Base 5.5.0
  _ZN9QtWayland11xdg_surface13init_listenerEv@Base 5.4.0
+ _ZN9QtWayland11xdg_surface13set_maximizedEv@Base 5.5.0
  _ZN9QtWayland11xdg_surface13set_minimizedEv@Base 5.4.0
- _ZN9QtWayland11xdg_surface16ack_change_stateEjjj@Base 5.4.0
- _ZN9QtWayland11xdg_surface16handle_activatedEPvP11xdg_surface@Base 5.4.0
- _ZN9QtWayland11xdg_surface16handle_configureEPvP11xdg_surfaceii@Base 5.4.0
- _ZN9QtWayland11xdg_surface17set_transient_forEP10wl_surface@Base 5.4.0
+ _ZN9QtWayland11xdg_surface14set_fullscreenEP9wl_output@Base 5.5.0
+ _ZN9QtWayland11xdg_surface15unset_maximizedEv@Base 5.5.0
+ _ZN9QtWayland11xdg_surface16handle_configureEPvP11xdg_surfaceiiP8wl_arrayj@Base 5.5.0
+ _ZN9QtWayland11xdg_surface16show_window_menuEP7wl_seatjii@Base 5.5.0
+ _ZN9QtWayland11xdg_surface16unset_fullscreenEv@Base 5.5.0
  _ZN9QtWayland11xdg_surface17xdg_surface_closeEv@Base 5.4.0
- _ZN9QtWayland11xdg_surface18handle_deactivatedEPvP11xdg_surface@Base 5.4.0
- _ZN9QtWayland11xdg_surface19handle_change_stateEPvP11xdg_surfacejjj@Base 5.4.0
- _ZN9QtWayland11xdg_surface20request_change_stateEjjj@Base 5.4.0
- _ZN9QtWayland11xdg_surface21xdg_surface_activatedEv@Base 5.4.0
- _ZN9QtWayland11xdg_surface21xdg_surface_configureEii@Base 5.4.0
+ _ZN9QtWayland11xdg_surface19set_window_geometryEiiii@Base 5.5.0
+ _ZN9QtWayland11xdg_surface21xdg_surface_configureEiiP8wl_arrayj@Base 5.5.0
  _ZN9QtWayland11xdg_surface22m_xdg_surface_listenerE@Base 5.4.0
- _ZN9QtWayland11xdg_surface23xdg_surface_deactivatedEv@Base 5.4.0
- _ZN9QtWayland11xdg_surface24xdg_surface_change_stateEjjj@Base 5.4.0
  _ZN9QtWayland11xdg_surface4initEP11wl_registryii@Base 5.4.0
  _ZN9QtWayland11xdg_surface4initEP11xdg_surface@Base 5.4.0
  _ZN9QtWayland11xdg_surface4moveEP7wl_seatj@Base 5.4.0
@@ -658,6 +676,23 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland13wl_data_offerD0Ev@Base 5.4.0
  _ZN9QtWayland13wl_data_offerD1Ev@Base 5.4.0
  _ZN9QtWayland13wl_data_offerD2Ev@Base 5.4.0
+ _ZN9QtWayland13wl_subsurface10set_desyncEv@Base 5.5.0
+ _ZN9QtWayland13wl_subsurface11place_aboveEP10wl_surface@Base 5.5.0
+ _ZN9QtWayland13wl_subsurface11place_belowEP10wl_surface@Base 5.5.0
+ _ZN9QtWayland13wl_subsurface12set_positionEii@Base 5.5.0
+ _ZN9QtWayland13wl_subsurface4initEP11wl_registryii@Base 5.5.0
+ _ZN9QtWayland13wl_subsurface4initEP13wl_subsurface@Base 5.5.0
+ _ZN9QtWayland13wl_subsurface7destroyEv@Base 5.5.0
+ _ZN9QtWayland13wl_subsurface8set_syncEv@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceC1EP11wl_registryii@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceC1EP13wl_subsurface@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceC1Ev@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceC2EP11wl_registryii@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceC2EP13wl_subsurface@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceC2Ev@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceD0Ev@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceD1Ev@Base 5.5.0
+ _ZN9QtWayland13wl_subsurfaceD2Ev@Base 5.5.0
  _ZN9QtWayland13wl_text_input10deactivateEP7wl_seat@Base 5.4.0
  _ZN9QtWayland13wl_text_input12commit_stateEj@Base 5.4.0
  _ZN9QtWayland13wl_text_input12handle_enterEPvP13wl_text_inputP10wl_surface@Base 5.4.0
@@ -846,6 +881,19 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland16wl_shell_surfaceD0Ev@Base 5.4.0
  _ZN9QtWayland16wl_shell_surfaceD1Ev@Base 5.4.0
  _ZN9QtWayland16wl_shell_surfaceD2Ev@Base 5.4.0
+ _ZN9QtWayland16wl_subcompositor14get_subsurfaceEP10wl_surfaceS2_@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositor4initEP11wl_registryii@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositor4initEP16wl_subcompositor@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositor7destroyEv@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorC1EP11wl_registryii@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorC1EP16wl_subcompositor@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorC1Ev@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorC2EP11wl_registryii@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorC2EP16wl_subcompositor@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorC2Ev@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorD0Ev@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorD1Ev@Base 5.5.0
+ _ZN9QtWayland16wl_subcompositorD2Ev@Base 5.5.0
  _ZN9QtWayland18qt_extended_output4initEP11wl_registryii@Base 5.4.0
  _ZN9QtWayland18qt_extended_output4initEP18qt_extended_output@Base 5.4.0
  _ZN9QtWayland18qt_extended_outputC1EP11wl_registryii@Base 5.4.0
@@ -1037,6 +1085,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland8wl_touch19m_wl_touch_listenerE@Base 5.4.0
  _ZN9QtWayland8wl_touch4initEP11wl_registryii@Base 5.4.0
  _ZN9QtWayland8wl_touch4initEP8wl_touch@Base 5.4.0
+ _ZN9QtWayland8wl_touch7releaseEv@Base 5.5.0
  _ZN9QtWayland8wl_touch8touch_upEjji@Base 5.4.0
  _ZN9QtWayland8wl_touch9handle_upEPvP8wl_touchjji@Base 5.4.0
  _ZN9QtWayland8wl_touchC1EP11wl_registryii@Base 5.4.0
@@ -1162,94 +1211,105 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK13QFontEngineFT9doKerningEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.4.0
  _ZNK13QFontEngineFT9loadFlagsEPNS_9QGlyphSetEN11QFontEngine11GlyphFormatEiRbRi@Base 5.4.0
  _ZNK13QFontEngineFT9loadGlyphEPNS_9QGlyphSetEj6QFixedN11QFontEngine11GlyphFormatEb@Base 5.4.0
- _ZNK14QWaylandCursor3posEv@Base 5.4.0
- _ZNK14QWaylandScreen10logicalDpiEv@Base 5.4.0
- _ZNK14QWaylandScreen11orientationEv@Base 5.4.0
- _ZNK14QWaylandScreen11refreshRateEv@Base 5.4.0
- _ZNK14QWaylandScreen12physicalSizeEv@Base 5.4.0
- _ZNK14QWaylandScreen14extendedOutputEv@Base 5.4.0
- _ZNK14QWaylandScreen15virtualSiblingsEv@Base 5.4.0+git20150223.0012
- _ZNK14QWaylandScreen5depthEv@Base 5.4.0
- _ZNK14QWaylandScreen6cursorEv@Base 5.4.0
- _ZNK14QWaylandScreen6formatEv@Base 5.4.0
- _ZNK14QWaylandScreen7displayEv@Base 5.4.0
- _ZNK14QWaylandScreen8geometryEv@Base 5.4.0
- _ZNK14QWaylandWindow10decorationEv@Base 5.4.0
- _ZNK14QWaylandWindow10metaObjectEv@Base 5.4.0
- _ZNK14QWaylandWindow10propertiesEv@Base 5.4.0
- _ZNK14QWaylandWindow12frameMarginsEv@Base 5.4.0
- _ZNK14QWaylandWindow12shellSurfaceEv@Base 5.4.0
- _ZNK14QWaylandWindow15transientParentEv@Base 5.4.0
- _ZNK14QWaylandWindow16subSurfaceWindowEv@Base 5.4.0
- _ZNK14QWaylandWindow5winIdEv@Base 5.4.0
- _ZNK14QWaylandWindow8attachedEv@Base 5.4.0
- _ZNK14QWaylandWindow9isExposedEv@Base 5.4.0
- _ZNK15QWaylandDisplay10metaObjectEv@Base 5.4.0
- _ZNK15QWaylandDisplay15screenForOutputEP9wl_output@Base 5.4.0
- _ZNK15QWaylandDisplay18defaultInputDeviceEv@Base 5.4.0
- _ZNK15QWaylandDisplay23clientBufferIntegrationEv@Base 5.4.0
- _ZNK15QWaylandDisplay24supportsWindowDecorationEv@Base 5.4.0
- _ZNK15QWaylandDisplay24windowManagerIntegrationEv@Base 5.4.0
- _ZNK15QWaylandDisplay28lastKeyboardFocusInputDeviceEv@Base 5.4.0
- _ZNK17QWaylandClipboard12supportsModeEN10QClipboard4ModeE@Base 5.4.0
- _ZNK17QWaylandClipboard8ownsModeEN10QClipboard4ModeE@Base 5.4.0
- _ZNK17QWaylandDataOffer11firstFormatEv@Base 5.4.0
- _ZNK17QWaylandShmWindow10windowTypeEv@Base 5.4.0
- _ZNK18QWaylandDataSource10metaObjectEv@Base 5.4.0
- _ZNK18QWaylandDataSource8mimeDataEv@Base 5.4.0
- _ZNK19QWaylandEventThread10checkErrorEv@Base 5.4.0
- _ZNK19QWaylandEventThread10metaObjectEv@Base 5.4.0
- _ZNK19QWaylandEventThread7displayEv@Base 5.4.0
- _ZNK19QWaylandInputDevice10dataDeviceEv@Base 5.4.0
- _ZNK19QWaylandInputDevice10metaObjectEv@Base 5.4.0
- _ZNK19QWaylandInputDevice10touchFocusEv@Base 5.4.0
- _ZNK19QWaylandInputDevice12cursorSerialEv@Base 5.4.0
- _ZNK19QWaylandInputDevice12pointerFocusEv@Base 5.4.0
- _ZNK19QWaylandInputDevice13keyboardFocusEv@Base 5.4.0
- _ZNK19QWaylandInputDevice9modifiersEv@Base 5.4.0
- _ZNK19QWaylandIntegration10themeNamesEv@Base 5.4.0
- _ZNK19QWaylandIntegration12fontDatabaseEv@Base 5.4.0
- _ZNK19QWaylandIntegration12inputContextEv@Base 5.4.0
- _ZNK19QWaylandIntegration13accessibilityEv@Base 5.4.0
- _ZNK19QWaylandIntegration13hasCapabilityEN20QPlatformIntegration10CapabilityE@Base 5.4.0
- _ZNK19QWaylandIntegration15nativeInterfaceEv@Base 5.4.0
- _ZNK19QWaylandIntegration16shellIntegrationEv@Base 5.4.0
- _ZNK19QWaylandIntegration19createPlatformThemeERK7QString@Base 5.4.0
- _ZNK19QWaylandIntegration20createPlatformWindowEP7QWindow@Base 5.4.0
- _ZNK19QWaylandIntegration21createEventDispatcherEv@Base 5.4.0
- _ZNK19QWaylandIntegration23clientBufferIntegrationEv@Base 5.4.0
- _ZNK19QWaylandIntegration23serverBufferIntegrationEv@Base 5.4.0
- _ZNK19QWaylandIntegration26createPlatformBackingStoreEP7QWindow@Base 5.4.0
- _ZNK19QWaylandIntegration27createPlatformOpenGLContextEP14QOpenGLContext@Base 5.4.0
- _ZNK19QWaylandIntegration4dragEv@Base 5.4.0
- _ZNK19QWaylandIntegration7displayEv@Base 5.4.0
- _ZNK19QWaylandIntegration8servicesEv@Base 5.4.0
- _ZNK19QWaylandIntegration9clipboardEv@Base 5.4.0
- _ZNK19QWaylandIntegration9styleHintEN20QPlatformIntegration9StyleHintE@Base 5.4.0
- _ZNK20QWaylandServerBuffer4sizeEv@Base 5.4.0
- _ZNK20QWaylandServerBuffer6formatEv@Base 5.4.0
- _ZNK20QWaylandServerBuffer8userDataEv@Base 5.4.0
- _ZNK23QWaylandNativeInterface14windowPropertyEP15QPlatformWindowRK7QString@Base 5.4.0
- _ZNK23QWaylandNativeInterface14windowPropertyEP15QPlatformWindowRK7QStringRK8QVariant@Base 5.4.0
- _ZNK23QWaylandNativeInterface16windowPropertiesEP15QPlatformWindow@Base 5.4.0
- _ZNK23QWaylandShmBackingStore13entireSurfaceEv@Base 5.4.0
- _ZNK23QWaylandShmBackingStore13waylandWindowEv@Base 5.4.0
- _ZNK23QWaylandShmBackingStore14contentSurfaceEv@Base 5.4.0
- _ZNK23QWaylandShmBackingStore16windowDecorationEv@Base 5.4.0
- _ZNK23QWaylandShmBackingStore23windowDecorationMarginsEv@Base 5.4.0
- _ZNK23QWaylandShmBackingStore7toImageEv@Base 5.4.0
- _ZNK24QWaylandDecorationPlugin10metaObjectEv@Base 5.4.0
- _ZNK25QWaylandDataDeviceManager7displayEv@Base 5.4.0
- _ZNK26QWaylandAbstractDecoration10metaObjectEv@Base 5.4.0
- _ZNK26QWaylandAbstractDecoration13waylandWindowEv@Base 5.4.0
- _ZNK26QWaylandAbstractDecoration6windowEv@Base 5.4.0
- _ZNK26QWaylandAbstractDecoration7isDirtyEv@Base 5.4.0
- _ZNK30QWaylandShellIntegrationPlugin10metaObjectEv@Base 5.4.0
- _ZNK32QWaylandWindowManagerIntegration10metaObjectEv@Base 5.4.0
- _ZNK32QWaylandWindowManagerIntegration16showIsFullScreenEv@Base 5.4.0
- _ZNK32QWaylandWindowManagerIntegration18desktopEnvironmentEv@Base 5.4.0
- _ZNK37QWaylandClientBufferIntegrationPlugin10metaObjectEv@Base 5.4.0
- _ZNK37QWaylandServerBufferIntegrationPlugin10metaObjectEv@Base 5.4.0
+ _ZNK15QtWaylandClient14QWaylandCursor3posEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen10logicalDpiEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen11orientationEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen11refreshRateEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen12physicalSizeEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen14extendedOutputEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen15virtualSiblingsEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen16devicePixelRatioEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen5depthEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen5scaleEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen6cursorEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen6formatEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen7displayEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandScreen8geometryEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow10decorationEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow10propertiesEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow12frameMarginsEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow12shellSurfaceEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow15transientParentEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow16devicePixelRatioEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow16subSurfaceWindowEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow5scaleEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow5winIdEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow8attachedEv@Base 5.5.0
+ _ZNK15QtWaylandClient14QWaylandWindow9isExposedEv@Base 5.5.0
+ _ZNK15QtWaylandClient15QWaylandDisplay10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient15QWaylandDisplay15lastInputWindowEv@Base 5.5.0
+ _ZNK15QtWaylandClient15QWaylandDisplay15screenForOutputEP9wl_output@Base 5.5.0
+ _ZNK15QtWaylandClient15QWaylandDisplay18defaultInputDeviceEv@Base 5.5.0
+ _ZNK15QtWaylandClient15QWaylandDisplay23clientBufferIntegrationEv@Base 5.5.0
+ _ZNK15QtWaylandClient15QWaylandDisplay24supportsWindowDecorationEv@Base 5.5.0
+ _ZNK15QtWaylandClient15QWaylandDisplay24windowManagerIntegrationEv@Base 5.5.0
+ _ZNK15QtWaylandClient15QWaylandDisplay28lastKeyboardFocusInputDeviceEv@Base 5.5.0
+ _ZNK15QtWaylandClient17QWaylandClipboard12supportsModeEN10QClipboard4ModeE@Base 5.5.0
+ _ZNK15QtWaylandClient17QWaylandClipboard8ownsModeEN10QClipboard4ModeE@Base 5.5.0
+ _ZNK15QtWaylandClient17QWaylandDataOffer11firstFormatEv@Base 5.5.0
+ _ZNK15QtWaylandClient17QWaylandShmWindow10windowTypeEv@Base 5.5.0
+ _ZNK15QtWaylandClient18QWaylandDataSource10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient18QWaylandDataSource8mimeDataEv@Base 5.5.0
+ _ZNK15QtWaylandClient18QWaylandXdgSurface10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandEventThread10checkErrorEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandEventThread10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandEventThread7displayEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice10dataDeviceEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice10touchFocusEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice12cursorSerialEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice12pointerFocusEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice13keyboardFocusEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice8Keyboard10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice8Keyboard9modifiersEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandInputDevice9modifiersEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration10themeNamesEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration12fontDatabaseEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration12inputContextEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration13accessibilityEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration13hasCapabilityEN20QPlatformIntegration10CapabilityE@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration15nativeInterfaceEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration16shellIntegrationEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration19createPlatformThemeERK7QString@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration20createPlatformWindowEP7QWindow@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration21createEventDispatcherEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration23clientBufferIntegrationEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration23serverBufferIntegrationEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration26createPlatformBackingStoreEP7QWindow@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration27createPlatformOpenGLContextEP14QOpenGLContext@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration4dragEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration7displayEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration8servicesEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration9clipboardEv@Base 5.5.0
+ _ZNK15QtWaylandClient19QWaylandIntegration9styleHintEN20QPlatformIntegration9StyleHintE@Base 5.5.0
+ _ZNK15QtWaylandClient20QWaylandServerBuffer4sizeEv@Base 5.5.0
+ _ZNK15QtWaylandClient20QWaylandServerBuffer6formatEv@Base 5.5.0
+ _ZNK15QtWaylandClient20QWaylandServerBuffer8userDataEv@Base 5.5.0
+ _ZNK15QtWaylandClient20QWaylandShellSurface10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient22QWaylandWlShellSurface10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandNativeInterface14windowPropertyEP15QPlatformWindowRK7QString@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandNativeInterface14windowPropertyEP15QPlatformWindowRK7QStringRK8QVariant@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandNativeInterface16windowPropertiesEP15QPlatformWindow@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandShmBackingStore13entireSurfaceEv@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandShmBackingStore13waylandWindowEv@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandShmBackingStore14contentSurfaceEv@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandShmBackingStore16windowDecorationEv@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandShmBackingStore23windowDecorationMarginsEv@Base 5.5.0
+ _ZNK15QtWaylandClient23QWaylandShmBackingStore7toImageEv@Base 5.5.0
+ _ZNK15QtWaylandClient24QWaylandDecorationPlugin10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient25QWaylandDataDeviceManager7displayEv@Base 5.5.0
+ _ZNK15QtWaylandClient26QWaylandAbstractDecoration10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient26QWaylandAbstractDecoration13waylandWindowEv@Base 5.5.0
+ _ZNK15QtWaylandClient26QWaylandAbstractDecoration6windowEv@Base 5.5.0
+ _ZNK15QtWaylandClient26QWaylandAbstractDecoration7isDirtyEv@Base 5.5.0
+ _ZNK15QtWaylandClient30QWaylandShellIntegrationPlugin10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient32QWaylandWindowManagerIntegration10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient32QWaylandWindowManagerIntegration16showIsFullScreenEv@Base 5.5.0
+ _ZNK15QtWaylandClient32QWaylandWindowManagerIntegration18desktopEnvironmentEv@Base 5.5.0
+ _ZNK15QtWaylandClient36QWaylandInputDeviceIntegrationPlugin10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient37QWaylandClientBufferIntegrationPlugin10metaObjectEv@Base 5.5.0
+ _ZNK15QtWaylandClient37QWaylandServerBufferIntegrationPlugin10metaObjectEv@Base 5.5.0
  _ZNK9QtWayland10wl_pointer13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland10wl_surface13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland11wl_callback13isInitializedEv@Base 5.4.0
@@ -1259,6 +1319,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK9QtWayland11xdg_surface13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland13wl_compositor13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland13wl_data_offer13isInitializedEv@Base 5.4.0
+ _ZNK9QtWayland13wl_subsurface13isInitializedEv@Base 5.5.0
  _ZNK9QtWayland13wl_text_input13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland14qt_sub_surface13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland14wl_data_device13isInitializedEv@Base 5.4.0
@@ -1267,6 +1328,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK9QtWayland16qt_server_buffer13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland16qt_windowmanager13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland16wl_shell_surface13isInitializedEv@Base 5.4.0
+ _ZNK9QtWayland16wl_subcompositor13isInitializedEv@Base 5.5.0
  _ZNK9QtWayland18qt_extended_output13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland18qt_touch_extension13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland19qt_extended_surface13isInitializedEv@Base 5.4.0
@@ -1285,49 +1347,50 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK9QtWayland9wl_region13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland9xdg_popup13isInitializedEv@Base 5.4.0
  _ZNK9QtWayland9xdg_shell13isInitializedEv@Base 5.4.0
- _ZTI12QWaylandDrag@Base 5.4.0
  _ZTI13QFontEngineFT@Base 5.4.0
- _ZTI14QWaylandBuffer@Base 5.4.0
- _ZTI14QWaylandCursor@Base 5.4.0
- _ZTI14QWaylandScreen@Base 5.4.0
- _ZTI14QWaylandWindow@Base 5.4.0
- _ZTI15QWaylandDisplay@Base 5.4.0
- _ZTI16QWaylandXdgShell@Base 5.4.0
  _ZTI17QInputMethodEvent@Base 5.4.0
- _ZTI17QWaylandClipboard@Base 5.4.0
- _ZTI17QWaylandDataOffer@Base 5.4.0
- _ZTI17QWaylandShmBuffer@Base 5.4.0
- _ZTI17QWaylandShmWindow@Base 5.4.0
- _ZTI18QWaylandDataSource@Base 5.4.0
- _ZTI18QWaylandSubSurface@Base 5.4.0
- _ZTI18QWaylandXdgSurface@Base 5.4.0
- _ZTI19QWaylandEventThread@Base 5.4.0
- _ZTI19QWaylandInputDevice@Base 5.4.0
- _ZTI19QWaylandIntegration@Base 5.4.0
- _ZTI20QWaylandServerBuffer@Base 5.4.0
- _ZTI20QWaylandShellSurface@Base 5.4.0
- _ZTI22QWaylandExtendedOutput@Base 5.4.0
- _ZTI22QWaylandQtKeyExtension@Base 5.4.0
- _ZTI22QWaylandTouchExtension@Base 5.4.0
- _ZTI22QWaylandWlShellSurface@Base 5.4.0
- _ZTI23QWaylandExtendedSurface@Base 5.4.0
- _ZTI23QWaylandNativeInterface@Base 5.4.0
- _ZTI23QWaylandShmBackingStore@Base 5.4.0
- _ZTI24QWaylandDecorationPlugin@Base 5.4.0
- _ZTI25QWaylandDataDeviceManager@Base 5.4.0
- _ZTI26QWaylandAbstractDecoration@Base 5.4.0
  _ZTI27QEventDispatcherGlibPrivate@Base 5.4.0
- _ZTI27QWaylandHardwareIntegration@Base 5.4.0
- _ZTI30QWaylandShellIntegrationPlugin@Base 5.4.0
  _ZTI31QAbstractEventDispatcherPrivate@Base 5.4.0
- _ZTI31QWaylandClientBufferIntegration@Base 5.4.0
- _ZTI31QWaylandServerBufferIntegration@Base 5.4.0
- _ZTI32QWaylandWindowManagerIntegration@Base 5.4.0
- _ZTI37QWaylandClientBufferIntegrationPlugin@Base 5.4.0
- _ZTI37QWaylandServerBufferIntegrationPlugin@Base 5.4.0
- _ZTIN19QWaylandInputDevice5TouchE@Base 5.4.0
- _ZTIN19QWaylandInputDevice7PointerE@Base 5.4.0
- _ZTIN19QWaylandInputDevice8KeyboardE@Base 5.4.0
+ _ZTIN15QtWaylandClient12QWaylandDragE@Base 5.5.0
+ _ZTIN15QtWaylandClient14QWaylandBufferE@Base 5.5.0
+ _ZTIN15QtWaylandClient14QWaylandCursorE@Base 5.5.0
+ _ZTIN15QtWaylandClient14QWaylandScreenE@Base 5.5.0
+ _ZTIN15QtWaylandClient14QWaylandWindowE@Base 5.5.0
+ _ZTIN15QtWaylandClient15QWaylandDisplayE@Base 5.5.0
+ _ZTIN15QtWaylandClient16QWaylandXdgShellE@Base 5.5.0
+ _ZTIN15QtWaylandClient17QWaylandClipboardE@Base 5.5.0
+ _ZTIN15QtWaylandClient17QWaylandDataOfferE@Base 5.5.0
+ _ZTIN15QtWaylandClient17QWaylandShmBufferE@Base 5.5.0
+ _ZTIN15QtWaylandClient17QWaylandShmWindowE@Base 5.5.0
+ _ZTIN15QtWaylandClient18QWaylandDataSourceE@Base 5.5.0
+ _ZTIN15QtWaylandClient18QWaylandSubSurfaceE@Base 5.5.0
+ _ZTIN15QtWaylandClient18QWaylandXdgSurfaceE@Base 5.5.0
+ _ZTIN15QtWaylandClient19QWaylandEventThreadE@Base 5.5.0
+ _ZTIN15QtWaylandClient19QWaylandInputDevice5TouchE@Base 5.5.0
+ _ZTIN15QtWaylandClient19QWaylandInputDevice7PointerE@Base 5.5.0
+ _ZTIN15QtWaylandClient19QWaylandInputDevice8KeyboardE@Base 5.5.0
+ _ZTIN15QtWaylandClient19QWaylandInputDeviceE@Base 5.5.0
+ _ZTIN15QtWaylandClient19QWaylandIntegrationE@Base 5.5.0
+ _ZTIN15QtWaylandClient20QWaylandServerBufferE@Base 5.5.0
+ _ZTIN15QtWaylandClient20QWaylandShellSurfaceE@Base 5.5.0
+ _ZTIN15QtWaylandClient22QWaylandExtendedOutputE@Base 5.5.0
+ _ZTIN15QtWaylandClient22QWaylandQtKeyExtensionE@Base 5.5.0
+ _ZTIN15QtWaylandClient22QWaylandTouchExtensionE@Base 5.5.0
+ _ZTIN15QtWaylandClient22QWaylandWlShellSurfaceE@Base 5.5.0
+ _ZTIN15QtWaylandClient23QWaylandExtendedSurfaceE@Base 5.5.0
+ _ZTIN15QtWaylandClient23QWaylandNativeInterfaceE@Base 5.5.0
+ _ZTIN15QtWaylandClient23QWaylandShmBackingStoreE@Base 5.5.0
+ _ZTIN15QtWaylandClient24QWaylandDecorationPluginE@Base 5.5.0
+ _ZTIN15QtWaylandClient25QWaylandDataDeviceManagerE@Base 5.5.0
+ _ZTIN15QtWaylandClient26QWaylandAbstractDecorationE@Base 5.5.0
+ _ZTIN15QtWaylandClient27QWaylandHardwareIntegrationE@Base 5.5.0
+ _ZTIN15QtWaylandClient30QWaylandShellIntegrationPluginE@Base 5.5.0
+ _ZTIN15QtWaylandClient31QWaylandClientBufferIntegrationE@Base 5.5.0
+ _ZTIN15QtWaylandClient31QWaylandServerBufferIntegrationE@Base 5.5.0
+ _ZTIN15QtWaylandClient32QWaylandWindowManagerIntegrationE@Base 5.5.0
+ _ZTIN15QtWaylandClient36QWaylandInputDeviceIntegrationPluginE@Base 5.5.0
+ _ZTIN15QtWaylandClient37QWaylandClientBufferIntegrationPluginE@Base 5.5.0
+ _ZTIN15QtWaylandClient37QWaylandServerBufferIntegrationPluginE@Base 5.5.0
  _ZTIN9QtWayland10wl_pointerE@Base 5.4.0
  _ZTIN9QtWayland10wl_surfaceE@Base 5.4.0
  _ZTIN9QtWayland11wl_callbackE@Base 5.4.0
@@ -1337,6 +1400,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTIN9QtWayland11xdg_surfaceE@Base 5.4.0
  _ZTIN9QtWayland13wl_compositorE@Base 5.4.0
  _ZTIN9QtWayland13wl_data_offerE@Base 5.4.0
+ _ZTIN9QtWayland13wl_subsurfaceE@Base 5.5.0
  _ZTIN9QtWayland13wl_text_inputE@Base 5.4.0
  _ZTIN9QtWayland14qt_sub_surfaceE@Base 5.4.0
  _ZTIN9QtWayland14wl_data_deviceE@Base 5.4.0
@@ -1345,6 +1409,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTIN9QtWayland16qt_server_bufferE@Base 5.4.0
  _ZTIN9QtWayland16qt_windowmanagerE@Base 5.4.0
  _ZTIN9QtWayland16wl_shell_surfaceE@Base 5.4.0
+ _ZTIN9QtWayland16wl_subcompositorE@Base 5.5.0
  _ZTIN9QtWayland18qt_extended_outputE@Base 5.4.0
  _ZTIN9QtWayland18qt_touch_extensionE@Base 5.4.0
  _ZTIN9QtWayland19qt_extended_surfaceE@Base 5.4.0
@@ -1363,49 +1428,50 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTIN9QtWayland9wl_regionE@Base 5.4.0
  _ZTIN9QtWayland9xdg_popupE@Base 5.4.0
  _ZTIN9QtWayland9xdg_shellE@Base 5.4.0
- _ZTS12QWaylandDrag@Base 5.4.0
  _ZTS13QFontEngineFT@Base 5.4.0
- _ZTS14QWaylandBuffer@Base 5.4.0
- _ZTS14QWaylandCursor@Base 5.4.0
- _ZTS14QWaylandScreen@Base 5.4.0
- _ZTS14QWaylandWindow@Base 5.4.0
- _ZTS15QWaylandDisplay@Base 5.4.0
- _ZTS16QWaylandXdgShell@Base 5.4.0
  _ZTS17QInputMethodEvent@Base 5.4.0
- _ZTS17QWaylandClipboard@Base 5.4.0
- _ZTS17QWaylandDataOffer@Base 5.4.0
- _ZTS17QWaylandShmBuffer@Base 5.4.0
- _ZTS17QWaylandShmWindow@Base 5.4.0
- _ZTS18QWaylandDataSource@Base 5.4.0
- _ZTS18QWaylandSubSurface@Base 5.4.0
- _ZTS18QWaylandXdgSurface@Base 5.4.0
- _ZTS19QWaylandEventThread@Base 5.4.0
- _ZTS19QWaylandInputDevice@Base 5.4.0
- _ZTS19QWaylandIntegration@Base 5.4.0
- _ZTS20QWaylandServerBuffer@Base 5.4.0
- _ZTS20QWaylandShellSurface@Base 5.4.0
- _ZTS22QWaylandExtendedOutput@Base 5.4.0
- _ZTS22QWaylandQtKeyExtension@Base 5.4.0
- _ZTS22QWaylandTouchExtension@Base 5.4.0
- _ZTS22QWaylandWlShellSurface@Base 5.4.0
- _ZTS23QWaylandExtendedSurface@Base 5.4.0
- _ZTS23QWaylandNativeInterface@Base 5.4.0
- _ZTS23QWaylandShmBackingStore@Base 5.4.0
- _ZTS24QWaylandDecorationPlugin@Base 5.4.0
- _ZTS25QWaylandDataDeviceManager@Base 5.4.0
- _ZTS26QWaylandAbstractDecoration@Base 5.4.0
  _ZTS27QEventDispatcherGlibPrivate@Base 5.4.0
- _ZTS27QWaylandHardwareIntegration@Base 5.4.0
- _ZTS30QWaylandShellIntegrationPlugin@Base 5.4.0
  _ZTS31QAbstractEventDispatcherPrivate@Base 5.4.0
- _ZTS31QWaylandClientBufferIntegration@Base 5.4.0
- _ZTS31QWaylandServerBufferIntegration@Base 5.4.0
- _ZTS32QWaylandWindowManagerIntegration@Base 5.4.0
- _ZTS37QWaylandClientBufferIntegrationPlugin@Base 5.4.0
- _ZTS37QWaylandServerBufferIntegrationPlugin@Base 5.4.0
- _ZTSN19QWaylandInputDevice5TouchE@Base 5.4.0
- _ZTSN19QWaylandInputDevice7PointerE@Base 5.4.0
- _ZTSN19QWaylandInputDevice8KeyboardE@Base 5.4.0
+ _ZTSN15QtWaylandClient12QWaylandDragE@Base 5.5.0
+ _ZTSN15QtWaylandClient14QWaylandBufferE@Base 5.5.0
+ _ZTSN15QtWaylandClient14QWaylandCursorE@Base 5.5.0
+ _ZTSN15QtWaylandClient14QWaylandScreenE@Base 5.5.0
+ _ZTSN15QtWaylandClient14QWaylandWindowE@Base 5.5.0
+ _ZTSN15QtWaylandClient15QWaylandDisplayE@Base 5.5.0
+ _ZTSN15QtWaylandClient16QWaylandXdgShellE@Base 5.5.0
+ _ZTSN15QtWaylandClient17QWaylandClipboardE@Base 5.5.0
+ _ZTSN15QtWaylandClient17QWaylandDataOfferE@Base 5.5.0
+ _ZTSN15QtWaylandClient17QWaylandShmBufferE@Base 5.5.0
+ _ZTSN15QtWaylandClient17QWaylandShmWindowE@Base 5.5.0
+ _ZTSN15QtWaylandClient18QWaylandDataSourceE@Base 5.5.0
+ _ZTSN15QtWaylandClient18QWaylandSubSurfaceE@Base 5.5.0
+ _ZTSN15QtWaylandClient18QWaylandXdgSurfaceE@Base 5.5.0
+ _ZTSN15QtWaylandClient19QWaylandEventThreadE@Base 5.5.0
+ _ZTSN15QtWaylandClient19QWaylandInputDevice5TouchE@Base 5.5.0
+ _ZTSN15QtWaylandClient19QWaylandInputDevice7PointerE@Base 5.5.0
+ _ZTSN15QtWaylandClient19QWaylandInputDevice8KeyboardE@Base 5.5.0
+ _ZTSN15QtWaylandClient19QWaylandInputDeviceE@Base 5.5.0
+ _ZTSN15QtWaylandClient19QWaylandIntegrationE@Base 5.5.0
+ _ZTSN15QtWaylandClient20QWaylandServerBufferE@Base 5.5.0
+ _ZTSN15QtWaylandClient20QWaylandShellSurfaceE@Base 5.5.0
+ _ZTSN15QtWaylandClient22QWaylandExtendedOutputE@Base 5.5.0
+ _ZTSN15QtWaylandClient22QWaylandQtKeyExtensionE@Base 5.5.0
+ _ZTSN15QtWaylandClient22QWaylandTouchExtensionE@Base 5.5.0
+ _ZTSN15QtWaylandClient22QWaylandWlShellSurfaceE@Base 5.5.0
+ _ZTSN15QtWaylandClient23QWaylandExtendedSurfaceE@Base 5.5.0
+ _ZTSN15QtWaylandClient23QWaylandNativeInterfaceE@Base 5.5.0
+ _ZTSN15QtWaylandClient23QWaylandShmBackingStoreE@Base 5.5.0
+ _ZTSN15QtWaylandClient24QWaylandDecorationPluginE@Base 5.5.0
+ _ZTSN15QtWaylandClient25QWaylandDataDeviceManagerE@Base 5.5.0
+ _ZTSN15QtWaylandClient26QWaylandAbstractDecorationE@Base 5.5.0
+ _ZTSN15QtWaylandClient27QWaylandHardwareIntegrationE@Base 5.5.0
+ _ZTSN15QtWaylandClient30QWaylandShellIntegrationPluginE@Base 5.5.0
+ _ZTSN15QtWaylandClient31QWaylandClientBufferIntegrationE@Base 5.5.0
+ _ZTSN15QtWaylandClient31QWaylandServerBufferIntegrationE@Base 5.5.0
+ _ZTSN15QtWaylandClient32QWaylandWindowManagerIntegrationE@Base 5.5.0
+ _ZTSN15QtWaylandClient36QWaylandInputDeviceIntegrationPluginE@Base 5.5.0
+ _ZTSN15QtWaylandClient37QWaylandClientBufferIntegrationPluginE@Base 5.5.0
+ _ZTSN15QtWaylandClient37QWaylandServerBufferIntegrationPluginE@Base 5.5.0
  _ZTSN9QtWayland10wl_pointerE@Base 5.4.0
  _ZTSN9QtWayland10wl_surfaceE@Base 5.4.0
  _ZTSN9QtWayland11wl_callbackE@Base 5.4.0
@@ -1415,6 +1481,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN9QtWayland11xdg_surfaceE@Base 5.4.0
  _ZTSN9QtWayland13wl_compositorE@Base 5.4.0
  _ZTSN9QtWayland13wl_data_offerE@Base 5.4.0
+ _ZTSN9QtWayland13wl_subsurfaceE@Base 5.5.0
  _ZTSN9QtWayland13wl_text_inputE@Base 5.4.0
  _ZTSN9QtWayland14qt_sub_surfaceE@Base 5.4.0
  _ZTSN9QtWayland14wl_data_deviceE@Base 5.4.0
@@ -1423,6 +1490,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN9QtWayland16qt_server_bufferE@Base 5.4.0
  _ZTSN9QtWayland16qt_windowmanagerE@Base 5.4.0
  _ZTSN9QtWayland16wl_shell_surfaceE@Base 5.4.0
+ _ZTSN9QtWayland16wl_subcompositorE@Base 5.5.0
  _ZTSN9QtWayland18qt_extended_outputE@Base 5.4.0
  _ZTSN9QtWayland18qt_touch_extensionE@Base 5.4.0
  _ZTSN9QtWayland19qt_extended_surfaceE@Base 5.4.0
@@ -1441,49 +1509,48 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN9QtWayland9wl_regionE@Base 5.4.0
  _ZTSN9QtWayland9xdg_popupE@Base 5.4.0
  _ZTSN9QtWayland9xdg_shellE@Base 5.4.0
- _ZTV12QWaylandDrag@Base 5.4.0
  _ZTV13QFontEngineFT@Base 5.4.0
- _ZTV14QWaylandBuffer@Base 5.4.0
- _ZTV14QWaylandCursor@Base 5.4.0
- _ZTV14QWaylandScreen@Base 5.4.0
- _ZTV14QWaylandWindow@Base 5.4.0
- _ZTV15QWaylandDisplay@Base 5.4.0
- _ZTV16QWaylandXdgShell@Base 5.4.0
  _ZTV17QInputMethodEvent@Base 5.4.0
- _ZTV17QWaylandClipboard@Base 5.4.0
- _ZTV17QWaylandDataOffer@Base 5.4.0
- _ZTV17QWaylandShmBuffer@Base 5.4.0
- _ZTV17QWaylandShmWindow@Base 5.4.0
- _ZTV18QWaylandDataSource@Base 5.4.0
- _ZTV18QWaylandSubSurface@Base 5.4.0
- _ZTV18QWaylandXdgSurface@Base 5.4.0
- _ZTV19QWaylandEventThread@Base 5.4.0
- _ZTV19QWaylandInputDevice@Base 5.4.0
- _ZTV19QWaylandIntegration@Base 5.4.0
- _ZTV20QWaylandServerBuffer@Base 5.4.0
- _ZTV20QWaylandShellSurface@Base 5.4.0
- _ZTV22QWaylandExtendedOutput@Base 5.4.0
- _ZTV22QWaylandQtKeyExtension@Base 5.4.0
- _ZTV22QWaylandTouchExtension@Base 5.4.0
- _ZTV22QWaylandWlShellSurface@Base 5.4.0
- _ZTV23QWaylandExtendedSurface@Base 5.4.0
- _ZTV23QWaylandNativeInterface@Base 5.4.0
- _ZTV23QWaylandShmBackingStore@Base 5.4.0
- _ZTV24QWaylandDecorationPlugin@Base 5.4.0
- _ZTV25QWaylandDataDeviceManager@Base 5.4.0
- _ZTV26QWaylandAbstractDecoration@Base 5.4.0
- _ZTV27QEventDispatcherGlibPrivate@Base 5.4.0
- _ZTV27QWaylandHardwareIntegration@Base 5.4.0
- _ZTV30QWaylandShellIntegrationPlugin@Base 5.4.0
  _ZTV31QAbstractEventDispatcherPrivate@Base 5.4.0
- _ZTV31QWaylandClientBufferIntegration@Base 5.4.0
- _ZTV31QWaylandServerBufferIntegration@Base 5.4.0
- _ZTV32QWaylandWindowManagerIntegration@Base 5.4.0
- _ZTV37QWaylandClientBufferIntegrationPlugin@Base 5.4.0
- _ZTV37QWaylandServerBufferIntegrationPlugin@Base 5.4.0
- _ZTVN19QWaylandInputDevice5TouchE@Base 5.4.0
- _ZTVN19QWaylandInputDevice7PointerE@Base 5.4.0
- _ZTVN19QWaylandInputDevice8KeyboardE@Base 5.4.0
+ _ZTVN15QtWaylandClient12QWaylandDragE@Base 5.5.0
+ _ZTVN15QtWaylandClient14QWaylandCursorE@Base 5.5.0
+ _ZTVN15QtWaylandClient14QWaylandScreenE@Base 5.5.0
+ _ZTVN15QtWaylandClient14QWaylandWindowE@Base 5.5.0
+ _ZTVN15QtWaylandClient15QWaylandDisplayE@Base 5.5.0
+ _ZTVN15QtWaylandClient16QWaylandXdgShellE@Base 5.5.0
+ _ZTVN15QtWaylandClient17QWaylandClipboardE@Base 5.5.0
+ _ZTVN15QtWaylandClient17QWaylandDataOfferE@Base 5.5.0
+ _ZTVN15QtWaylandClient17QWaylandShmBufferE@Base 5.5.0
+ _ZTVN15QtWaylandClient17QWaylandShmWindowE@Base 5.5.0
+ _ZTVN15QtWaylandClient18QWaylandDataSourceE@Base 5.5.0
+ _ZTVN15QtWaylandClient18QWaylandSubSurfaceE@Base 5.5.0
+ _ZTVN15QtWaylandClient18QWaylandXdgSurfaceE@Base 5.5.0
+ _ZTVN15QtWaylandClient19QWaylandEventThreadE@Base 5.5.0
+ _ZTVN15QtWaylandClient19QWaylandInputDevice5TouchE@Base 5.5.0
+ _ZTVN15QtWaylandClient19QWaylandInputDevice7PointerE@Base 5.5.0
+ _ZTVN15QtWaylandClient19QWaylandInputDevice8KeyboardE@Base 5.5.0
+ _ZTVN15QtWaylandClient19QWaylandInputDeviceE@Base 5.5.0
+ _ZTVN15QtWaylandClient19QWaylandIntegrationE@Base 5.5.0
+ _ZTVN15QtWaylandClient20QWaylandServerBufferE@Base 5.5.0
+ _ZTVN15QtWaylandClient20QWaylandShellSurfaceE@Base 5.5.0
+ _ZTVN15QtWaylandClient22QWaylandExtendedOutputE@Base 5.5.0
+ _ZTVN15QtWaylandClient22QWaylandQtKeyExtensionE@Base 5.5.0
+ _ZTVN15QtWaylandClient22QWaylandTouchExtensionE@Base 5.5.0
+ _ZTVN15QtWaylandClient22QWaylandWlShellSurfaceE@Base 5.5.0
+ _ZTVN15QtWaylandClient23QWaylandExtendedSurfaceE@Base 5.5.0
+ _ZTVN15QtWaylandClient23QWaylandNativeInterfaceE@Base 5.5.0
+ _ZTVN15QtWaylandClient23QWaylandShmBackingStoreE@Base 5.5.0
+ _ZTVN15QtWaylandClient24QWaylandDecorationPluginE@Base 5.5.0
+ _ZTVN15QtWaylandClient25QWaylandDataDeviceManagerE@Base 5.5.0
+ _ZTVN15QtWaylandClient26QWaylandAbstractDecorationE@Base 5.5.0
+ _ZTVN15QtWaylandClient27QWaylandHardwareIntegrationE@Base 5.5.0
+ _ZTVN15QtWaylandClient30QWaylandShellIntegrationPluginE@Base 5.5.0
+ _ZTVN15QtWaylandClient31QWaylandClientBufferIntegrationE@Base 5.5.0
+ _ZTVN15QtWaylandClient31QWaylandServerBufferIntegrationE@Base 5.5.0
+ _ZTVN15QtWaylandClient32QWaylandWindowManagerIntegrationE@Base 5.5.0
+ _ZTVN15QtWaylandClient36QWaylandInputDeviceIntegrationPluginE@Base 5.5.0
+ _ZTVN15QtWaylandClient37QWaylandClientBufferIntegrationPluginE@Base 5.5.0
+ _ZTVN15QtWaylandClient37QWaylandServerBufferIntegrationPluginE@Base 5.5.0
  _ZTVN9QtWayland10wl_pointerE@Base 5.4.0
  _ZTVN9QtWayland10wl_surfaceE@Base 5.4.0
  _ZTVN9QtWayland11wl_callbackE@Base 5.4.0
@@ -1493,6 +1560,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN9QtWayland11xdg_surfaceE@Base 5.4.0
  _ZTVN9QtWayland13wl_compositorE@Base 5.4.0
  _ZTVN9QtWayland13wl_data_offerE@Base 5.4.0
+ _ZTVN9QtWayland13wl_subsurfaceE@Base 5.5.0
  _ZTVN9QtWayland13wl_text_inputE@Base 5.4.0
  _ZTVN9QtWayland14qt_sub_surfaceE@Base 5.4.0
  _ZTVN9QtWayland14wl_data_deviceE@Base 5.4.0
@@ -1501,6 +1569,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN9QtWayland16qt_server_bufferE@Base 5.4.0
  _ZTVN9QtWayland16qt_windowmanagerE@Base 5.4.0
  _ZTVN9QtWayland16wl_shell_surfaceE@Base 5.4.0
+ _ZTVN9QtWayland16wl_subcompositorE@Base 5.5.0
  _ZTVN9QtWayland18qt_extended_outputE@Base 5.4.0
  _ZTVN9QtWayland18qt_touch_extensionE@Base 5.4.0
  _ZTVN9QtWayland19qt_extended_surfaceE@Base 5.4.0
@@ -1519,6 +1588,59 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN9QtWayland9wl_regionE@Base 5.4.0
  _ZTVN9QtWayland9xdg_popupE@Base 5.4.0
  _ZTVN9QtWayland9xdg_shellE@Base 5.4.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandDataSource::data_source_cancelled()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandDataSource::data_source_send(QString const&, int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandDataSource::data_source_target(QString const&)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandDataSource::~QWaylandDataSource()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandDisplay::registry_global(unsigned int, QString const&, unsigned int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandDisplay::registry_global_remove(unsigned int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandDisplay::~QWaylandDisplay()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandDrag::~QWaylandDrag()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandInputDevice::Keyboard::keyboard_enter(unsigned int, wl_surface*, wl_array*)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandInputDevice::Keyboard::keyboard_key(unsigned int, unsigned int, unsigned int, unsigned int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandInputDevice::Keyboard::keyboard_keymap(unsigned int, int, unsigned int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandInputDevice::Keyboard::keyboard_leave(unsigned int, wl_surface*)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandInputDevice::Keyboard::keyboard_modifiers(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandInputDevice::Keyboard::~Keyboard()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandInputDevice::seat_capabilities(unsigned int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandInputDevice::~QWaylandInputDevice()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandScreen::output_done()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandScreen::output_geometry(int, int, int, int, int, QString const&, QString const&, int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandScreen::output_mode(unsigned int, int, int, int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandScreen::output_scale(int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandScreen::~QWaylandScreen()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandShmWindow::~QWaylandShmWindow()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::devicePixelRatio() const@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::frameMargins() const@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::handleContentOrientationChange(Qt::ScreenOrientation)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::isExposed() const@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::lower()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::raise()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::requestActivateWindow()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setGeometry(QRect const&)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setMask(QRegion const&)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setMouseGrabEnabled(bool)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setParent(QPlatformWindow const*)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setVisible(bool)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setWindowFlags(QFlags<Qt::WindowType>)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setWindowIcon(QIcon const&)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setWindowState(Qt::WindowState)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::setWindowTitle(QString const&)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::winId() const@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindow::~QWaylandWindow()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindowManagerIntegration::desktopEnvironment() const@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindowManagerIntegration::openDocument(QUrl const&)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindowManagerIntegration::openUrl(QUrl const&)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindowManagerIntegration::windowmanager_hints(int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindowManagerIntegration::windowmanager_quit()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWindowManagerIntegration::~QWaylandWindowManagerIntegration()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWlShellSurface::shell_surface_configure(unsigned int, int, int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWlShellSurface::shell_surface_ping(unsigned int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWlShellSurface::shell_surface_popup_done()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandWlShellSurface::~QWaylandWlShellSurface()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgSurface::xdg_surface_close()@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgSurface::xdg_surface_configure(int, int, wl_array*, unsigned int)@Base" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgSurface::~QWaylandXdgSurface()@Base" 5.5.0
  qt_extended_output_interface@Base 5.4.0
  qt_extended_surface_interface@Base 5.4.0
  qt_hardware_integration_interface@Base 5.4.0
@@ -1548,6 +1670,8 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  wl_shell_surface_interface@Base 5.4.0
  wl_shm_interface@Base 5.4.0
  wl_shm_pool_interface@Base 5.4.0
+ wl_subcompositor_interface@Base 5.5.0
+ wl_subsurface_interface@Base 5.5.0
  wl_surface_interface@Base 5.4.0
  wl_text_input_interface@Base 5.4.0
  wl_text_input_manager_interface@Base 5.4.0
@@ -1555,75 +1679,3 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  xdg_popup_interface@Base 5.4.0
  xdg_shell_interface@Base 5.4.0
  xdg_surface_interface@Base 5.4.0
- (c++)"non-virtual thunk to QWaylandDrag::~QWaylandDrag()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandScreen::output_done()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandScreen::output_mode(unsigned int, int, int, int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandScreen::output_geometry(int, int, int, int, int, QString const&, QString const&, int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandScreen::~QWaylandScreen()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setVisible(bool)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setGeometry(QRect const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setWindowIcon(QIcon const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setWindowFlags(QFlags<Qt::WindowType>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setWindowState(Qt::WindowState)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setWindowTitle(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setMouseGrabEnabled(bool)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::requestActivateWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::handleContentOrientationChange(Qt::ScreenOrientation)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::lower()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::raise()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::setParent(QPlatformWindow const*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::~QWaylandWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDisplay::registry_global(unsigned int, QString const&, unsigned int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDisplay::registry_global_remove(unsigned int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDisplay::~QWaylandDisplay()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandShmWindow::~QWaylandShmWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDataSource::data_source_send(QString const&, int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDataSource::data_source_target(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDataSource::data_source_cancelled()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandDataSource::~QWaylandDataSource()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setTopLevel()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::sendProperty(QString const&, QVariant const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setMaximized()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setMinimized()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setFullscreen()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setWindowFlags(QFlags<Qt::WindowType>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::updateTransientParent(QWindow*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setContentOrientationMask(QFlags<Qt::ScreenOrientation>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::move(QWaylandInputDevice*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::lower()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::raise()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::resize(QWaylandInputDevice*, wl_shell_surface_resize)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setAppId(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setTitle(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::setNormal()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandXdgSurface::~QWaylandXdgSurface()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandInputDevice::seat_capabilities(unsigned int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandInputDevice::~QWaylandInputDevice()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setTopLevel()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::sendProperty(QString const&, QVariant const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setMaximized()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setMinimized()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setFullscreen()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setWindowFlags(QFlags<Qt::WindowType>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::updateTransientParent(QWindow*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setContentOrientationMask(QFlags<Qt::ScreenOrientation>)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::move(QWaylandInputDevice*)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::lower()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::raise()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::resize(QWaylandInputDevice*, wl_shell_surface_resize)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setAppId(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setTitle(QString const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::setNormal()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWlShellSurface::~QWaylandWlShellSurface()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::openDocument(QUrl const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::openUrl(QUrl const&)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::~QWaylandWindowManagerIntegration()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::frameMargins() const@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::winId() const@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::isExposed() const@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::desktopEnvironment() const@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::windowmanager_quit()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::windowmanager_hints(int)@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindowManagerIntegration::~QWaylandWindowManagerIntegration()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandWindow::~QWaylandWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QWaylandShmWindow::~QWaylandShmWindow()@Base" 5.4.0
