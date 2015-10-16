@@ -21,7 +21,7 @@ Build-Depends: debhelper (>= 9),
                libxrender-dev,
                pkg-config,
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.5.0+dfsg~)
+               qtbase5-private-dev (>= 5.5.1+dfsg~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtwayland.git
