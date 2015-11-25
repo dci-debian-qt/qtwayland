@@ -1,0 +1,16 @@
+Index: qtwayland-opensource-src-5.5.1/src/client/qwaylandintegration.cpp
+===================================================================
+--- qtwayland-opensource-src-5.5.1.orig/src/client/qwaylandintegration.cpp
++++ qtwayland-opensource-src-5.5.1/src/client/qwaylandintegration.cpp
+@@ -128,7 +128,10 @@ QWaylandIntegration::QWaylandIntegration
+     mClipboard = new QWaylandClipboard(mDisplay);
+     mDrag = new QWaylandDrag(mDisplay);
+ 
+-    mInputContext.reset(new QWaylandInputContext(mDisplay));
++    //use the traditional way for on screen keyboards for now
++    QPlatformInputContext *ctx = QPlatformInputContextFactory::create();
++    qDebug()<<"Created Inout context:"<<ctx;
++    mInputContext.reset(ctx);
+ }
+ 
+ QWaylandIntegration::~QWaylandIntegration()
