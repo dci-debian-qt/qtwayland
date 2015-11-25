@@ -1,3 +1,9 @@
+qtwayland-opensource-src (5.5.1-2+mci1) UNRELEASED; urgency=medium
+
+  * mci build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Nov 2015 14:14:30 +0000
+
 qtwayland-opensource-src (5.5.1-2) unstable; urgency=medium
 
   * Upload to unstable.
