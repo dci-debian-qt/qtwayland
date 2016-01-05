@@ -5,6 +5,7 @@ qtwayland-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Update debian/watch to track experimental releases (needs to be reverted
     before uploading 5.6.0 final).
   * Bump qtbase5-private-dev build-dependency to 5.6.0~beta.
+  * Update debian/libqt5waylandclient5.symbols using migrate-symbols script.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Jan 2016 15:38:11 +0300
 
