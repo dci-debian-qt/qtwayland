@@ -1,6 +1,5 @@
-qtwayland-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.6.0~beta-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream beta release.
   * Update debian/watch to track experimental releases (needs to be reverted
     before uploading 5.6.0 final).
@@ -8,7 +7,7 @@ qtwayland-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Update debian/libqt5waylandclient5.symbols using migrate-symbols script.
   * Update debian/libqt5waylandclient5.symbols from amd64 build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Jan 2016 15:38:11 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jan 2016 22:13:08 +0300
 
 qtwayland-opensource-src (5.5.1-2) unstable; urgency=medium
 
