@@ -7,6 +7,7 @@ qtwayland-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
     migrate to testing before the minimum qtbase version required does even if
     the version in testing fullfills all the symbols.
   * Switch debian/watch back to official releases.
+  * Use secure URLs for the repos.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Mar 2016 13:55:39 -0300
 
