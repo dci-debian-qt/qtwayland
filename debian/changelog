@@ -3,6 +3,9 @@ qtwayland-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
+  * Also build depend upon qtbase5-dev. This ensures that this source will not
+    migrate to testing before the minimum qtbase version required does even if
+    the version in testing fullfills all the symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Mar 2016 13:55:39 -0300
 
