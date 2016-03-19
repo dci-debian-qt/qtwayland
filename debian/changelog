@@ -1,6 +1,5 @@
-qtwayland-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.6.0-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Also build depend upon qtbase5-dev. This ensures that this source will not
@@ -10,7 +9,7 @@ qtwayland-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   * Use secure URLs for the repos.
   * Update Standards-Version to 3.9.7, no changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Mar 2016 13:55:39 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 19 Mar 2016 14:20:52 -0300
 
 qtwayland-opensource-src (5.6.0~beta-1) experimental; urgency=medium
 
