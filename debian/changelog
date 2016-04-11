@@ -1,3 +1,27 @@
+qtwayland-opensource-src (5.6.0-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Also build depend upon qtbase5-dev. This ensures that this source will not
+    migrate to testing before the minimum qtbase version required does even if
+    the version in testing fullfills all the symbols.
+  * Switch debian/watch back to official releases.
+  * Use secure URLs for the repos.
+  * Update Standards-Version to 3.9.7, no changes required.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 19 Mar 2016 14:20:52 -0300
+
+qtwayland-opensource-src (5.6.0~beta-1) experimental; urgency=medium
+
+  * New upstream beta release.
+  * Update debian/watch to track experimental releases (needs to be reverted
+    before uploading 5.6.0 final).
+  * Bump qtbase5-private-dev build-dependency to 5.6.0~beta.
+  * Update debian/libqt5waylandclient5.symbols using migrate-symbols script.
+  * Update debian/libqt5waylandclient5.symbols from amd64 build log.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jan 2016 22:13:08 +0300
+
 qtwayland-opensource-src (5.5.1-2) unstable; urgency=medium
 
   * Upload to unstable.
