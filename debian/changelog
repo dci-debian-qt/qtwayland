@@ -5,6 +5,7 @@ qtwayland-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
     - Bump Qt build dependencies.
   * Bump Standards-Version to 3.9.8, no changes required.
   * Remove a lonely example .pro file. There are no matching sources for it.
+  * Be verbose while removing stuff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 20:53:16 -0300
 
