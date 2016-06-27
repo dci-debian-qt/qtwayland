@@ -20,7 +20,10 @@ override_dh_auto_install:
 	dh_auto_install
 
 	# Remove libtool-like file
-	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.la
+	rm -vf debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.la
+
+	# Remove a lonely example .pro file, there is no matching code for it.
+	rm -vf debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/wayland/wayland.pro
 
 override_dh_install:
 	dh_install --fail-missing
