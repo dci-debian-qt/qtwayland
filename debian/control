@@ -22,7 +22,8 @@ Build-Depends: debhelper (>= 9),
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev (>= 5.6.1+dfsg~),
-               qtbase5-private-dev (>= 5.6.1+dfsg~)
+               qtbase5-private-dev (>= 5.6.1+dfsg~),
+               qtdeclarative5-private-dev (>= 5.6.1+dfsg~)
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwayland.git
