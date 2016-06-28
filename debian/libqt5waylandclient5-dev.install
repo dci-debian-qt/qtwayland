@@ -1,6 +1,7 @@
-usr/include/
-usr/lib/*/cmake/
+usr/include/*/qt5/QtWaylandClient/
+usr/lib/*/cmake/Qt5WaylandClient/
 usr/lib/*/libQt5WaylandClient.prl
 usr/lib/*/libQt5WaylandClient.so
-usr/lib/*/pkgconfig/
-usr/lib/*/qt5/mkspecs
+usr/lib/*/pkgconfig/Qt5WaylandClient.pc
+usr/lib/*/qt5/mkspecs/qt_lib_waylandclient.pri
+usr/lib/*/qt5/mkspecs/qt_lib_waylandclient_private.pri
