@@ -29,6 +29,18 @@ Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwayland.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtwayland.git
 
+Package: qtwayland5-examples
+Architecture: any
+Multi-Arch: same
+Section: x11
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Wayland examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains examples of the Qt 5 Wayland module.
+
 Package: libqt5waylandclient5
 Architecture: any
 Multi-Arch: same
@@ -38,15 +50,47 @@ Description: QtWayland client library
  .
  This package contains the QtWayland client library.
 
+Package: libqt5waylandcompositor5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: QtWayland compositor library
+ QtWayland is a Qt 5 module that wraps the functionality of Wayland.
+ .
+ This package contains the QtWayland compositor library.
+
+Package: qml-module-qtwayland-compositor
+Section: libs
+Multi-Arch: same
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Wayland Compository QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Qt Wayland Compositor modules provide QML types that can be used to
+ create custom display servers supporting the Wayland protocol.
+
 Package: libqt5waylandclient5-dev
 Architecture: any
 Section: libdevel
 Multi-Arch: same
 Depends: libqt5waylandclient5 (= ${binary:Version}), ${misc:Depends}
-Description: QtWayland development files
+Description: QtWayland client development files
  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
  .
  This package contains the development files for QtWayland client
+ library.
+
+Package: libqt5waylandcompositor5-dev
+Architecture: any
+Section: libdevel
+Multi-Arch: same
+Depends: libqt5waylandcompositor5 (= ${binary:Version}), ${misc:Depends}
+Description: QtWayland compositor development files
+ QtWayland is a Qt 5 module that wraps the functionality of Wayland.
+ .
+ This package contains the development files for QtWayland compositor
  library.
 
 Package: qtwayland5
@@ -65,7 +109,8 @@ Architecture: any
 Priority: extra
 Section: debug
 Multi-Arch: same
-Depends: libqt5waylandclient5 (= ${binary:Version}), ${misc:Depends}
+Depends: libqt5waylandclient5 (= ${binary:Version}) | libqt5waylandcompositor5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: QtWayland debugging symbols
  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
  .
