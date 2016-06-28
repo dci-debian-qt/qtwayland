@@ -4,4 +4,3 @@ usr/lib/*/libQt5WaylandCompositor.prl
 usr/lib/*/libQt5WaylandCompositor.so
 usr/lib/*/pkgconfig/Qt5WaylandCompositor.pc
 usr/lib/*/qt5/mkspecs/modules/qt_lib_waylandcompositor.pri
-usr/lib/*/qt5/mkspecs/modules/qt_lib_waylandcompositor_private.pri
