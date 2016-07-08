@@ -15,6 +15,7 @@ qtwayland-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Bump libwayland-dev build-dependency to 1.6.0, following upstream.
   * Build and install the Qt Wayland Compositor documentation.
   * Migrate to automatic dbgsym packages.
+  * Massive debian/copyright update.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 15:05:14 +0200
 
