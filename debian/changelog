@@ -10,6 +10,9 @@ qtwayland-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Do not install private headers at all as they are unused according to
     codesearch
 
+  [ Dmitry Shachnev ]
+  * Bump Qt build-dependencies to 5.7.0.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 15:05:14 +0200
 
 qtwayland-opensource-src (5.6.1-2) unstable; urgency=medium
