@@ -16,6 +16,8 @@ qtwayland-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Build and install the Qt Wayland Compositor documentation.
   * Migrate to automatic dbgsym packages.
   * Massive debian/copyright update.
+  * Update debian/libqt5waylandclient5.symbols. The whole library is private
+    (has no public API), so removed symbols are OK.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 15:05:14 +0200
 
