@@ -62,11 +62,10 @@ Description: QtWayland compositor library
  This package contains the QtWayland compositor library.
 
 Package: qml-module-qtwayland-compositor
-Section: libs
 Multi-Arch: same
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 Wayland Compository QML module
+Description: Qt 5 Wayland Compositor QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
