@@ -1,13 +1,14 @@
 qtwayland-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
-  * New upstrema release.
+  * New upstream release.
   * New build depends on qtdeclarative5-private-dev
   * New package qtwayland5-examples now containing examples
   * New package libqt5waylandcompositor5 and -dev for new library
   * New package qml-module-qtwayland-compositor for new qml module
   * Refine install files to accomodate new library artifacts
-  * Do not install private headers at all as they are unused according to codesearch
+  * Do not install private headers at all as they are unused according to
+    codesearch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 15:05:14 +0200
 
