@@ -18,6 +18,7 @@ qtwayland-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Massive debian/copyright update.
   * Update debian/libqt5waylandclient5.symbols. The whole library is private
     (has no public API), so removed symbols are OK.
+  * Drop libqt5waylandclient5-dev package. This library has no public API.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 15:05:14 +0200
 
