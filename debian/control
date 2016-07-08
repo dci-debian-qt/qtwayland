@@ -23,6 +23,9 @@ Build-Depends: debhelper (>= 9),
                pkg-kde-tools,
                qtbase5-private-dev (>= 5.7.0+dfsg~),
                qtdeclarative5-private-dev (>= 5.7.0+dfsg~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.7.0+dfsg~),
+                     qtbase5-doc-html (>= 5.7.0+dfsg~),
+                     qttools5-dev-tools (>= 5.7.0~)
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwayland.git
@@ -114,3 +117,27 @@ Description: QtWayland debugging symbols
  QtWayland is a Qt 5 module that wraps the functionality of Wayland.
  .
  This package contains the debugging symbols for QtWayland.
+
+Package: qtwayland5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Wayland Compositor documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 Wayland Compositor
+ library.
+
+Package: qtwayland5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Wayland Compositor HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 Wayland Compositor
+ library.
