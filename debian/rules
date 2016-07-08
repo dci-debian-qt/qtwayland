@@ -28,7 +28,9 @@ override_dh_auto_install-arch:
 	# libQt5WaylandClient library has no public API, do not ship development files for it
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWaylandClient/
 	rm -rfv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt5WaylandClient/
-	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.{prl,so,la}
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.la
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.prl
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.so
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/Qt5WaylandClient.pc
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_waylandclient.pri
 
