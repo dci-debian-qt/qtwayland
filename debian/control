@@ -7,7 +7,7 @@ Uploaders: Dmitry Shachnev <mitya57@debian.org>,
            Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
            Timo Jyrinki <timo@debian.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9.20160114~),
                libegl1-mesa-dev,
                libfontconfig1-dev,
                libglib2.0-dev,
@@ -105,18 +105,6 @@ Description: QtWayland platform plugin
  This package contains the QtWayland platform plugin, which allows users
  to run Qt 5 applications under Wayland, and the qtwaylandscanner
  binary.
-
-Package: qtwayland5-dbg
-Architecture: any
-Priority: extra
-Section: debug
-Multi-Arch: same
-Depends: libqt5waylandclient5 (= ${binary:Version}) | libqt5waylandcompositor5 (= ${binary:Version}),
-         ${misc:Depends}
-Description: QtWayland debugging symbols
- QtWayland is a Qt 5 module that wraps the functionality of Wayland.
- .
- This package contains the debugging symbols for QtWayland.
 
 Package: qtwayland5-doc
 Priority: extra
