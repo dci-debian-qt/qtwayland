@@ -1,5 +1,7 @@
 qtwayland-opensource-src (5.7.0-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Restore qtbase5-dev build-dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Jul 2016 16:03:50 +0300
 
