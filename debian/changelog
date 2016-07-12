@@ -1,3 +1,9 @@
+qtwayland-opensource-src (5.6.1-2~bpo8+1) UNRELEASED; urgency=medium
+
+  * Upload to jessie-backports.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Jul 2016 20:42:23 -0300
+
 qtwayland-opensource-src (5.6.1-2) unstable; urgency=medium
 
   * Upload to unstable.
