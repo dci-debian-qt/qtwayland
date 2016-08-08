@@ -1,0 +1,149 @@
+From 25df38cad562c458538037b9e50552b6885e5d05 Mon Sep 17 00:00:00 2001
+From: Giulio Camuffo <giulio.camuffo@kdab.com>
+Date: Mon, 27 Jun 2016 11:17:57 +0200
+Subject: [PATCH] Fix the key code of key events when control is pressed
+
+Change-Id: I51a57a32d8263e663a48dac15881d685359bc91d
+Reviewed-by: Jan Arne Petersen <jan.petersen@kdab.com>
+Reviewed-by: Pier Luigi Fiorini <pierluigi.fiorini@hawaiios.org>
+---
+ src/client/qwaylandinputcontext.cpp                |  5 ++--
+ src/client/qwaylandinputdevice.cpp                 |  3 +--
+ .../compositor_api/qwaylandcompositor.cpp          |  6 ++---
+ src/shared/qwaylandxkb.cpp                         | 31 +++++++++-------------
+ src/shared/qwaylandxkb_p.h                         |  5 ++--
+ 5 files changed, 22 insertions(+), 28 deletions(-)
+
+diff --git a/src/client/qwaylandinputcontext.cpp b/src/client/qwaylandinputcontext.cpp
+index 509965d..5a58d6d 100644
+--- a/src/client/qwaylandinputcontext.cpp
++++ b/src/client/qwaylandinputcontext.cpp
+@@ -335,8 +335,9 @@ void QWaylandTextInput::zwp_text_input_v2_keysym(uint32_t time, uint32_t sym, ui
+     Qt::KeyboardModifiers qtModifiers = modifiersToQtModifiers(modifiers);
+ 
+     QEvent::Type type = QWaylandXkb::toQtEventType(state);
+-    const QString &text = QWaylandXkb::textFromKeysym(sym, qtModifiers);
+-    int qtkey = QWaylandXkb::keysymToQtKey(sym, qtModifiers, text);
++    QString text;
++    int qtkey;
++    std::tie(qtkey, text) = QWaylandXkb::keysymToQtKey(sym, qtModifiers);
+ 
+     QWindowSystemInterface::handleKeyEvent(QGuiApplication::focusWindow(),
+                                            time, type, qtkey, qtModifiers, text);
+diff --git a/src/client/qwaylandinputdevice.cpp b/src/client/qwaylandinputdevice.cpp
+index 613d517..13ab5ef 100644
+--- a/src/client/qwaylandinputdevice.cpp
++++ b/src/client/qwaylandinputdevice.cpp
+@@ -707,8 +707,7 @@ void QWaylandInputDevice::Keyboard::keyboard_key(uint32_t serial, uint32_t time,
+ 
+     Qt::KeyboardModifiers modifiers = mParent->modifiers();
+ 
+-    text = QWaylandXkb::textFromKeysym(sym, modifiers);
+-    qtkey = QWaylandXkb::keysymToQtKey(sym, modifiers, text);
++    std::tie(qtkey, text) = QWaylandXkb::keysymToQtKey(sym, modifiers);
+ 
+     sendKey(window->window(), time, type, qtkey, modifiers, code, sym, mNativeModifiers, text);
+ #else
+diff --git a/src/compositor/compositor_api/qwaylandcompositor.cpp b/src/compositor/compositor_api/qwaylandcompositor.cpp
+index c7273f0..6e463e3 100644
+--- a/src/compositor/compositor_api/qwaylandcompositor.cpp
++++ b/src/compositor/compositor_api/qwaylandcompositor.cpp
+@@ -107,10 +107,8 @@ public:
+             Qt::KeyboardModifiers modifiers = QWaylandXkb::modifiers(keyb->xkbState());
+ 
+             const xkb_keysym_t sym = xkb_state_key_get_one_sym(keyb->xkbState(), code);
+-            uint utf32 = xkb_keysym_to_utf32(sym);
+-            if (utf32)
+-                text = QString::fromUcs4(&utf32, 1);
+-            int qtkey = QWaylandXkb::keysymToQtKey(sym, modifiers, text);
++            int qtkey;
++            std::tie(qtkey, text) = QWaylandXkb::keysymToQtKey(sym, modifiers);
+ 
+             ke->key = qtkey;
+             ke->modifiers = modifiers;
+diff --git a/src/shared/qwaylandxkb.cpp b/src/shared/qwaylandxkb.cpp
+index 4992570..2afdcce 100644
+--- a/src/shared/qwaylandxkb.cpp
++++ b/src/shared/qwaylandxkb.cpp
+@@ -293,8 +293,13 @@ static xkb_keysym_t toKeysymFromTable(uint32_t key)
+     return 0;
+ }
+ 
+-int QWaylandXkb::keysymToQtKey(xkb_keysym_t keysym, Qt::KeyboardModifiers &modifiers, const QString &text)
++std::pair<int, QString> QWaylandXkb::keysymToQtKey(xkb_keysym_t keysym, Qt::KeyboardModifiers &modifiers)
+ {
++    QString text;
++    uint utf32 = xkb_keysym_to_utf32(keysym);
++    if (utf32)
++        text = QString::fromUcs4(&utf32, 1);
++
+     int code = 0;
+ 
+     if (keysym >= XKB_KEY_F1 && keysym <= XKB_KEY_F35) {
+@@ -316,7 +321,13 @@ int QWaylandXkb::keysymToQtKey(xkb_keysym_t keysym, Qt::KeyboardModifiers &modif
+         code = lookupKeysym(keysym);
+     }
+ 
+-    return code;
++    // Map control + letter to proper text
++    if (utf32 >= 'A' && utf32 <= '~' && (modifiers & Qt::ControlModifier)) {
++        utf32 &= ~0x60;
++        text = QString::fromUcs4(&utf32, 1);
++    }
++
++    return { code, text };
+ }
+ 
+ Qt::KeyboardModifiers QWaylandXkb::modifiers(struct xkb_state *state)
+@@ -342,22 +353,6 @@ QEvent::Type QWaylandXkb::toQtEventType(uint32_t state)
+     return state != 0 ? QEvent::KeyPress : QEvent::KeyRelease;
+ }
+ 
+-QString QWaylandXkb::textFromKeysym(uint32_t keysym, Qt::KeyboardModifiers modifiers)
+-{
+-    uint utf32 = xkb_keysym_to_utf32(keysym);
+-
+-    // Map control + letter to proper text
+-    if (utf32 >= 'A' && utf32 <= '~' && (modifiers & Qt::ControlModifier)) {
+-        utf32 &= ~0x60;
+-        return QString::fromUcs4(&utf32, 1);
+-    }
+-
+-    if (utf32)
+-        return QString::fromUcs4(&utf32, 1);
+-
+-    return QString();
+-}
+-
+ QVector<xkb_keysym_t> QWaylandXkb::toKeysym(QKeyEvent *event)
+ {
+     QVector<xkb_keysym_t> keysyms;
+diff --git a/src/shared/qwaylandxkb_p.h b/src/shared/qwaylandxkb_p.h
+index 9b5c935..cdebf1b 100644
+--- a/src/shared/qwaylandxkb_p.h
++++ b/src/shared/qwaylandxkb_p.h
+@@ -47,6 +47,8 @@
+ #include <QEvent>
+ #include <xkbcommon/xkbcommon.h>
+ 
++#include <utility>
++
+ QT_BEGIN_NAMESPACE
+ 
+ class QKeyEvent;
+@@ -54,11 +56,10 @@ class QKeyEvent;
+ class QWaylandXkb
+ {
+ public:
+-    static int keysymToQtKey(xkb_keysym_t keysym, Qt::KeyboardModifiers &modifiers, const QString &text);
++    static std::pair<int, QString> keysymToQtKey(xkb_keysym_t keysym, Qt::KeyboardModifiers &modifiers);
+     static Qt::KeyboardModifiers modifiers(struct xkb_state *state);
+ 
+     static QEvent::Type toQtEventType(uint32_t state);
+-    static QString textFromKeysym(uint32_t keysym, Qt::KeyboardModifiers modifiers);
+     static QVector<xkb_keysym_t> toKeysym(QKeyEvent *event);
+ };
+ 
+-- 
+2.7.4
+
