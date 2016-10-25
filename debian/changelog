@@ -1,4 +1,4 @@
-qtwayland-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Restore qtbase5-dev build-dependency.
@@ -8,7 +8,7 @@ qtwayland-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
     - Bump Qt build dependencies.
   * Update symbols files with current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Jul 2016 16:03:50 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 25 Oct 2016 19:48:50 -0300
 
 qtwayland-opensource-src (5.7.0-1) experimental; urgency=medium
 
