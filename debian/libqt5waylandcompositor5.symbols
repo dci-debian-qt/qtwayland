@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.7.1 amd64
 libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.0
  Qt_5.1@Qt_5.1 5.7.0
@@ -1857,6 +1857,17 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  _ZN27QWaylandCompositorExtensionD0Ev@Qt_5 5.7.0
  _ZN27QWaylandCompositorExtensionD1Ev@Qt_5 5.7.0
  _ZN27QWaylandCompositorExtensionD2Ev@Qt_5 5.7.0
+ _ZN29QWaylandQuickShellEventFilter10stopFilterEv@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilter10timerEventEP11QTimerEvent@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilter11eventFilterEP7QObjectP6QEvent@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilter11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilter11qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilter11startFilterEP14QWaylandClientPFvvE@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilter12cancelFilterEv@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilter16staticMetaObjectE@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilter4selfE@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilterC1EP7QObject@Qt_5_PRIVATE_API 5.7.1
+ _ZN29QWaylandQuickShellEventFilterC2EP7QObject@Qt_5_PRIVATE_API 5.7.1
  _ZN29QWaylandQuickShellSurfaceItem11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.7.0
  _ZN29QWaylandQuickShellSurfaceItem11qt_metacastEPKc@Qt_5 5.7.0
  _ZN29QWaylandQuickShellSurfaceItem11setMoveItemEP10QQuickItem@Qt_5 5.7.0
@@ -2149,6 +2160,7 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  _ZNK27QWaylandCompositorExtension18extensionContainerEv@Qt_5 5.7.0
  (optional=templinst)_ZNK28QWaylandShellSurfaceTemplateI18QWaylandXdgSurfaceE18extensionInterfaceEv@Qt_5 5.7.0
  (optional=templinst)_ZNK28QWaylandShellSurfaceTemplateI22QWaylandWlShellSurfaceE18extensionInterfaceEv@Qt_5 5.7.0
+ _ZNK29QWaylandQuickShellEventFilter10metaObjectEv@Qt_5_PRIVATE_API 5.7.1
  _ZNK29QWaylandQuickShellSurfaceItem10metaObjectEv@Qt_5 5.7.0
  _ZNK29QWaylandQuickShellSurfaceItem12shellSurfaceEv@Qt_5 5.7.0
  _ZNK29QWaylandQuickShellSurfaceItem8moveItemEv@Qt_5 5.7.0
@@ -2211,6 +2223,7 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  _ZTI27QWaylandCompositorExtension@Qt_5 5.7.0
  _ZTI28QWaylandShellSurfaceTemplateI18QWaylandXdgSurfaceE@Qt_5 5.7.0
  _ZTI28QWaylandShellSurfaceTemplateI22QWaylandWlShellSurfaceE@Qt_5 5.7.0
+ _ZTI29QWaylandQuickShellEventFilter@Qt_5_PRIVATE_API 5.7.1
  _ZTI29QWaylandQuickShellSurfaceItem@Qt_5 5.7.0
  _ZTI29QWaylandWlShellSurfacePrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTI30QWaylandWindowManagerExtension@Qt_5 5.7.0
@@ -2338,6 +2351,7 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  _ZTS27QWaylandCompositorExtension@Qt_5 5.7.0
  _ZTS28QWaylandShellSurfaceTemplateI18QWaylandXdgSurfaceE@Qt_5 5.7.0
  _ZTS28QWaylandShellSurfaceTemplateI22QWaylandWlShellSurfaceE@Qt_5 5.7.0
+ _ZTS29QWaylandQuickShellEventFilter@Qt_5_PRIVATE_API 5.7.1
  _ZTS29QWaylandQuickShellSurfaceItem@Qt_5 5.7.0
  _ZTS29QWaylandWlShellSurfacePrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTS30QWaylandWindowManagerExtension@Qt_5 5.7.0
@@ -2463,6 +2477,7 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  _ZTV25QWaylandXdgSurfacePrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTV26QWaylandInputDevicePrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTV27QWaylandCompositorExtension@Qt_5 5.7.0
+ _ZTV29QWaylandQuickShellEventFilter@Qt_5_PRIVATE_API 5.7.1
  _ZTV29QWaylandQuickShellSurfaceItem@Qt_5 5.7.0
  _ZTV29QWaylandWlShellSurfacePrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTV30QWaylandWindowManagerExtension@Qt_5 5.7.0
