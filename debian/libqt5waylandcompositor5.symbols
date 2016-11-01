@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1 amd64
+# SymbolsHelper-Confirmed: 5.7.1 amd64 arm64 i386 mips mips64el powerpc ppc64el s390x sparc64
 libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.0
  Qt_5.1@Qt_5.1 5.7.0
