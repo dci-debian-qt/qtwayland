@@ -1,8 +1,51 @@
-qtwayland-opensource-src (5.7.0-0neon) xenial; urgency=medium
+qtwayland-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
 
-  * New release
+  * neon build
 
- -- Neon CI <neon@kde.org>  Mon, 27 Jun 2016 15:06:09 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:36:54 +0000
+
+qtwayland-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
+
+  * Update symbols files with buildds' logs.
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 01 Nov 2016 09:07:54 -0300
+
+qtwayland-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Restore qtbase5-dev build-dependency.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream snapshot.
+    - Bump Qt build dependencies.
+  * Update symbols files with current build log.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 25 Oct 2016 19:48:50 -0300
+
+qtwayland-opensource-src (5.7.0-1) experimental; urgency=medium
+
+  [ Harald Sitter ]
+  * New upstream release.
+  * New build depends on qtdeclarative5-private-dev
+  * New package qtwayland5-examples now containing examples
+  * New package libqt5waylandcompositor5 and -dev for new library
+  * New package qml-module-qtwayland-compositor for new qml module
+  * Refine install files to accommodate new library artifacts
+  * Do not install private headers at all as they are unused according to
+    codesearch
+
+  [ Dmitry Shachnev ]
+  * Bump Qt build-dependencies to 5.7.0.
+  * Bump libwayland-dev build-dependency to 1.6.0, following upstream.
+  * Build and install the Qt Wayland Compositor documentation.
+  * Migrate to automatic dbgsym packages.
+  * Massive debian/copyright update.
+  * Update debian/libqt5waylandclient5.symbols. The whole library is private
+    (has no public API), so removed symbols are OK.
+  * Drop libqt5waylandclient5-dev package. This library has no public API.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 09 Jul 2016 00:01:41 +0300
 
 qtwayland-opensource-src (5.6.1-2) unstable; urgency=medium
 

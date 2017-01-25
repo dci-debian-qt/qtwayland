@@ -11,21 +11,33 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
-	dh $@ --with pkgkde_symbolshelper --parallel --dbg-package=qtwayland5-dbg
+	dh $@ --with pkgkde_symbolshelper --parallel
 
 override_dh_auto_configure:
 	qmake
 
-override_dh_auto_install:
+override_dh_auto_build-indep:
+	dh_auto_build -- docs
+
+override_dh_auto_install-indep:
+	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
+
+override_dh_auto_install-arch:
 	dh_auto_install
 
+	# libQt5WaylandClient library has no public API, do not ship development files for it
+	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWaylandClient/
+	rm -rfv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt5WaylandClient/
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.la
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.prl
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.so
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/Qt5WaylandClient.pc
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_waylandclient.pri
+
 	# Remove libtool-like file
-	rm -vf debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandClient.la
 	rm -vf debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5WaylandCompositor.la
 
 	# Remove private elements.
-	# Not used at the time of writing according to codesarch.debian (June 2016)
-	rm -rvf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWaylandClient/*/QtWaylandClient/private
 	rm -rvf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWaylandCompositor/*/QtWaylandCompositor/private
 	rm -fv debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_*_private.pri
 
@@ -34,3 +46,6 @@ override_dh_auto_install:
 
 override_dh_install:
 	dh_install --fail-missing
+
+override_dh_strip:
+	dh_strip --dbgsym-migration='qtwayland5-dbg (<< 5.7.0-1~)'
