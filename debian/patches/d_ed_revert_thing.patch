@@ -1,0 +1,89 @@
+From cd87f84152611a7e0ea32f25e8d8a5d1548aeada Mon Sep 17 00:00:00 2001
+From: David Edmundson <kde@davidedmundson.co.uk>
+Date: Wed, 8 Feb 2017 12:57:06 +0100
+Subject: [PATCH] Revert "Use the EGL_EXT_platform_wayland extension if
+ available"
+
+This reverts commit 6de4e14d6ba632ee32df2a703e0a6e6660fa61f6.
+---
+ .../qwaylandeglclientbufferintegration.cpp         | 36 +++-------------------
+ .../client/wayland-egl/wayland-egl.pri             |  1 -
+ 2 files changed, 5 insertions(+), 32 deletions(-)
+
+diff --git a/src/hardwareintegration/client/wayland-egl/qwaylandeglclientbufferintegration.cpp b/src/hardwareintegration/client/wayland-egl/qwaylandeglclientbufferintegration.cpp
+index 771b4b2e..0843badc 100644
+--- a/src/hardwareintegration/client/wayland-egl/qwaylandeglclientbufferintegration.cpp
++++ b/src/hardwareintegration/client/wayland-egl/qwaylandeglclientbufferintegration.cpp
+@@ -45,15 +45,6 @@
+ #include <wayland-client.h>
+ 
+ #include <QtCore/QDebug>
+-#include <private/qeglconvenience_p.h>
+-
+-#ifndef EGL_EXT_platform_base
+-typedef EGLDisplay (*PFNEGLGETPLATFORMDISPLAYEXTPROC) (EGLenum platform, void *native_display, const EGLint *attrib_list);
+-#endif
+-
+-#ifndef EGL_PLATFORM_WAYLAND_KHR
+-#define EGL_PLATFORM_WAYLAND_KHR 0x31D8
+-#endif
+ 
+ QT_BEGIN_NAMESPACE
+ 
+@@ -79,37 +70,20 @@ QWaylandEglClientBufferIntegration::~QWaylandEglClientBufferIntegration()
+ 
+ void QWaylandEglClientBufferIntegration::initialize(QWaylandDisplay *display)
+ {
+-    if (q_hasEglExtension(EGL_NO_DISPLAY, "EGL_EXT_platform_base")) {
+-        if (q_hasEglExtension(EGL_NO_DISPLAY, "EGL_KHR_platform_wayland") ||
+-            q_hasEglExtension(EGL_NO_DISPLAY, "EGL_EXT_platform_wayland") ||
+-            q_hasEglExtension(EGL_NO_DISPLAY, "EGL_MESA_platform_wayland")) {
+-
+-            static PFNEGLGETPLATFORMDISPLAYEXTPROC eglGetPlatformDisplay = nullptr;
+-            if (!eglGetPlatformDisplay)
+-                eglGetPlatformDisplay = (PFNEGLGETPLATFORMDISPLAYEXTPROC)eglGetProcAddress("eglGetPlatformDisplayEXT");
+-
+-            m_eglDisplay = eglGetPlatformDisplay(EGL_PLATFORM_WAYLAND_KHR, display->wl_display(), nullptr);
+-        } else {
+-            qWarning("The EGL implementation does not support the Wayland platform");
+-            return;
+-        }
+-    } else {
+-        QByteArray eglPlatform = qgetenv("EGL_PLATFORM");
+-        if (eglPlatform.isEmpty()) {
+-            setenv("EGL_PLATFORM","wayland",true);
+-        }
+-
+-        m_eglDisplay = eglGetDisplay((EGLNativeDisplayType) display->wl_display());
++    QByteArray eglPlatform = qgetenv("EGL_PLATFORM");
++    if (eglPlatform.isEmpty()) {
++        setenv("EGL_PLATFORM","wayland",true);
+     }
+ 
+     m_display = display;
+ 
++    EGLint major,minor;
++    m_eglDisplay = eglGetDisplay((EGLNativeDisplayType) display->wl_display());
+     if (m_eglDisplay == EGL_NO_DISPLAY) {
+         qWarning("EGL not available");
+         return;
+     }
+ 
+-    EGLint major,minor;
+     if (!eglInitialize(m_eglDisplay, &major, &minor)) {
+         qWarning("failed to initialize EGL display");
+         m_eglDisplay = EGL_NO_DISPLAY;
+diff --git a/src/hardwareintegration/client/wayland-egl/wayland-egl.pri b/src/hardwareintegration/client/wayland-egl/wayland-egl.pri
+index 520c1eb0..4e64b089 100644
+--- a/src/hardwareintegration/client/wayland-egl/wayland-egl.pri
++++ b/src/hardwareintegration/client/wayland-egl/wayland-egl.pri
+@@ -8,7 +8,6 @@ INCLUDEPATH += $$PWD
+ 
+ DEFINES += QT_EGL_WAYLAND
+ CONFIG += egl
+-QT += platformsupport-private
+ 
+ SOURCES += $$PWD/qwaylandeglclientbufferintegration.cpp \
+            $$PWD/qwaylandglcontext.cpp \
+-- 
+2.11.0
