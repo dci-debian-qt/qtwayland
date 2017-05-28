@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~rc amd64
+# SymbolsHelper-Confirmed: 5.9.0~rc amd64 i386
 libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.0
  Qt_5.1@Qt_5.1 5.7.0
@@ -1488,7 +1488,7 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  _ZN16QWaylandResourceC2EP11wl_resource@Qt_5 5.7.0
  _ZN16QWaylandResourceC2Ev@Qt_5 5.7.0
  _ZN17QWaylandBufferRef16lockNativeBufferEv@Qt_5 5.9.0~rc
- _ZN17QWaylandBufferRef18unlockNativeBufferEy@Qt_5 5.9.0~rc
+ (subst)_ZN17QWaylandBufferRef18unlockNativeBufferE{quintptr}@Qt_5 5.9.0~rc
  _ZN17QWaylandBufferRefC1EPN9QtWayland12ClientBufferE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN17QWaylandBufferRefC1ERKS_@Qt_5 5.7.0
  _ZN17QWaylandBufferRefC1Ev@Qt_5 5.7.0
