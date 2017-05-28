@@ -41,9 +41,6 @@ override_dh_auto_install-arch:
 	rm -rvf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWaylandCompositor/*/QtWaylandCompositor/private
 	rm -fv debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_*_private.pri
 
-	# Hack away weird defunct artifact created by build.
-	rm -vf debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt5Gui/Qt5Gui_.cmake
-
 override_dh_install:
 	dh_install --fail-missing
 
