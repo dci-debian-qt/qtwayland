@@ -11,6 +11,7 @@ qtwayland-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
     - Qt Wayland Client library has no public API, all symbols are private.
   * Add debian/clean file.
   * Do not use gold linker, to keep the symbols versioned.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 May 2017 10:56:28 +0300
 
