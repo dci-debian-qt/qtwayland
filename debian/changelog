@@ -5,6 +5,9 @@ qtwayland-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.9.0.
   * Update libqt5waylandcompositor5-dev.install for the new version.
   * Drop the hack to remove Qt5Gui_.cmake, it is no longer generated.
+  * Update the symbols files.
+    - In Qt 5.7 the Qt Wayland Compositor library is a technical preview,
+      so API/ABI stability was not guaranteed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 May 2017 10:56:28 +0300
 
