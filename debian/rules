@@ -14,7 +14,7 @@ export QT_SELECT := qt5
 	dh $@ --with pkgkde_symbolshelper --parallel
 
 override_dh_auto_configure:
-	qmake
+	qmake CONFIG-=use_gold_linker
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
