@@ -8,6 +8,7 @@ qtwayland-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
   * Update the symbols files.
     - In Qt 5.7 the Qt Wayland Compositor library is a technical preview,
       so API/ABI stability was not guaranteed.
+    - Qt Wayland Client library has no public API, all symbols are private.
   * Add debian/clean file.
   * Do not use gold linker, to keep the symbols versioned.
 
