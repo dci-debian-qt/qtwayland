@@ -21,12 +21,12 @@ Build-Depends: debhelper (>= 9.20160114~),
                libxrender-dev,
                pkg-config,
                pkg-kde-tools,
-               qtbase5-dev (>= 5.7.1~20161021+dfsg~),
-               qtbase5-private-dev (>= 5.7.1~20161021+dfsg~),
-               qtdeclarative5-private-dev (>= 5.7.1~20161021~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.7.1~20161021+dfsg~),
-                     qtbase5-doc-html (>= 5.7.1~20161021+dfsg~),
-                     qttools5-dev-tools (>= 5.7.1~20161021~)
+               qtbase5-dev (>= 5.9.0~beta.3+dfsg~),
+               qtbase5-private-dev (>= 5.9.0~beta.3+dfsg~),
+               qtdeclarative5-private-dev (>= 5.9.0~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0~beta.3+dfsg~),
+                     qtbase5-doc-html (>= 5.9.0~beta.3+dfsg~),
+                     qttools5-dev-tools (>= 5.9.0~)
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwayland.git
