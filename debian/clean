@@ -3,6 +3,7 @@ config.summary
 config.tests/.qmake.cache
 config.tests/.qmake.stash
 doc/
+src/client/QtWaylandClient.version.in
 src/client/qtwaylandclient-config.h
 src/client/qtwaylandclient-config.pri
 src/client/qtwaylandclient-config_p.h
