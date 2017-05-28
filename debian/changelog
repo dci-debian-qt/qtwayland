@@ -3,6 +3,7 @@ qtwayland-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release candidate.
   * Bump Qt build-dependencies to 5.9.0.
+  * Update libqt5waylandcompositor5-dev.install for the new version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 May 2017 10:56:28 +0300
 
