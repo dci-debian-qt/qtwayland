@@ -8,6 +8,7 @@ qtwayland-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
   * Update the symbols files.
     - In Qt 5.7 the Qt Wayland Compositor library is a technical preview,
       so API/ABI stability was not guaranteed.
+  * Add debian/clean file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 May 2017 10:56:28 +0300
 
