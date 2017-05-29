@@ -1,3 +1,10 @@
+qtwayland-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream stable release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 15:08:54 +0300
+
 qtwayland-opensource-src (5.9.0~rc-1) experimental; urgency=medium
 
   * New upstream release candidate.
