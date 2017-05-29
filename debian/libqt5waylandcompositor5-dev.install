@@ -81,8 +81,7 @@ usr/include/*/qt5/QtWaylandCompositor/qwaylandwlshell.h
 usr/include/*/qt5/QtWaylandCompositor/qwaylandxdgshellv5.h
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake
+usr/lib/*/cmake/Qt5Gui/Qt5Gui_QWaylandXComposite*IntegrationPlugin.cmake
 usr/lib/*/cmake/Qt5WaylandCompositor/
 usr/lib/*/libQt5WaylandCompositor.prl
 usr/lib/*/libQt5WaylandCompositor.so
