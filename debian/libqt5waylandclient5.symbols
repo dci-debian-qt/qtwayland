@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1 amd64 arm64 i386 mips mips64el powerpc ppc64el s390x sparc64
+# SymbolsHelper-Confirmed: 5.9.0~rc amd64
 libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
@@ -8,44 +8,10 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.9.0~rc
+ Qt_5.9@Qt_5.9 5.9.0~rc
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN13QFontEngineFT11boundingBoxERK12QGlyphLayout@Qt_5 5.4.0
- _ZN13QFontEngineFT11boundingBoxEj@Qt_5 5.4.0
- _ZN13QFontEngineFT11boundingBoxEjRK10QTransform@Qt_5 5.4.0
- _ZN13QFontEngineFT12loadGlyphForEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformb@Qt_5 5.4.1
- _ZN13QFontEngineFT12loadGlyphSetERK10QTransform@Qt_5 5.5.0
- _ZN13QFontEngineFT14bitmapForGlyphEj6QFixedRK10QTransform@Qt_5 5.7.0
- _ZN13QFontEngineFT15addGlyphsToPathEPjP11QFixedPointiP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Qt_5 5.4.0
- _ZN13QFontEngineFT16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Qt_5 5.4.0
- _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixed@Qt_5 5.4.0
- _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixedRK10QTransform@Qt_5 5.4.1
- _ZN13QFontEngineFT16getUnscaledGlyphEjP12QPainterPathP15glyph_metrics_t@Qt_5 5.4.0
- _ZN13QFontEngineFT17getPointInOutlineEjijP6QFixedS1_Pj@Qt_5 5.4.0
- _ZN13QFontEngineFT18initFromFontEngineEPKS_@Qt_5 5.4.0
- _ZN13QFontEngineFT19alphaMapBoundingBoxEj6QFixedRK10QTransformN11QFontEngine11GlyphFormatE@Qt_5 5.4.0
- _ZN13QFontEngineFT19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Qt_5 5.4.0
- _ZN13QFontEngineFT19setDefaultHintStyleEN11QFontEngine9HintStyleE@Qt_5 5.4.0
- _ZN13QFontEngineFT20removeGlyphFromCacheEj@Qt_5 5.4.0
- _ZN13QFontEngineFT21setQtDefaultHintStyleEN5QFont17HintingPreferenceE@Qt_5 5.6.0~beta
- _ZN13QFontEngineFT22lockedAlphaMapForGlyphEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformP6QPoint@Qt_5 5.4.0
- _ZN13QFontEngineFT22unlockAlphaMapForGlyphEv@Qt_5 5.4.0
- _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatEP13QFreetypeFace@Qt_5 5.4.0
- _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatERK10QByteArray@Qt_5 5.4.0
- _ZN13QFontEngineFT5GlyphD1Ev@Qt_5 5.4.0
- _ZN13QFontEngineFT5GlyphD2Ev@Qt_5 5.4.0
- _ZN13QFontEngineFT9QGlyphSet20removeGlyphFromCacheEj6QFixed@Qt_5 5.4.0
- _ZN13QFontEngineFT9QGlyphSet5clearEv@Qt_5 5.4.0
- _ZN13QFontEngineFT9QGlyphSet8setGlyphEj6QFixedPNS_5GlyphE@Qt_5 5.4.0
- _ZN13QFontEngineFT9QGlyphSetC1Ev@Qt_5 5.4.0
- _ZN13QFontEngineFT9QGlyphSetC2Ev@Qt_5 5.4.0
- _ZN13QFontEngineFT9QGlyphSetD1Ev@Qt_5 5.4.0
- _ZN13QFontEngineFT9QGlyphSetD2Ev@Qt_5 5.4.0
- _ZN13QFontEngineFTC1ERK8QFontDef@Qt_5 5.4.0
- _ZN13QFontEngineFTC2ERK8QFontDef@Qt_5 5.4.0
- _ZN13QFontEngineFTD0Ev@Qt_5 5.4.0
- _ZN13QFontEngineFTD1Ev@Qt_5 5.4.0
- _ZN13QFontEngineFTD2Ev@Qt_5 5.4.0
  _ZN15QtWaylandClient11QWaylandShm10formatFromE13wl_shm_format@Qt_5_PRIVATE_API 5.7.0
  _ZN15QtWaylandClient11QWaylandShm10formatFromEN6QImage6FormatE@Qt_5_PRIVATE_API 5.7.0
  _ZN15QtWaylandClient11QWaylandShm10shm_formatEj@Qt_5_PRIVATE_API 5.7.0
@@ -122,6 +88,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient14QWaylandWindow14setWindowTitleERK7QString@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow15addAttachOffsetE6QPoint@Qt_5_PRIVATE_API 5.7.0
  _ZN15QtWaylandClient14QWaylandWindow15mFrameSyncMutexE@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow15sendExposeEventERK5QRect@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient14QWaylandWindow16callbackListenerE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow16createDecorationEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow16handleMouseLeaveEPNS_19QWaylandInputDeviceE@Qt_5_PRIVATE_API 5.5.0
@@ -130,6 +97,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient14QWaylandWindow18restoreMouseCursorEPNS_19QWaylandInputDeviceE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow18setGeometry_helperERK5QRect@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow18setOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow19initializeWlSurfaceEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient14QWaylandWindow19setMouseGrabEnabledEb@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow19touchDragDecorationEPNS_19QWaylandInputDeviceERK7QPointFS5_N2Qt15TouchPointStateE6QFlagsINS6_16KeyboardModifierEE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow21requestActivateWindowEv@Qt_5_PRIVATE_API 5.5.0
@@ -140,6 +108,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient14QWaylandWindow5raiseEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow5resetEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QtWaylandClient14QWaylandWindow6attachEPNS_14QWaylandBufferEii@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient14QWaylandWindow6commitEPNS_14QWaylandBufferERK7QRegion@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient14QWaylandWindow6damageERK5QRect@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow7setMaskERK7QRegion@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient14QWaylandWindow7unfocusEv@Qt_5_PRIVATE_API 5.5.0
@@ -174,6 +143,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient15QWaylandDisplay19currentTimeMillisecEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient15QWaylandDisplay20syncCallbackListenerE@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient15QWaylandDisplay21handleWindowActivatedEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QtWaylandClient15QWaylandDisplay21handleWindowDestroyedEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient15QWaylandDisplay22registry_global_removeEj@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient15QWaylandDisplay23handleWindowDeactivatedEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient15QWaylandDisplay26handleKeyboardFocusChangedEPNS_19QWaylandInputDeviceE@Qt_5_PRIVATE_API 5.7.1
@@ -187,6 +157,8 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient16QWaylandXdgPopup11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient16QWaylandXdgPopup11qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient16QWaylandXdgPopup16staticMetaObjectE@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QtWaylandClient16QWaylandXdgPopup20xdg_popup_popup_doneEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient16QWaylandXdgPopup7setTypeEN2Qt10WindowTypeEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient16QWaylandXdgPopupC1EP9xdg_popupPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient16QWaylandXdgPopupC2EP9xdg_popupPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient16QWaylandXdgPopupD0Ev@Qt_5_PRIVATE_API 5.7.1
@@ -249,9 +221,15 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient18QWaylandSubSurfaceD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QtWaylandClient18QWaylandSubSurfaceD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QtWaylandClient18QWaylandSubSurfaceD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN15QtWaylandClient18QWaylandXdgShellV613getXdgSurfaceEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient18QWaylandXdgShellV618zxdg_shell_v6_pingEj@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient18QWaylandXdgShellV6C1EP11wl_registryjj@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient18QWaylandXdgShellV6C2EP11wl_registryjj@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient18QWaylandXdgShellV6D0Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient18QWaylandXdgShellV6D1Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient18QWaylandXdgShellV6D2Ev@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient18QWaylandXdgSurface11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface11qt_metacastEPKc@Qt_5_PRIVATE_API 5.5.0
- _ZN15QtWaylandClient18QWaylandXdgSurface11setTopLevelEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface12sendPropertyERK7QStringRK8QVariant@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface12setMaximizedEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface12setMinimizedEv@Qt_5_PRIVATE_API 5.5.0
@@ -259,7 +237,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient18QWaylandXdgSurface14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface16staticMetaObjectE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface17xdg_surface_closeEv@Qt_5_PRIVATE_API 5.5.0
- _ZN15QtWaylandClient18QWaylandXdgSurface21updateTransientParentEP7QWindow@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface21updateTransientParentEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient18QWaylandXdgSurface21xdg_surface_configureEiiP8wl_arrayj@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface25setContentOrientationMaskE6QFlagsIN2Qt17ScreenOrientationEE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface4moveEPNS_19QWaylandInputDeviceE@Qt_5_PRIVATE_API 5.5.0
@@ -267,6 +245,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient18QWaylandXdgSurface5raiseEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface6resizeEPNS_19QWaylandInputDeviceE23wl_shell_surface_resize@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface6resizeEPNS_19QWaylandInputDeviceEN9QtWayland11xdg_surface11resize_edgeE@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient18QWaylandXdgSurface7setTypeEN2Qt10WindowTypeEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient18QWaylandXdgSurface8setAppIdERK7QString@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface8setTitleERK7QString@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient18QWaylandXdgSurface9setNormalEv@Qt_5_PRIVATE_API 5.5.0
@@ -280,6 +259,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient19QWaylandInputDevice11qt_metacastEPKc@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice12setTextInputEPNS_17QWaylandTextInputE@Qt_5_PRIVATE_API 5.7.0
  _ZN15QtWaylandClient19QWaylandInputDevice13createPointerEPS0_@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice13handleEndDragEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient19QWaylandInputDevice13setDataDeviceEPNS_18QWaylandDataDeviceE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice14createKeyboardEPS0_@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice16handleTouchPointEiddN2Qt15TouchPointStateE@Qt_5_PRIVATE_API 5.5.0
@@ -291,6 +271,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient19QWaylandInputDevice5Touch11touch_frameEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice5Touch12touch_cancelEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice5Touch12touch_motionEjiii@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice5Touch13releasePointsEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient19QWaylandInputDevice5Touch22allTouchPointsReleasedEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice5Touch8touch_upEjji@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice5TouchC1EPS0_@Qt_5_PRIVATE_API 5.5.0
@@ -303,6 +284,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient19QWaylandInputDevice7Pointer13pointer_leaveEjP10wl_surface@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice7Pointer14pointer_buttonEjjjj@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice7Pointer14pointer_motionEjii@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient19QWaylandInputDevice7Pointer14releaseButtonsEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient19QWaylandInputDevice7PointerC1EPS0_@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice7PointerC2EPS0_@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient19QWaylandInputDevice7PointerD0Ev@Qt_5_PRIVATE_API 5.5.0
@@ -360,6 +342,36 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient20QWaylandShellSurface16staticMetaObjectE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient20QWaylandShellSurfaceC1EPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient20QWaylandShellSurfaceC2EPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV611setToplevelEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV612handleExposeERK7QRegion@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV625zxdg_surface_v6_configureEj@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV64moveEPNS_19QWaylandInputDeviceE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV65Popup14applyConfigureEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV65Popup24zxdg_popup_v6_popup_doneEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV65PopupC1EPS0_S2_PN9QtWayland18zxdg_positioner_v6E@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV65PopupC2EPS0_S2_PN9QtWayland18zxdg_positioner_v6E@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV65PopupD0Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV65PopupD1Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV65PopupD2Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV66resizeEPNS_19QWaylandInputDeviceE23wl_shell_surface_resize@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV66resizeEPNS_19QWaylandInputDeviceE28zxdg_toplevel_v6_resize_edge@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV67setTypeEN2Qt10WindowTypeEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68Toplevel14applyConfigureEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68Toplevel22zxdg_toplevel_v6_closeEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68Toplevel26zxdg_toplevel_v6_configureEiiP8wl_array@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68ToplevelC1EPS0_@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68ToplevelC2EPS0_@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68ToplevelD0Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68ToplevelD1Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68ToplevelD2Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68setAppIdERK7QString@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68setPopupEPNS_14QWaylandWindowEPNS_19QWaylandInputDeviceEi@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV68setTitleERK7QString@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV6C1EPNS_18QWaylandXdgShellV6EP15zxdg_surface_v6PNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV6C2EPNS_18QWaylandXdgShellV6EP15zxdg_surface_v6PNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV6D0Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV6D1Ev@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient20QWaylandXdgSurfaceV6D2Ev@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient22QWaylandQtKeyExtension19key_extension_qtkeyEP10wl_surfacejjjjjjjRK7QStringjj@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient22QWaylandQtKeyExtensionC1EPNS_15QWaylandDisplayEj@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient22QWaylandQtKeyExtensionC2EPNS_15QWaylandDisplayEj@Qt_5_PRIVATE_API 5.5.0
@@ -388,6 +400,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient22QWaylandWlShellSurface5lowerEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient22QWaylandWlShellSurface5raiseEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient22QWaylandWlShellSurface6resizeEPNS_19QWaylandInputDeviceE23wl_shell_surface_resize@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient22QWaylandWlShellSurface7setTypeEN2Qt10WindowTypeEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient22QWaylandWlShellSurface8setAppIdERK7QString@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient22QWaylandWlShellSurface8setPopupEPNS_14QWaylandWindowEPNS_19QWaylandInputDeviceEi@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient22QWaylandWlShellSurface8setTitleERK7QString@Qt_5_PRIVATE_API 5.5.0
@@ -424,7 +437,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient23QWaylandShmBackingStore11paintDeviceEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient23QWaylandShmBackingStore17updateDecorationsEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient23QWaylandShmBackingStore5flushEP7QWindowRK7QRegionRK6QPoint@Qt_5_PRIVATE_API 5.5.0
- _ZN15QtWaylandClient23QWaylandShmBackingStore6hiddenEv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient23QWaylandShmBackingStore6resizeERK5QSize@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient23QWaylandShmBackingStore6resizeERK5QSizeRK7QRegion@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient23QWaylandShmBackingStore8endPaintEv@Qt_5_PRIVATE_API 5.5.0
@@ -466,7 +478,9 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient26QWaylandAbstractDecorationD0Ev@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient26QWaylandAbstractDecorationD1Ev@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient26QWaylandAbstractDecorationD2Ev@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient26QWaylandWlShellIntegration10initializeEPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient26QWaylandWlShellIntegration18createShellSurfaceEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QtWaylandClient26QWaylandWlShellIntegration6createEPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient26QWaylandWlShellIntegrationC1EPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient26QWaylandWlShellIntegrationC2EPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient27QWaylandHardwareIntegration23clientBufferIntegrationEv@Qt_5_PRIVATE_API 5.5.0
@@ -475,9 +489,17 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN15QtWaylandClient27QWaylandHardwareIntegration35hardware_integration_server_backendERK7QString@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient27QWaylandHardwareIntegrationC1EP11wl_registryi@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient27QWaylandHardwareIntegrationC2EP11wl_registryi@Qt_5_PRIVATE_API 5.5.0
+ _ZN15QtWaylandClient27QWaylandXdgShellIntegration10initializeEPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient27QWaylandXdgShellIntegration18createShellSurfaceEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QtWaylandClient27QWaylandXdgShellIntegration26handleKeyboardFocusChangedEPNS_14QWaylandWindowES2_@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient27QWaylandXdgShellIntegration6createEPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient27QWaylandXdgShellIntegrationC1EPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.7.1
  _ZN15QtWaylandClient27QWaylandXdgShellIntegrationC2EPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QtWaylandClient29QWaylandXdgShellV6Integration10initializeEPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient29QWaylandXdgShellV6Integration18createShellSurfaceEPNS_14QWaylandWindowE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient29QWaylandXdgShellV6Integration6createEPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient29QWaylandXdgShellV6IntegrationC1EPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN15QtWaylandClient29QWaylandXdgShellV6IntegrationC2EPNS_15QWaylandDisplayE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN15QtWaylandClient30QWaylandShellIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient30QWaylandShellIntegrationPlugin11qt_metacastEPKc@Qt_5_PRIVATE_API 5.5.0
  _ZN15QtWaylandClient30QWaylandShellIntegrationPlugin16staticMetaObjectE@Qt_5_PRIVATE_API 5.5.0
@@ -548,9 +570,10 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN23QWaylandClientExtension13activeChangedEv@Qt_5 5.7.0
  _ZN23QWaylandClientExtension14versionChangedEv@Qt_5 5.7.0
  _ZN23QWaylandClientExtension16staticMetaObjectE@Qt_5 5.7.0
+ _ZN23QWaylandClientExtension19addRegistryListenerEv@Qt_5 5.9.0~rc
  _ZN23QWaylandClientExtensionC1Ei@Qt_5 5.7.0
  _ZN23QWaylandClientExtensionC2Ei@Qt_5 5.7.0
- _ZN30QWaylandClientExtensionPrivate15registry_globalEjRK7QStringj@Qt_5_PRIVATE_API 5.7.0
+ _ZN30QWaylandClientExtensionPrivate20handleRegistryGlobalEPvP11wl_registryjRK7QStringj@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN30QWaylandClientExtensionPrivateC1Ev@Qt_5_PRIVATE_API 5.7.0
  _ZN30QWaylandClientExtensionPrivateC2Ev@Qt_5_PRIVATE_API 5.7.0
  _ZN9QtWayland10wl_pointer10set_cursorEjP10wl_surfaceii@Qt_5 5.4.0
@@ -766,6 +789,46 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland13wl_subsurfaceD0Ev@Qt_5 5.5.0
  _ZN9QtWayland13wl_subsurfaceD1Ev@Qt_5 5.5.0
  _ZN9QtWayland13wl_subsurfaceD2Ev@Qt_5 5.5.0
+ _ZN9QtWayland13zxdg_popup_v613init_listenerEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v616handle_configureEPvP13zxdg_popup_v6iiii@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v617handle_popup_doneEPvP13zxdg_popup_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v623zxdg_popup_v6_configureEiiii@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v624m_zxdg_popup_v6_listenerE@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v624zxdg_popup_v6_popup_doneEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v64grabEP7wl_seatj@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v64initEP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v64initEP13zxdg_popup_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v67destroyEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v69interfaceEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6C1EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6C1EP13zxdg_popup_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6C1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6C2EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6C2EP13zxdg_popup_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6C2Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6D0Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6D1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_popup_v6D2Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v611handle_pingEPvP13zxdg_shell_v6j@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v613init_listenerEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v615get_xdg_surfaceEP10wl_surface@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v617create_positionerEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v618zxdg_shell_v6_pingEj@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v624m_zxdg_shell_v6_listenerE@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v64initEP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v64initEP13zxdg_shell_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v64pongEj@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v67destroyEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v69interfaceEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6C1EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6C1EP13zxdg_shell_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6C1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6C2EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6C2EP13zxdg_shell_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6C2Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6D0Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6D1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland13zxdg_shell_v6D2Ev@Qt_5 5.9.0~rc
  _ZN9QtWayland14wl_data_device10start_dragEP14wl_data_sourceP10wl_surfaceS4_j@Qt_5 5.4.0
  _ZN9QtWayland14wl_data_device11handle_dropEPvP14wl_data_device@Qt_5 5.4.0
  _ZN9QtWayland14wl_data_device12handle_enterEPvP14wl_data_devicejP10wl_surfaceiiP13wl_data_offer@Qt_5 5.4.0
@@ -816,6 +879,27 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland14wl_data_sourceD0Ev@Qt_5 5.4.0
  _ZN9QtWayland14wl_data_sourceD1Ev@Qt_5 5.4.0
  _ZN9QtWayland14wl_data_sourceD2Ev@Qt_5 5.4.0
+ _ZN9QtWayland15zxdg_surface_v612get_toplevelEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v613ack_configureEj@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v613init_listenerEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v616handle_configureEPvP15zxdg_surface_v6j@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v619set_window_geometryEiiii@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v625zxdg_surface_v6_configureEj@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v626m_zxdg_surface_v6_listenerE@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v64initEP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v64initEP15zxdg_surface_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v67destroyEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v69get_popupEP15zxdg_surface_v6P18zxdg_positioner_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v69interfaceEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6C1EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6C1EP15zxdg_surface_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6C1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6C2EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6C2EP15zxdg_surface_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6C2Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6D0Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6D1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland15zxdg_surface_v6D2Ev@Qt_5 5.9.0~rc
  _ZN9QtWayland16qt_key_extension12handle_qtkeyEPvP16qt_key_extensionP10wl_surfacejjjjjjjPKcjj@Qt_5 5.4.0
  _ZN9QtWayland16qt_key_extension13init_listenerEv@Qt_5 5.4.0
  _ZN9QtWayland16qt_key_extension19key_extension_qtkeyEP10wl_surfacejjjjjjjRK7QStringjj@Qt_5 5.4.0
@@ -909,6 +993,38 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland16wl_subcompositorD0Ev@Qt_5 5.5.0
  _ZN9QtWayland16wl_subcompositorD1Ev@Qt_5 5.5.0
  _ZN9QtWayland16wl_subcompositorD2Ev@Qt_5 5.5.0
+ _ZN9QtWayland16zxdg_toplevel_v610set_app_idERK7QString@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v610set_parentEP16zxdg_toplevel_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v612handle_closeEPvP16zxdg_toplevel_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v612set_max_sizeEii@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v612set_min_sizeEii@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v613init_listenerEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v613set_maximizedEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v613set_minimizedEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v614set_fullscreenEP9wl_output@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v615unset_maximizedEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v616handle_configureEPvP16zxdg_toplevel_v6iiP8wl_array@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v616show_window_menuEP7wl_seatjii@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v616unset_fullscreenEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v622zxdg_toplevel_v6_closeEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v626zxdg_toplevel_v6_configureEiiP8wl_array@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v627m_zxdg_toplevel_v6_listenerE@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v64initEP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v64initEP16zxdg_toplevel_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v64moveEP7wl_seatj@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v66resizeEP7wl_seatjj@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v67destroyEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v69interfaceEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v69set_titleERK7QString@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6C1EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6C1EP16zxdg_toplevel_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6C1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6C2EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6C2EP16zxdg_toplevel_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6C2Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6D0Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6D1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland16zxdg_toplevel_v6D2Ev@Qt_5 5.9.0~rc
  _ZN9QtWayland17zwp_text_input_v212handle_enterEPvP17zwp_text_input_v2jP10wl_surface@Qt_5 5.7.0
  _ZN9QtWayland17zwp_text_input_v212handle_leaveEPvP17zwp_text_input_v2jP10wl_surface@Qt_5 5.7.0
  _ZN9QtWayland17zwp_text_input_v212update_stateEjj@Qt_5 5.7.0
@@ -982,6 +1098,25 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland18qt_touch_extensionD0Ev@Qt_5 5.4.0
  _ZN9QtWayland18qt_touch_extensionD1Ev@Qt_5 5.4.0
  _ZN9QtWayland18qt_touch_extensionD2Ev@Qt_5 5.4.0
+ _ZN9QtWayland18zxdg_positioner_v610set_anchorEj@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v610set_offsetEii@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v611set_gravityEj@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v615set_anchor_rectEiiii@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v625set_constraint_adjustmentEj@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v64initEP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v64initEP18zxdg_positioner_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v67destroyEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v68set_sizeEii@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v69interfaceEv@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6C1EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6C1EP18zxdg_positioner_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6C1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6C2EP11wl_registryii@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6C2EP18zxdg_positioner_v6@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6C2Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6D0Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6D1Ev@Qt_5 5.9.0~rc
+ _ZN9QtWayland18zxdg_positioner_v6D2Ev@Qt_5 5.9.0~rc
  _ZN9QtWayland19qt_extended_surface12handle_closeEPvP19qt_extended_surface@Qt_5 5.4.0
  _ZN9QtWayland19qt_extended_surface13init_listenerEv@Qt_5 5.4.0
  _ZN9QtWayland19qt_extended_surface16set_window_flagsEi@Qt_5 5.4.0
@@ -1234,35 +1369,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZN9QtWayland9xdg_shellD0Ev@Qt_5 5.4.0
  _ZN9QtWayland9xdg_shellD1Ev@Qt_5 5.4.0
  _ZN9QtWayland9xdg_shellD2Ev@Qt_5 5.4.0
- _ZNK13QFontEngineFT10glyphCountEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT10glyphIndexEj@Qt_5 5.4.0
- _ZNK13QFontEngineFT10propertiesEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT10unlockFaceEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT11synthesizedEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT12emSquareSizeEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT12maxCharWidthEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT12stringToCMapEPK5QChariP12QGlyphLayoutPi6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5 5.4.0
- _ZNK13QFontEngineFT13cloneWithSizeEd@Qt_5 5.4.0
- _ZNK13QFontEngineFT13lineThicknessEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT14recalcAdvancesEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5 5.4.0
- _ZNK13QFontEngineFT15non_locked_faceEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT16averageCharWidthEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT16getSfntTableDataEjPhPj@Qt_5 5.4.0
- _ZNK13QFontEngineFT17underlinePositionEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT19scaledBitmapMetricsE6QFixed@Qt_5 5.7.0
- _ZNK13QFontEngineFT19scaledBitmapMetricsERK15glyph_metrics_t@Qt_5 5.7.0
- _ZNK13QFontEngineFT22shouldUseDesignMetricsE6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5 5.4.0
- _ZNK13QFontEngineFT22supportsTransformationERK10QTransform@Qt_5 5.4.0
- _ZNK13QFontEngineFT6ascentEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT6faceIdEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT6handleEv@Qt_5 5.6.1
- _ZNK13QFontEngineFT7descentEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT7leadingEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT7xHeightEv@Qt_5 5.4.0
- _ZNK13QFontEngineFT8lockFaceENS_7ScalingE@Qt_5 5.4.0
- _ZNK13QFontEngineFT9doKerningEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5 5.4.0
- _ZNK13QFontEngineFT9loadFlagsEPNS_9QGlyphSetEN11QFontEngine11GlyphFormatEiRbRi@Qt_5 5.4.0
- _ZNK13QFontEngineFT9loadGlyphEPNS_9QGlyphSetEj6QFixedN11QFontEngine11GlyphFormatEb@Qt_5 5.4.0
  _ZNK15QtWaylandClient11QWaylandShm15formatSupportedE13wl_shm_format@Qt_5_PRIVATE_API 5.7.0
  _ZNK15QtWaylandClient11QWaylandShm15formatSupportedEN6QImage6FormatE@Qt_5_PRIVATE_API 5.7.0
  _ZNK15QtWaylandClient14QWaylandCursor3posEv@Qt_5_PRIVATE_API 5.5.0
@@ -1287,7 +1393,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK15QtWaylandClient14QWaylandWindow16devicePixelRatioEv@Qt_5_PRIVATE_API 5.5.0
  _ZNK15QtWaylandClient14QWaylandWindow16subSurfaceWindowEv@Qt_5_PRIVATE_API 5.5.0
  _ZNK15QtWaylandClient14QWaylandWindow22shouldCreateSubSurfaceEv@Qt_5_PRIVATE_API 5.6.1
- _ZNK15QtWaylandClient14QWaylandWindow23shellManagesActiveStateEv@Qt_5_PRIVATE_API 5.7.1
  _ZNK15QtWaylandClient14QWaylandWindow24shouldCreateShellSurfaceEv@Qt_5_PRIVATE_API 5.6.1
  _ZNK15QtWaylandClient14QWaylandWindow5scaleEv@Qt_5_PRIVATE_API 5.5.0
  _ZNK15QtWaylandClient14QWaylandWindow5winIdEv@Qt_5_PRIVATE_API 5.5.0
@@ -1379,15 +1484,20 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK9QtWayland13wl_compositor13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland13wl_data_offer13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland13wl_subsurface13isInitializedEv@Qt_5 5.5.0
+ _ZNK9QtWayland13zxdg_popup_v613isInitializedEv@Qt_5 5.9.0~rc
+ _ZNK9QtWayland13zxdg_shell_v613isInitializedEv@Qt_5 5.9.0~rc
  _ZNK9QtWayland14wl_data_device13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland14wl_data_source13isInitializedEv@Qt_5 5.4.0
+ _ZNK9QtWayland15zxdg_surface_v613isInitializedEv@Qt_5 5.9.0~rc
  _ZNK9QtWayland16qt_key_extension13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland16qt_server_buffer13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland16qt_windowmanager13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland16wl_shell_surface13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland16wl_subcompositor13isInitializedEv@Qt_5 5.5.0
+ _ZNK9QtWayland16zxdg_toplevel_v613isInitializedEv@Qt_5 5.9.0~rc
  _ZNK9QtWayland17zwp_text_input_v213isInitializedEv@Qt_5 5.7.0
  _ZNK9QtWayland18qt_touch_extension13isInitializedEv@Qt_5 5.4.0
+ _ZNK9QtWayland18zxdg_positioner_v613isInitializedEv@Qt_5 5.9.0~rc
  _ZNK9QtWayland19qt_extended_surface13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland20qt_surface_extension13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland22wl_data_device_manager13isInitializedEv@Qt_5 5.4.0
@@ -1402,7 +1512,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZNK9QtWayland9wl_region13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland9xdg_popup13isInitializedEv@Qt_5 5.4.0
  _ZNK9QtWayland9xdg_shell13isInitializedEv@Qt_5 5.4.0
- _ZTI13QFontEngineFT@Qt_5 5.4.0
  _ZTI23QWaylandClientExtension@Qt_5 5.7.0
  _ZTI27QEventDispatcherGlibPrivate@Qt_5 5.4.0
  _ZTI30QWaylandClientExtensionPrivate@Qt_5_PRIVATE_API 5.7.0
@@ -1422,6 +1531,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTIN15QtWaylandClient17QWaylandShmWindowE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient18QWaylandDataSourceE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient18QWaylandSubSurfaceE@Qt_5_PRIVATE_API 5.5.0
+ _ZTIN15QtWaylandClient18QWaylandXdgShellV6E@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTIN15QtWaylandClient18QWaylandXdgSurfaceE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient19QWaylandInputDevice5TouchE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient19QWaylandInputDevice7PointerE@Qt_5_PRIVATE_API 5.5.0
@@ -1430,6 +1540,9 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTIN15QtWaylandClient19QWaylandIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient20QWaylandServerBufferE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient20QWaylandShellSurfaceE@Qt_5_PRIVATE_API 5.5.0
+ _ZTIN15QtWaylandClient20QWaylandXdgSurfaceV65PopupE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTIN15QtWaylandClient20QWaylandXdgSurfaceV68ToplevelE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTIN15QtWaylandClient20QWaylandXdgSurfaceV6E@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTIN15QtWaylandClient22QWaylandQtKeyExtensionE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient22QWaylandTouchExtensionE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient22QWaylandWlShellSurfaceE@Qt_5_PRIVATE_API 5.5.0
@@ -1443,6 +1556,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTIN15QtWaylandClient26QWaylandWlShellIntegrationE@Qt_5_PRIVATE_API 5.7.1
  _ZTIN15QtWaylandClient27QWaylandHardwareIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient27QWaylandXdgShellIntegrationE@Qt_5_PRIVATE_API 5.7.1
+ _ZTIN15QtWaylandClient29QWaylandXdgShellV6IntegrationE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTIN15QtWaylandClient30QWaylandShellIntegrationPluginE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient31QWaylandClientBufferIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTIN15QtWaylandClient31QWaylandServerBufferIntegrationE@Qt_5_PRIVATE_API 5.5.0
@@ -1460,15 +1574,20 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTIN9QtWayland13wl_compositorE@Qt_5 5.4.0
  _ZTIN9QtWayland13wl_data_offerE@Qt_5 5.4.0
  _ZTIN9QtWayland13wl_subsurfaceE@Qt_5 5.5.0
+ _ZTIN9QtWayland13zxdg_popup_v6E@Qt_5 5.9.0~rc
+ _ZTIN9QtWayland13zxdg_shell_v6E@Qt_5 5.9.0~rc
  _ZTIN9QtWayland14wl_data_deviceE@Qt_5 5.4.0
  _ZTIN9QtWayland14wl_data_sourceE@Qt_5 5.4.0
+ _ZTIN9QtWayland15zxdg_surface_v6E@Qt_5 5.9.0~rc
  _ZTIN9QtWayland16qt_key_extensionE@Qt_5 5.4.0
  _ZTIN9QtWayland16qt_server_bufferE@Qt_5 5.4.0
  _ZTIN9QtWayland16qt_windowmanagerE@Qt_5 5.4.0
  _ZTIN9QtWayland16wl_shell_surfaceE@Qt_5 5.4.0
  _ZTIN9QtWayland16wl_subcompositorE@Qt_5 5.5.0
+ _ZTIN9QtWayland16zxdg_toplevel_v6E@Qt_5 5.9.0~rc
  _ZTIN9QtWayland17zwp_text_input_v2E@Qt_5 5.7.0
  _ZTIN9QtWayland18qt_touch_extensionE@Qt_5 5.4.0
+ _ZTIN9QtWayland18zxdg_positioner_v6E@Qt_5 5.9.0~rc
  _ZTIN9QtWayland19qt_extended_surfaceE@Qt_5 5.4.0
  _ZTIN9QtWayland20qt_surface_extensionE@Qt_5 5.4.0
  _ZTIN9QtWayland22wl_data_device_managerE@Qt_5 5.4.0
@@ -1483,7 +1602,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTIN9QtWayland9wl_regionE@Qt_5 5.4.0
  _ZTIN9QtWayland9xdg_popupE@Qt_5 5.4.0
  _ZTIN9QtWayland9xdg_shellE@Qt_5 5.4.0
- _ZTS13QFontEngineFT@Qt_5 5.4.0
  _ZTS23QWaylandClientExtension@Qt_5 5.7.0
  _ZTS27QEventDispatcherGlibPrivate@Qt_5 5.4.0
  _ZTS30QWaylandClientExtensionPrivate@Qt_5_PRIVATE_API 5.7.0
@@ -1503,6 +1621,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN15QtWaylandClient17QWaylandShmWindowE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient18QWaylandDataSourceE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient18QWaylandSubSurfaceE@Qt_5_PRIVATE_API 5.5.0
+ _ZTSN15QtWaylandClient18QWaylandXdgShellV6E@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTSN15QtWaylandClient18QWaylandXdgSurfaceE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient19QWaylandInputDevice5TouchE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient19QWaylandInputDevice7PointerE@Qt_5_PRIVATE_API 5.5.0
@@ -1511,6 +1630,9 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN15QtWaylandClient19QWaylandIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient20QWaylandServerBufferE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient20QWaylandShellSurfaceE@Qt_5_PRIVATE_API 5.5.0
+ _ZTSN15QtWaylandClient20QWaylandXdgSurfaceV65PopupE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTSN15QtWaylandClient20QWaylandXdgSurfaceV68ToplevelE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTSN15QtWaylandClient20QWaylandXdgSurfaceV6E@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTSN15QtWaylandClient22QWaylandQtKeyExtensionE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient22QWaylandTouchExtensionE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient22QWaylandWlShellSurfaceE@Qt_5_PRIVATE_API 5.5.0
@@ -1524,6 +1646,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN15QtWaylandClient26QWaylandWlShellIntegrationE@Qt_5_PRIVATE_API 5.7.1
  _ZTSN15QtWaylandClient27QWaylandHardwareIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient27QWaylandXdgShellIntegrationE@Qt_5_PRIVATE_API 5.7.1
+ _ZTSN15QtWaylandClient29QWaylandXdgShellV6IntegrationE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTSN15QtWaylandClient30QWaylandShellIntegrationPluginE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient31QWaylandClientBufferIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTSN15QtWaylandClient31QWaylandServerBufferIntegrationE@Qt_5_PRIVATE_API 5.5.0
@@ -1541,15 +1664,20 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN9QtWayland13wl_compositorE@Qt_5 5.4.0
  _ZTSN9QtWayland13wl_data_offerE@Qt_5 5.4.0
  _ZTSN9QtWayland13wl_subsurfaceE@Qt_5 5.5.0
+ _ZTSN9QtWayland13zxdg_popup_v6E@Qt_5 5.9.0~rc
+ _ZTSN9QtWayland13zxdg_shell_v6E@Qt_5 5.9.0~rc
  _ZTSN9QtWayland14wl_data_deviceE@Qt_5 5.4.0
  _ZTSN9QtWayland14wl_data_sourceE@Qt_5 5.4.0
+ _ZTSN9QtWayland15zxdg_surface_v6E@Qt_5 5.9.0~rc
  _ZTSN9QtWayland16qt_key_extensionE@Qt_5 5.4.0
  _ZTSN9QtWayland16qt_server_bufferE@Qt_5 5.4.0
  _ZTSN9QtWayland16qt_windowmanagerE@Qt_5 5.4.0
  _ZTSN9QtWayland16wl_shell_surfaceE@Qt_5 5.4.0
  _ZTSN9QtWayland16wl_subcompositorE@Qt_5 5.5.0
+ _ZTSN9QtWayland16zxdg_toplevel_v6E@Qt_5 5.9.0~rc
  _ZTSN9QtWayland17zwp_text_input_v2E@Qt_5 5.7.0
  _ZTSN9QtWayland18qt_touch_extensionE@Qt_5 5.4.0
+ _ZTSN9QtWayland18zxdg_positioner_v6E@Qt_5 5.9.0~rc
  _ZTSN9QtWayland19qt_extended_surfaceE@Qt_5 5.4.0
  _ZTSN9QtWayland20qt_surface_extensionE@Qt_5 5.4.0
  _ZTSN9QtWayland22wl_data_device_managerE@Qt_5 5.4.0
@@ -1564,7 +1692,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTSN9QtWayland9wl_regionE@Qt_5 5.4.0
  _ZTSN9QtWayland9xdg_popupE@Qt_5 5.4.0
  _ZTSN9QtWayland9xdg_shellE@Qt_5 5.4.0
- _ZTV13QFontEngineFT@Qt_5 5.4.0
  _ZTV23QWaylandClientExtension@Qt_5 5.7.0
  _ZTV30QWaylandClientExtensionPrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTV31QAbstractEventDispatcherPrivate@Qt_5 5.4.0
@@ -1583,6 +1710,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN15QtWaylandClient17QWaylandShmWindowE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient18QWaylandDataSourceE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient18QWaylandSubSurfaceE@Qt_5_PRIVATE_API 5.5.0
+ _ZTVN15QtWaylandClient18QWaylandXdgShellV6E@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTVN15QtWaylandClient18QWaylandXdgSurfaceE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient19QWaylandInputDevice5TouchE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient19QWaylandInputDevice7PointerE@Qt_5_PRIVATE_API 5.5.0
@@ -1591,6 +1719,9 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN15QtWaylandClient19QWaylandIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient20QWaylandServerBufferE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient20QWaylandShellSurfaceE@Qt_5_PRIVATE_API 5.5.0
+ _ZTVN15QtWaylandClient20QWaylandXdgSurfaceV65PopupE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTVN15QtWaylandClient20QWaylandXdgSurfaceV68ToplevelE@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTVN15QtWaylandClient20QWaylandXdgSurfaceV6E@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTVN15QtWaylandClient22QWaylandQtKeyExtensionE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient22QWaylandTouchExtensionE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient22QWaylandWlShellSurfaceE@Qt_5_PRIVATE_API 5.5.0
@@ -1603,6 +1734,7 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN15QtWaylandClient26QWaylandWlShellIntegrationE@Qt_5_PRIVATE_API 5.7.1
  _ZTVN15QtWaylandClient27QWaylandHardwareIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient27QWaylandXdgShellIntegrationE@Qt_5_PRIVATE_API 5.7.1
+ _ZTVN15QtWaylandClient29QWaylandXdgShellV6IntegrationE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTVN15QtWaylandClient30QWaylandShellIntegrationPluginE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient31QWaylandClientBufferIntegrationE@Qt_5_PRIVATE_API 5.5.0
  _ZTVN15QtWaylandClient31QWaylandServerBufferIntegrationE@Qt_5_PRIVATE_API 5.5.0
@@ -1620,15 +1752,20 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN9QtWayland13wl_compositorE@Qt_5 5.4.0
  _ZTVN9QtWayland13wl_data_offerE@Qt_5 5.4.0
  _ZTVN9QtWayland13wl_subsurfaceE@Qt_5 5.5.0
+ _ZTVN9QtWayland13zxdg_popup_v6E@Qt_5 5.9.0~rc
+ _ZTVN9QtWayland13zxdg_shell_v6E@Qt_5 5.9.0~rc
  _ZTVN9QtWayland14wl_data_deviceE@Qt_5 5.4.0
  _ZTVN9QtWayland14wl_data_sourceE@Qt_5 5.4.0
+ _ZTVN9QtWayland15zxdg_surface_v6E@Qt_5 5.9.0~rc
  _ZTVN9QtWayland16qt_key_extensionE@Qt_5 5.4.0
  _ZTVN9QtWayland16qt_server_bufferE@Qt_5 5.4.0
  _ZTVN9QtWayland16qt_windowmanagerE@Qt_5 5.4.0
  _ZTVN9QtWayland16wl_shell_surfaceE@Qt_5 5.4.0
  _ZTVN9QtWayland16wl_subcompositorE@Qt_5 5.5.0
+ _ZTVN9QtWayland16zxdg_toplevel_v6E@Qt_5 5.9.0~rc
  _ZTVN9QtWayland17zwp_text_input_v2E@Qt_5 5.7.0
  _ZTVN9QtWayland18qt_touch_extensionE@Qt_5 5.4.0
+ _ZTVN9QtWayland18zxdg_positioner_v6E@Qt_5 5.9.0~rc
  _ZTVN9QtWayland19qt_extended_surfaceE@Qt_5 5.4.0
  _ZTVN9QtWayland20qt_surface_extensionE@Qt_5 5.4.0
  _ZTVN9QtWayland22wl_data_device_managerE@Qt_5 5.4.0
@@ -1643,7 +1780,6 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  _ZTVN9QtWayland9wl_regionE@Qt_5 5.4.0
  _ZTVN9QtWayland9xdg_popupE@Qt_5 5.4.0
  _ZTVN9QtWayland9xdg_shellE@Qt_5 5.4.0
- (c++)"non-virtual thunk to QWaylandClientExtensionPrivate::registry_global(unsigned int, QString const&, unsigned int)@Qt_5_PRIVATE_API" 5.7.0
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandDataSource::data_source_cancelled()@Qt_5_PRIVATE_API" 5.5.0
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandDataSource::data_source_send(QString const&, int)@Qt_5_PRIVATE_API" 5.5.0
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandDataSource::data_source_target(QString const&)@Qt_5_PRIVATE_API" 5.5.0
@@ -1695,10 +1831,13 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandWlShellSurface::shell_surface_ping(unsigned int)@Qt_5_PRIVATE_API" 5.5.0
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandWlShellSurface::shell_surface_popup_done()@Qt_5_PRIVATE_API" 5.5.0
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandWlShellSurface::~QWaylandWlShellSurface()@Qt_5_PRIVATE_API" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgPopup::xdg_popup_popup_done()@Qt_5_PRIVATE_API" 5.9.0~rc
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgPopup::~QWaylandXdgPopup()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgSurface::xdg_surface_close()@Qt_5_PRIVATE_API" 5.5.0
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgSurface::xdg_surface_configure(int, int, wl_array*, unsigned int)@Qt_5_PRIVATE_API" 5.5.0
  (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgSurface::~QWaylandXdgSurface()@Qt_5_PRIVATE_API" 5.5.0
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgSurfaceV6::zxdg_surface_v6_configure(unsigned int)@Qt_5_PRIVATE_API" 5.9.0~rc
+ (c++)"non-virtual thunk to QtWaylandClient::QWaylandXdgSurfaceV6::~QWaylandXdgSurfaceV6()@Qt_5_PRIVATE_API" 5.9.0~rc
  qt_extended_surface_interface@Qt_5 5.4.0
  qt_hardware_integration_interface@Qt_5 5.4.0
  qt_key_extension_interface@Qt_5 5.4.0
@@ -1706,30 +1845,13 @@ libQt5WaylandClient.so.5 libqt5waylandclient5 #MINVER#
  qt_surface_extension_interface@Qt_5 5.4.0
  qt_touch_extension_interface@Qt_5 5.4.0
  qt_windowmanager_interface@Qt_5 5.4.0
- wl_buffer_interface@Qt_5 5.4.0
- wl_callback_interface@Qt_5 5.4.0
- wl_compositor_interface@Qt_5 5.4.0
- wl_data_device_interface@Qt_5 5.4.0
- wl_data_device_manager_interface@Qt_5 5.4.0
- wl_data_offer_interface@Qt_5 5.4.0
- wl_data_source_interface@Qt_5 5.4.0
- wl_display_interface@Qt_5 5.4.0
- wl_keyboard_interface@Qt_5 5.4.0
- wl_output_interface@Qt_5 5.4.0
- wl_pointer_interface@Qt_5 5.4.0
- wl_region_interface@Qt_5 5.4.0
- wl_registry_interface@Qt_5 5.4.0
- wl_seat_interface@Qt_5 5.4.0
- wl_shell_interface@Qt_5 5.4.0
- wl_shell_surface_interface@Qt_5 5.4.0
- wl_shm_interface@Qt_5 5.4.0
- wl_shm_pool_interface@Qt_5 5.4.0
- wl_subcompositor_interface@Qt_5 5.5.0
- wl_subsurface_interface@Qt_5 5.5.0
- wl_surface_interface@Qt_5 5.4.0
- wl_touch_interface@Qt_5 5.4.0
  xdg_popup_interface@Qt_5 5.4.0
  xdg_shell_interface@Qt_5 5.4.0
  xdg_surface_interface@Qt_5 5.4.0
  zwp_text_input_manager_v2_interface@Qt_5 5.7.0
  zwp_text_input_v2_interface@Qt_5 5.7.0
+ zxdg_popup_v6_interface@Qt_5 5.9.0~rc
+ zxdg_positioner_v6_interface@Qt_5 5.9.0~rc
+ zxdg_shell_v6_interface@Qt_5 5.9.0~rc
+ zxdg_surface_v6_interface@Qt_5 5.9.0~rc
+ zxdg_toplevel_v6_interface@Qt_5 5.9.0~rc

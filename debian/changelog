@@ -1,8 +1,27 @@
-qtwayland-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
-  * neon build
+  [ Dmitry Shachnev ]
+  * New upstream stable release.
+  * Do not install Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake
+    on armel/armhf.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:36:54 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 15:08:54 +0300
+
+qtwayland-opensource-src (5.9.0~rc-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+  * Bump Qt build-dependencies to 5.9.0.
+  * Update libqt5waylandcompositor5-dev.install for the new version.
+  * Drop the hack to remove Qt5Gui_.cmake, it is no longer generated.
+  * Update the symbols files.
+    - In Qt 5.7 the Qt Wayland Compositor library is a technical preview,
+      so API/ABI stability was not guaranteed.
+    - Qt Wayland Client library has no public API, all symbols are private.
+  * Add debian/clean file.
+  * Do not use gold linker, to keep the symbols versioned.
+  * Update debian/copyright.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 28 May 2017 15:14:44 +0300
 
 qtwayland-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
