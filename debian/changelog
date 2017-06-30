@@ -1,11 +1,12 @@
-qtwayland-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.9.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream stable release.
   * Do not install Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake
     on armel/armhf.
+  * Bump qtbase build-dependencies to 5.9.0 final.
+  * Add support for nodoc build profile.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 15:08:54 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 09 Jun 2017 18:37:40 +0300
 
 qtwayland-opensource-src (5.9.0~rc-1) experimental; urgency=medium
 
