@@ -1,8 +1,16 @@
-qtwayland-opensource-src (5.9.1-0neon) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.9.1-2) unstable; urgency=medium
 
-  * New release
+  * Upload to unstable.
 
- -- Jonathan Riddell <jr@jriddell.org>  Fri, 30 Jun 2017 13:40:49 +0100
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 16 Aug 2017 15:29:50 +0300
+
+qtwayland-opensource-src (5.9.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.1.
+  * Bump Standards-Version to 4.0.0, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 07 Jul 2017 10:54:24 +0300
 
 qtwayland-opensource-src (5.9.0-1) experimental; urgency=medium
 
