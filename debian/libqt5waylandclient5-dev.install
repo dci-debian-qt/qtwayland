@@ -1,4 +1,5 @@
 usr/include/*/qt5/QtWaylandClient/
+usr/include/*/qt5/QtWaylandCompositor/
 usr/lib/*/cmake/Qt5WaylandClient/
 usr/lib/*/libQt5WaylandClient.prl
 usr/lib/*/libQt5WaylandClient.so
