@@ -88,6 +88,19 @@ Description: QtWayland compositor development files
  This library is a tech preview and the API will change before the final
  release. Use at your own risk.
 
+Package: qtwayland5-dev-tools
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qtwayland5 (<< 5.9.2-2~)
+Replaces: qtwayland5 (<< 5.9.2-2~)
+Description: Qt 5 Wayland developer tools
+ QtWayland is a Qt 5 module that wraps the functionality of Wayland.
+ .
+ This package contains the QtWayland developer tools.
+ At the moment there is only qtwaylandscanner tool here.
+
 Package: qtwayland5
 Architecture: any
 Multi-Arch: same

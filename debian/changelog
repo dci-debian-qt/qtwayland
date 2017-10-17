@@ -1,5 +1,8 @@
 qtwayland-opensource-src (5.9.2-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Move qtwaylandscanner tool into its own qtwayland5-dev-tools package,
+    make that package Multi-Arch: foreign.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Oct 2017 17:13:50 +0300
 
