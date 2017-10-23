@@ -1,3 +1,8 @@
+qtwayland-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 22:02:17 +0300
+
 qtwayland-opensource-src (5.9.2-2) experimental; urgency=medium
 
   * Move qtwaylandscanner tool into its own qtwayland5-dev-tools package,
