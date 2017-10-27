@@ -1,12 +1,12 @@
-qtwayland-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.9.2-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update for Qt binaries location change in qtbase 5.9.2+dfsg-3.
     - Install qtwaylandscanner to the new location.
     - Provide a compatibility symlink in the old location.
     - Bump qtbase5-private-dev and qttools5-dev-tools build-dependencies.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 22:02:17 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 11:34:14 +0300
 
 qtwayland-opensource-src (5.9.2-2) experimental; urgency=medium
 
