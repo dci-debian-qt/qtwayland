@@ -27,7 +27,6 @@ qtwayland-opensource-src (5.9.2-1) experimental; urgency=medium
 
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
-  * Use debhelper compat level 10 and dh_missing.
   * Update symbols files from the current build log.
   * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
 
