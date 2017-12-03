@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~rc amd64 i386
+# SymbolsHelper-Confirmed: 5.9.2 amd64
 libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  Qt_5.0@Qt_5.0 5.7.0
  Qt_5.1@Qt_5.1 5.7.0
@@ -1794,9 +1794,9 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  _ZN22QWaylandIviApplicationC1Ev@Qt_5 5.9.0~rc
  _ZN22QWaylandIviApplicationC2EP18QWaylandCompositor@Qt_5 5.9.0~rc
  _ZN22QWaylandIviApplicationC2Ev@Qt_5 5.9.0~rc
+ _ZN22QWaylandPointerPrivate10sendButtonEN2Qt11MouseButtonEj@Qt_5_PRIVATE_API 5.9.2
  _ZN22QWaylandPointerPrivate15pointer_releaseEPN15QtWaylandServer10wl_pointer8ResourceE@Qt_5_PRIVATE_API 5.7.0
  _ZN22QWaylandPointerPrivate18pointer_set_cursorEPN15QtWaylandServer10wl_pointer8ResourceEjP11wl_resourceii@Qt_5_PRIVATE_API 5.7.0
- _ZN22QWaylandPointerPrivate24pointer_destroy_resourceEPN15QtWaylandServer10wl_pointer8ResourceE@Qt_5_PRIVATE_API 5.7.0
  _ZN22QWaylandPointerPrivate6s_roleE@Qt_5_PRIVATE_API 5.7.0
  _ZN22QWaylandPointerPrivateC1EP15QWaylandPointerP12QWaylandSeat@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN22QWaylandPointerPrivateC2EP15QWaylandPointerP12QWaylandSeat@Qt_5_PRIVATE_API 5.9.0~rc
@@ -2373,6 +2373,7 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  (optional=templinst)_ZNK21QWaylandShellTemplateI15QWaylandWlShellE18extensionInterfaceEv@Qt_5 5.9.0~rc
  (optional=templinst)_ZNK21QWaylandShellTemplateI18QWaylandXdgShellV5E18extensionInterfaceEv@Qt_5 5.9.0~rc
  _ZNK22QWaylandIviApplication10metaObjectEv@Qt_5 5.9.0~rc
+ _ZNK22QWaylandPointerPrivate33pointerResourcesForFocusedSurfaceEv@Qt_5_PRIVATE_API 5.9.2
  _ZNK22QWaylandSurfaceGrabber10metaObjectEv@Qt_5 5.7.0
  _ZNK22QWaylandSurfaceGrabber7surfaceEv@Qt_5 5.7.0
  _ZNK22QWaylandWlShellSurface10metaObjectEv@Qt_5 5.7.0
@@ -2869,7 +2870,6 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  (c++)"non-virtual thunk to QWaylandKeyboardPrivate::~QWaylandKeyboardPrivate()@Qt_5_PRIVATE_API" 5.7.0
  (c++)"non-virtual thunk to QWaylandOutputPrivate::output_bind_resource(QtWaylandServer::wl_output::Resource*)@Qt_5_PRIVATE_API" 5.7.0
  (c++)"non-virtual thunk to QWaylandOutputPrivate::~QWaylandOutputPrivate()@Qt_5_PRIVATE_API" 5.7.0
- (c++)"non-virtual thunk to QWaylandPointerPrivate::pointer_destroy_resource(QtWaylandServer::wl_pointer::Resource*)@Qt_5_PRIVATE_API" 5.7.0
  (c++)"non-virtual thunk to QWaylandPointerPrivate::pointer_release(QtWaylandServer::wl_pointer::Resource*)@Qt_5_PRIVATE_API" 5.7.0
  (c++)"non-virtual thunk to QWaylandPointerPrivate::pointer_set_cursor(QtWaylandServer::wl_pointer::Resource*, unsigned int, wl_resource*, int, int)@Qt_5_PRIVATE_API" 5.7.0
  (c++)"non-virtual thunk to QWaylandQtWindowManagerPrivate::windowmanager_bind_resource(QtWaylandServer::qt_windowmanager::Resource*)@Qt_5_PRIVATE_API" 5.9.0~rc

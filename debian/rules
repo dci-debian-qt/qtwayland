@@ -44,5 +44,9 @@ override_dh_auto_install-arch:
 override_dh_install:
 	dh_install --fail-missing
 
+override_dh_link:
+	dh_link -pqtwayland5-dev-tools \
+		usr/lib/qt5/bin/qtwaylandscanner usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/qtwaylandscanner
+
 override_dh_strip:
 	dh_strip --dbgsym-migration='qtwayland5-dbg (<< 5.7.0-1~)'
