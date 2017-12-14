@@ -1,3 +1,9 @@
+qtwayland-opensource-src (5.9.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 13 Dec 2017 21:37:29 -0600
+
 qtwayland-opensource-src (5.9.2-3) unstable; urgency=medium
 
   * Update for Qt binaries location change in qtbase 5.9.2+dfsg-3.
