@@ -1,10 +1,10 @@
-qtwayland-opensource-src (5.9.3-0ubuntu1) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
   * Bump build dependencies to Qt 5.9.3.
   * Update symbols from build logs.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 13 Dec 2017 21:37:29 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 13 Dec 2017 22:05:47 -0600
 
 qtwayland-opensource-src (5.9.2-3) unstable; urgency=medium
 
