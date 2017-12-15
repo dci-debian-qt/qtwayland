@@ -1,5 +1,7 @@
 qtwayland-opensource-src (5.9.2-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Use dh_auto_configure provided by debhelper.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 18:34:29 +0300
 
