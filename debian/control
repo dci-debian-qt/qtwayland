@@ -85,9 +85,6 @@ Description: QtWayland compositor development files
  .
  This package contains the development files for QtWayland compositor
  library.
- .
- This library is a tech preview and the API will change before the final
- release. Use at your own risk.
 
 Package: qtwayland5-dev-tools
 Architecture: any

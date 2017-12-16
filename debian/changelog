@@ -4,6 +4,8 @@ qtwayland-opensource-src (5.9.2-4) UNRELEASED; urgency=medium
   * Use dh_auto_configure provided by debhelper.
   * Fix cross builds by building and using native qtwaylandscanner and
     setting QMAKE_QMAKE and PKG_CONFIG_LIBDIR variables.
+  * Remove obsolete note that Qt Wayland Compositor is a tech preview.
+    It became an official module in Qt 5.8 release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 18:34:29 +0300
 
