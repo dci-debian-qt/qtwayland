@@ -1,3 +1,9 @@
+qtwayland-opensource-src (5.9.4-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 25 Feb 2018 20:26:25 -0600
+
 qtwayland-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
