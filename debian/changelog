@@ -1,6 +1,8 @@
 qtwayland-opensource-src (5.9.4-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Add dont-create-hidden-egl-surfaces.patch which fixes a crash in a Wayland
+    session when a QQuickWindow hides and then is destroyed.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 25 Feb 2018 20:26:25 -0600
 
