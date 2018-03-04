@@ -37,8 +37,12 @@ usr/include/*/qt5/QtWaylandCompositor/QWaylandView
 usr/include/*/qt5/QtWaylandCompositor/QWaylandWlShell
 usr/include/*/qt5/QtWaylandCompositor/QWaylandWlShellSurface
 usr/include/*/qt5/QtWaylandCompositor/QWaylandXdgPopupV5
+usr/include/*/qt5/QtWaylandCompositor/QWaylandXdgPopupV6
 usr/include/*/qt5/QtWaylandCompositor/QWaylandXdgShellV5
+usr/include/*/qt5/QtWaylandCompositor/QWaylandXdgShellV6
 usr/include/*/qt5/QtWaylandCompositor/QWaylandXdgSurfaceV5
+usr/include/*/qt5/QtWaylandCompositor/QWaylandXdgSurfaceV6
+usr/include/*/qt5/QtWaylandCompositor/QWaylandXdgToplevelV6
 usr/include/*/qt5/QtWaylandCompositor/QtWaylandCompositor
 usr/include/*/qt5/QtWaylandCompositor/QtWaylandCompositorDepends
 usr/include/*/qt5/QtWaylandCompositor/QtWaylandCompositorVersion
@@ -79,6 +83,7 @@ usr/include/*/qt5/QtWaylandCompositor/qwaylandtouch.h
 usr/include/*/qt5/QtWaylandCompositor/qwaylandview.h
 usr/include/*/qt5/QtWaylandCompositor/qwaylandwlshell.h
 usr/include/*/qt5/QtWaylandCompositor/qwaylandxdgshellv5.h
+usr/include/*/qt5/QtWaylandCompositor/qwaylandxdgshellv6.h
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QWaylandXComposite*IntegrationPlugin.cmake
