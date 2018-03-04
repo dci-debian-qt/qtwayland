@@ -1,6 +1,8 @@
-qtwayland-opensource-src (5.9.2-4) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.10.1.
   * Use dh_auto_configure provided by debhelper.
   * Fix cross builds by building and using native qtwaylandscanner and
     setting QMAKE_QMAKE and PKG_CONFIG_LIBDIR variables.
