@@ -12,6 +12,7 @@ qtwayland-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Add some new headers to libqt5waylandcompositor5-dev.install.
   * Update symbols files from the current build log.
   * Update debian/copyright.
+  * Update Vcs fields for migration to salsa.debian.org.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 18:34:29 +0300
 
