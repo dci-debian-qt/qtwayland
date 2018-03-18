@@ -1,6 +1,5 @@
-qtwayland-opensource-src (5.10.1-2) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.10.1-2) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Generate libqt5waylandclient5-dev. The files where previously generated
     and removed before packaging because they where not stable, but now a part
     of them have become stable so it's time to ship them.
@@ -9,7 +8,7 @@ qtwayland-opensource-src (5.10.1-2) UNRELEASED; urgency=medium
     Thanks Andreas Cord-Landwehr for the bug report! (Closes: #893387).
   * Add myself to debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Mar 2018 16:13:53 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 18 Mar 2018 17:10:48 -0300
 
 qtwayland-opensource-src (5.10.1-1) experimental; urgency=medium
 
