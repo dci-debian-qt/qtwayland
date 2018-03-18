@@ -7,6 +7,7 @@ qtwayland-opensource-src (5.10.1-2) UNRELEASED; urgency=medium
     Also make the package recommend qtwayland5-dev-tools which provides the
     tools necessary to generate C++ interfaces form the XML definitions.
     Thanks Andreas Cord-Landwehr for the bug report! (Closes: #893387).
+  * Add myself to debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Mar 2018 16:13:53 -0300
 
