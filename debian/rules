@@ -16,7 +16,7 @@ override_dh_auto_configure:
 		g++ qtwaylandscanner.cpp -I/usr/include/$(DEB_BUILD_MULTIARCH)/qt5 \
 		-I/usr/include/$(DEB_BUILD_MULTIARCH)/qt5/QtCore \
 		-fPIC -lQt5Core -o $(CURDIR)/qtwaylandscanner_native
-	dh_auto_configure -- QMAKE_QMAKE=/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake \
+	qmake QMAKE_QMAKE=/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake \
 		QT_TOOL.qtwaylandscanner.binary=$(CURDIR)/qtwaylandscanner_native \
 		PKG_CONFIG_LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig:/usr/share/pkgconfig
 endif
