@@ -14,4 +14,3 @@ src/compositor/qtwaylandcompositor-config.pri
 src/compositor/qtwaylandcompositor-config_p.h
 src/imports/compositor/compositor.qrc
 qml/
-qtwaylandscanner_native
