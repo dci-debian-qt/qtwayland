@@ -1,20 +1,20 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: qtwayland-opensource-src
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: qtwayland-everywhere-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2015-2017 The Qt Company Ltd.
+Copyright: 2016-2017 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: debian/*
-Copyright: 2014-2017 Dmitry Shachnev <mitya57@debian.org>
+Copyright: 2014-2018 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2
 
 Files: config.tests/*
        examples/*
        src/extensions/*
        tests/manual/*
-Copyright: 2015-2016 The Qt Company Ltd.
+Copyright: 2015-2017 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: tests/auto/*
@@ -114,12 +114,12 @@ Copyright: 2016 LG Electronics, Inc.
 License: LGPL-3 or GPL-2
 
 Files: src/client/global/qwaylandclientextension*
-Copyright: 2016 Erik Larsson
+Copyright: 2017 Erik Larsson
 License: LGPL-3 or GPL-2
 
 Files: examples/wayland/custom-extension/qml-client/main.cpp
        examples/wayland/custom-extension/qml-client/main.qml
-Copyright: 2016 Erik Larsson
+Copyright: 2017 Erik Larsson
 License: BSD-3-clause
 
 Files: examples/wayland/multi-screen/qml/*
@@ -147,7 +147,7 @@ Copyright: 2015 LG Electronics Inc
 License: BSD-3-clause
 
 Files: *.qdoc
-Copyright: 2015-2016 The Qt Company Ltd.
+Copyright: 2017 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
 License: GPL-2

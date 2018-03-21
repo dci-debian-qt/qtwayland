@@ -1,3 +1,21 @@
+qtwayland-opensource-src (5.10.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.10.1.
+  * Update debian/watch for the new upstream tarball names.
+  * Use dh_auto_configure provided by debhelper.
+  * Fix cross builds by building and using native qtwaylandscanner and
+    setting QMAKE_QMAKE and PKG_CONFIG_LIBDIR variables.
+  * Remove obsolete note that Qt Wayland Compositor is a tech preview.
+    It became an official module in Qt 5.8 release.
+  * Add some new headers to libqt5waylandcompositor5-dev.install.
+  * Update symbols files from the current build log.
+  * Update debian/copyright.
+  * Update Vcs fields for migration to salsa.debian.org.
+  * Bump Standards-Version to 4.1.3, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 06 Mar 2018 13:16:46 +0300
+
 qtwayland-opensource-src (5.10.0-0neon) UNRELEASED; urgency=medium
 
   * 5.10
