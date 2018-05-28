@@ -8,6 +8,7 @@ License: LGPL-3 or GPL-2
 
 Files: debian/*
 Copyright: 2014-2018 Dmitry Shachnev <mitya57@debian.org>
+           2017-2018 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 License: LGPL-3 or GPL-2
 
 Files: config.tests/*
