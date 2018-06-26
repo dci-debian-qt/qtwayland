@@ -1,6 +1,6 @@
-qtwayland-opensource-src (5.11.0-0neon) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.11.1-0neon) xenial; urgency=medium
 
-  * 5.11 release to neon
+  * 5.11.1 release to neon
 
  -- Bhushan Shah <bshah@kde.org>  Mon, 28 May 2018 03:43:49 +0000
 
