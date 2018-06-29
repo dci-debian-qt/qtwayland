@@ -3,6 +3,9 @@ qtwayland-opensource-src (5.10.1-4) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * Add my name to Uploaders.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add debian/.gitattributes to use dpkg-mergechangelgs at merge time.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:46:48 -0500
 
 qtwayland-opensource-src (5.10.1-3) unstable; urgency=medium
