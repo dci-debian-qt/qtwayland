@@ -3069,6 +3069,34 @@ libQt5WaylandCompositor.so.5 libqt5waylandcompositor5 #MINVER#
  _ZTSN15QtWaylandServer18qt_touch_extensionE@Qt_5 5.7.0
  _ZTSN15QtWaylandServer18zxdg_positioner_v68ResourceE@Qt_5 5.10.1
  _ZTSN15QtWaylandServer18zxdg_positioner_v6E@Qt_5 5.10.1
+ _ZTSN15QtWaylandServer22wl_data_device_manager8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer22wl_data_device_managerE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer23qt_hardware_integration8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer23qt_hardware_integrationE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer25zwp_text_input_manager_v28ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer25zwp_text_input_manager_v2E@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer6wl_shm8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer6wl_shmE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer7wl_seat8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer7wl_seatE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer8wl_shell8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer8wl_shellE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer8wl_touch8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer8wl_touchE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9wl_buffer8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9wl_bufferE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9wl_output8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9wl_outputE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9wl_region8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9wl_regionE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9xdg_popup8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9xdg_popupE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9xdg_shell8ResourceE@Qt_5 5.11.1
+ _ZTSN15QtWaylandServer9xdg_shellE@Qt_5 5.11.1
+ _ZTSN22QWaylandSurfacePrivate10SubsurfaceE@Qt_5_PRIVATE_API 5.11.1
+ _ZTSN9QtWayland12ClientBufferE@Qt_5_PRIVATE_API 5.11.1
+ _ZTSN9QtWayland12ServerBufferE@Qt_5_PRIVATE_API 5.11.1
+ _ZTSN9QtWayland13BufferManagerE@Qt_5_PRIVATE_API 5.11.1
  _ZTSN9QtWayland18SharedMemoryBufferE@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTSN9QtWayland23ClientBufferIntegrationE@Qt_5_PRIVATE_API 5.7.0
  _ZTSN9QtWayland23ServerBufferIntegrationE@Qt_5_PRIVATE_API 5.7.0
