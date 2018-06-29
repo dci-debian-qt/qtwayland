@@ -125,6 +125,7 @@ Description: QtWayland platform plugin
 Package: qtwayland5-doc
 Build-Profiles: <!nodoc>
 Architecture: all
+Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Description: Qt 5 Wayland Compositor documentation
@@ -137,6 +138,7 @@ Description: Qt 5 Wayland Compositor documentation
 Package: qtwayland5-doc-html
 Build-Profiles: <!nodoc>
 Architecture: all
+Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Description: Qt 5 Wayland Compositor HTML documentation
