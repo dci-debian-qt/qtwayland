@@ -26,7 +26,9 @@ Build-Depends: debhelper (>= 11~),
                qtbase5-dev (>= 5.11.2+dfsg~),
                qtbase5-dev:native (>= 5.11.2+dfsg~),
                qtbase5-private-dev (>= 5.11.2+dfsg~),
-               qtdeclarative5-private-dev (>= 5.11.2~)
+               qtdeclarative5-private-dev (>= 5.11.2~),
+               xauth,
+               xvfb
 Build-Depends-Indep: qtbase5-doc-html (>= 5.11.2+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.11.2~) <!nodoc>
 Standards-Version: 4.1.4

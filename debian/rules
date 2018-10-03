@@ -10,8 +10,8 @@ export QT_SELECT := qt5
 %:
 	dh $@ --with pkgkde_symbolshelper
 
-ifneq ($(DEB_HOST_ARCH),$(DEB_BUILD_ARCH))
 override_dh_auto_configure:
+ifneq ($(DEB_HOST_ARCH),$(DEB_BUILD_ARCH))
 	cd src/qtwaylandscanner && \
 		g++ qtwaylandscanner.cpp -I/usr/include/$(DEB_BUILD_MULTIARCH)/qt5 \
 		-I/usr/include/$(DEB_BUILD_MULTIARCH)/qt5/QtCore \
@@ -19,6 +19,8 @@ override_dh_auto_configure:
 	dh_auto_configure -- QMAKE_QMAKE=/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake \
 		QT_TOOL.qtwaylandscanner.binary=$(CURDIR)/qtwaylandscanner_native \
 		PKG_CONFIG_LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig:/usr/share/pkgconfig
+else
+	dh_auto_configure -- QT_BUILD_PARTS+=tests
 endif
 
 override_dh_auto_build-indep:
@@ -48,3 +50,8 @@ override_dh_link:
 
 override_dh_strip:
 	dh_strip --dbgsym-migration='qtwayland5-dbg (<< 5.7.0-1~)'
+
+override_dh_auto_test-arch:
+	xvfb-run -a dh_auto_test -- -Ctests/auto
+
+override_dh_auto_test-indep:
