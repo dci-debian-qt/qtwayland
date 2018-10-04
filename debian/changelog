@@ -1,12 +1,11 @@
-qtwayland-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.11.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.11.2.
   * Run upstream tests during build.
   * Bump Standards-Version to 4.2.1, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Oct 2018 12:30:26 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 04 Oct 2018 11:58:56 +0300
 
 qtwayland-opensource-src (5.11.1-2) unstable; urgency=medium
 
