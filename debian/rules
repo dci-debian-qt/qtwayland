@@ -52,6 +52,11 @@ override_dh_strip:
 	dh_strip --dbgsym-migration='qtwayland5-dbg (<< 5.7.0-1~)'
 
 override_dh_auto_test-arch:
+ifneq (,$(filter $(DEB_HOST_ARCH),mips mipsel))
+	# mips/mipsel: double free or corruption, unreproducible on porterboxes
+	-xvfb-run -a dh_auto_test -- -Ctests/auto
+else
 	xvfb-run -a dh_auto_test -- -Ctests/auto
+endif
 
 override_dh_auto_test-indep:
