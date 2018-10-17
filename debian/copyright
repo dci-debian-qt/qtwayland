@@ -104,7 +104,7 @@ Copyright: 2008-2013 Kristian Høgsberg
            2015-2016 Jan Arne Petersen
 License: Expat
 
-Files: tests/auto/client/client/mockinput.h
+Files: tests/auto/client/shared/mockinput.h
 Copyright: 2016 The Qt Company Ltd.
            2016 Klarälvdalens Datakonsult AB (KDAB)
 License: GPL-3 with Qt-1.0 exception
