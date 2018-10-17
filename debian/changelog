@@ -1,11 +1,10 @@
-qtwayland-opensource-src (5.11.2-3) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.11.2-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Make tests non-fatal on mips/mipsel, because of failures.
   * Remove dbgsym migration code, it is no longer needed.
   * Minor debian/copyright update.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Oct 2018 19:50:05 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 17 Oct 2018 20:05:33 +0300
 
 qtwayland-opensource-src (5.11.2-2) unstable; urgency=medium
 
