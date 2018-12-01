@@ -1,3 +1,8 @@
+qtwayland-opensource-src (5.11.2-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Dec 2018 17:43:40 +0300
+
 qtwayland-opensource-src (5.11.2-3) unstable; urgency=medium
 
   * Make tests non-fatal on mips/mipsel, because of failures.
