@@ -1,5 +1,7 @@
 qtwayland-opensource-src (5.11.2-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Make libqt5waylandcompositor5-dev depend on qtwayland5 (LP: #1806186).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Dec 2018 17:43:40 +0300
 
