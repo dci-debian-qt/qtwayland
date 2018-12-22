@@ -1,4 +1,4 @@
-qtwayland-opensource-src (5.11.3-1) UNRELEASED; urgency=medium
+qtwayland-opensource-src (5.11.3-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Make libqt5waylandclient5-dev and libqt5waylandcompositor5-dev depend
@@ -9,7 +9,7 @@ qtwayland-opensource-src (5.11.3-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Dec 2018 17:43:40 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 22 Dec 2018 15:38:23 -0300
 
 qtwayland-opensource-src (5.11.2-3) unstable; urgency=medium
 
